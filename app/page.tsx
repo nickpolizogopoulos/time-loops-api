@@ -1,101 +1,187 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
+type Card = {
+  title: string;
+  description: string;
+  button: string;
+};
+
+const cards: Card[] = [
+  {
+    title: 'Music Albums',
+    description: 'Iconic Music Albums from World-Famous Artists!',
+    button: '/albums'
+  },
+  {
+    title: 'Quotes',
+    description: 'Iconic Quotes from Legendary Figures!',
+    button: '/quotes'
+  },
+  {
+    title: 'Skyscrapers',
+    description: 'Historic Skyscraper Buildings that shaped the Skyline!',
+    button: '/skyscrapers'
+  }
+];
+
+const album = JSON.stringify({
+  id: 2,
+  title: 'Title',
+  description: 'Lorem ipsum dolor sit, amet elit. Natus, velit!',
+  nested: {
+    option1: 'option1',
+    option2: 'option2'
+  },
+  key: 'Lorem ipsum dolor sit isicing elit. Tempora, iusto.'
+}, null, 2);
+
+const quote = JSON.stringify({
+  id: 1,
+  title: 'Title',
+  description: 'Lorem ipsum dolor sit, amet elit. Natus, velit!',
+  nested: {
+    option1: 'option1',
+    option2: 'option2'
+  },
+  key: 'Lorem ipsum dolor sit isicing elit. Tempora, iusto.'
+}, null, 2);
+
+const skyscraper = JSON.stringify({
+  id: 3,
+  title: 'Title',
+  description: 'Lorem ipsum dolor sit, amet elit. Natus, velit!',
+  nested: {
+    option1: 'option1',
+    option2: 'option2'
+  },
+  key: 'Lorem ipsum dolor sit isicing elit. Tempora, iusto.'
+}, null, 2);
+
+const Home = () => {
+
+  const [url, setUrl] = useState<'albums' | 'quotes' | 'skyscrapers'>('albums');
+  const [object, setObject] = useState(album);
+
+  const urlClick = (category: 'albums' | 'quotes' | 'skyscrapers'): void => {
+    setUrl(category);
+  };
+
+  const onObjectChange = (object: 'album' | 'quote' | 'skyscraper'): void => {
+    if (object === 'album')
+      setObject(album);
+    else if (object === 'quote')
+      setObject(quote);
+    else
+      setObject(skyscraper);
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <section className="hero min-h-80 py-10 lg:py-20">
+        <div className="hero-content text-center flex-col">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">
+              Reliable API for Developers Who Demand Real Data
+            </h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <p className="py-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, esse tempore recusandae neque quod vel officia cum sit magni tempora aspernatur magnam? Odio sed aut ipsa fugiat ullam quibusdam qui, aperiam libero saepe ad perspiciatis harum! Aperiam nostrum tempora corrupti reprehenderit aliquid omnis. Eveniet veritatis magni soluta nobis cumque corporis.
+            </p>
+
+            <div className="flex justify-center gap-7">
+
+              <button className="btn btn-neutral">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 20 20">
+                  <path fill="currentColor" d="m2 10l1.42-1.41L9 14.17V2h2v12.17l5.59-5.58L18 10l-8 8z"/>
+                </svg>
+                Get Started
+              </button>
+
+              <button className="btn btn-neutral">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" strokeWidth="2" d="M14 1v7h7m0 15H3V1h12l3 3l3 3v16Z"/>
+                </svg>
+                Documentation
+              </button>
+
+            </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>   
+
+      <section className="flex flex-col lg:flex-row pb-7 lg:items-start justify-center gap-10 mb-14">
+          <div className="flex flex-col gap-3">
+            <h1 className="text-4xl font-bold mb-9 text-center">
+              Try any endpoint in your browser
+            </h1>
+
+            <div data-tip={'Click to copy!'} className="tooltip">
+              <button onClick={() => { urlClick('albums'); onObjectChange('album') }} className="btn btn-sm cursor-copy rounded-full font-mono font-light">
+                <code className="min-w-96">https://time-loops-api.com/albums/1</code>
+              </button>
+            </div>
+            <div data-tip={'Click to copy!'} className="tooltip tooltip-bottom">
+              <button onClick={() => { urlClick('quotes'); onObjectChange('quote') }} className="btn btn-sm cursor-copy rounded-full font-mono font-light">
+                <code className="min-w-96">https://time-loops-api.com/quotes/1</code>
+              </button>
+            </div>
+            <div data-tip={'Click to copy!'} className="tooltip tooltip-bottom">
+              <button onClick={() => { urlClick('skyscrapers'); onObjectChange('skyscraper') }} className="btn btn-sm cursor-copy rounded-full font-mono font-light">
+                <code className="min-w-96">https://time-loops-api.com/skyscrapers/1</code>
+              </button>
+            </div>
+          </div>
+        
+          <div className="mockup-browser border-base-300 border max-w-auto lg:max-w-2xl">
+            <div className="mockup-browser-toolbar">
+              <div className="input border-base-300 border">https://time-loops-api.com/<span className='endpoint-category'>{url}</span>/1</div>
+            </div>
+            <div className="border-base-300 flex justify-start border-t px-4 py-5">
+                <pre>{object}</pre>
+            </div>
+          </div>
+      </section>
+
+      <section className="flex flex-col lg:flex-row pb-7 lg:items-start justify-center gap-10 mb-14">
+          <div>
+            <h1 className="text-4xl font-bold mb-9 text-center">
+              Choose between three categories
+            </h1>
+
+            <div className='flex gap-9'>
+              {
+                cards.map(card => 
+                  <div key={card.description} className="card bg-base-100 w-96 shadow-xl">
+                    <div className="card-body">
+                      <h2 className="card-title text-3xl">{card.title}</h2>
+                      <p>{card.description}</p>
+                      <div className="divider" />
+                      <div className="card-actions justify-between">
+                        <button className="btn btn-primary btn-outline">Shape</button>
+                        <Link href='' className="btn btn-primary">{card.button}</Link>
+                      </div>
+                    </div>
+                  </div>
+                )
+              }
+            </div>
+
+          </div>
+      </section>
+
+      <section className="flex justify-end mb-10">
+        <Link href='' className="max-w-fit group flex items-center gap-5 px-4 py-2transition-all">
+          <span className='text-xl'>Docs</span>
+          <span className="transition-transform transform group-hover:translate-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" className="mt-1" width="20" height="20" viewBox="0 0 20 20">
+              <path fill="currentColor" d="m16.172 9l-6.071-6.071l1.414-1.414L20 10l-.707.707l-7.778 7.778l-1.414-1.414L16.172 11H0V9z"/>
+            </svg>
+          </span>
+        </Link>
+      </section>
+    </>
   );
-}
+};
+
+export default Home;
