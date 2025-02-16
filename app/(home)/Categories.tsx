@@ -28,34 +28,32 @@ const cards: Card[] = [
 
 const Categories = () => {
     return (
-        <section className="flex flex-col lg:flex-row pb-7 lg:items-start justify-center gap-10 mb-14">
-            <div>
-                <h1 className="text-4xl font-bold mb-9 text-center">
-                    Choose between three categories
-                </h1>
-                <div className='flex gap-9'>
+        <>
+            <h1 className="text-4xl font-bold mb-9 text-center">
+                Choose between three categories
+            </h1>
+            <div className='flex flex-col items-center lg:flex-row justify-center gap-9 mb-12'>
                 {
-                    cards.map(card => 
-                    <div key={card.description} className="card bg-base-100 w-96 shadow-xl card-bordered border-primary">
-                        <div className="card-body">
-                            <h2 className="card-title text-3xl">{card.title}</h2>
-                            <p>{card.description}</p>
-                            <div className="divider" />
-                            <div className="card-actions justify-between">
-                                <Link href='' className="btn btn-primary btn-outline">
-                                    Shape
-                                </Link>
-                                <Link href='' className="btn btn-primary">
-                                    {card.buttonText}
-                                </Link>
+                    cards.map(card =>
+                        <div key={card.description} className="card w-full md:w-7/12 lg:w-96 shadow-lg card-bordered border-primary">
+                            <div className="card-body">
+                                <h2 className="card-title text-3xl">{card.title}</h2>
+                                <p>{card.description}</p>
+                                <div className="divider" />
+                                <div className="card-actions justify-between">
+                                    <Link href='' className="btn btn-primary btn-outline">
+                                        Shape
+                                    </Link>
+                                    <Link href='' className="btn btn-primary">
+                                        {card.buttonText}
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     )
                 }
-                </div>
             </div>
-        </section>
+        </>
     );
 };
 
