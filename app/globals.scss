@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  user-select: none;
+}
+
 .btn, .swap-rotate {
   @apply rounded-md;
 }
 
 .endpoint-category, .input, .mockup-browser, .mockup-browser-toolbar {
   @apply border-primary;
-}
-
-.input {
-  @apply py-px;
 }
 
 p, code {
@@ -26,10 +26,6 @@ code {
   @apply text-base;
 }
 
-.endpoint-category {
-  @apply mx-1 bg-white/10 py-px px-1 rounded-sm border border-opacity-70;
-}
-
 ::selection {
-  @apply bg-primary text-neutral;
+  @apply bg-primary text-black;
 }

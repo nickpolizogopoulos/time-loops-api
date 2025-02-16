@@ -32,7 +32,7 @@ const Categories = () => {
             <h1 className="text-4xl font-bold mb-9 text-center">
                 Choose between three categories
             </h1>
-            <div className='flex flex-col items-center lg:flex-row justify-center gap-9 mb-12'>
+            <div className='flex flex-col items-center lg:flex-row justify-center gap-9 mb-16'>
                 {
                     cards.map(card =>
                         <div key={card.description} className="card w-full md:w-7/12 lg:w-96 shadow-lg card-bordered border-primary">

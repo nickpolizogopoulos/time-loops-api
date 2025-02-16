@@ -4,8 +4,6 @@ import Categories from "./Categories";
 import CTA from "./CTA";
 
 const Home = () => {
-
-
   return (
     <>
       <HeroSection />
