@@ -6,10 +6,26 @@
   @apply rounded-md;
 }
 
+.endpoint-category, .input, .mockup-browser, .mockup-browser-toolbar {
+  @apply border-primary;
+}
+
+.input {
+  @apply py-px;
+}
+
+p, code {
+  @apply font-light;
+}
+
+p {
+  @apply text-xl;
+}
+
+code {
+  @apply text-base;
+}
+
 .endpoint-category {
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 4px;
-  padding: 1px 4px;
-  border-radius: 4px;
-  border: 1px solid rgba(128, 128, 128, 0.7);
+  @apply mx-1 bg-white/10 py-px px-1 rounded-sm border border-opacity-70;
 }
