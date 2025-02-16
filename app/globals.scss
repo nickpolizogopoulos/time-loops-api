@@ -29,3 +29,7 @@ code {
 .endpoint-category {
   @apply mx-1 bg-white/10 py-px px-1 rounded-sm border border-opacity-70;
 }
+
+::selection {
+  @apply bg-primary text-neutral;
+}

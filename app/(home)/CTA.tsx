@@ -3,7 +3,7 @@ import Link from "next/link"
 const CTA = () => {
     return (
         <section className="flex justify-end mb-10">
-            <Link href='/docs' className="max-w-fit group flex items-center gap-3 px-4 py-2transition-all">
+            <Link href='/docs' className="max-w-fit group flex items-center gap-3 px-4 py-2transition-all hover:text-primary">
             <span className='text-xl'>Docs</span>
             <span className="transition-transform transform group-hover:translate-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="mt-1" width="20" height="20" viewBox="0 0 20 20">
