@@ -96,11 +96,12 @@ const Endpoints = () => {
                                     clickToCopy(endpoint.endpoint);
                                 }}
                                 className={`
-                                    btn cursor-copy rounded-full font-mono font-light hover:border-primary
+                                    max-w-full min-w-full sm:min-w-96 btn cursor-copy 
+                                    rounded-full font-mono font-light hover:border-primary
                                     ${endpoint.objectLoad === object ? 'border border-primary' : ''}
                                 `}
                             >
-                                <code className="min-w-96">{endpoint.endpoint}</code>
+                                <code className="min-w-full sm:min-w-96 text-xs sm:text-base">{endpoint.endpoint}</code>
                             </button>
                         </div>
                     )
