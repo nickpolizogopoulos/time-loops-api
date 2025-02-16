@@ -20,19 +20,18 @@ const ThemeController = () => {
     }, [theme]);
 
     const toggleTheme = () => {
-        setTheme(prevTheme => prevTheme === 'light' ? 'dim' : 'light');
+        setTheme(prevTheme => prevTheme === 'light' ? 'dracula' : 'light');
     };
 
-    if (!theme) {
+    if (!theme)
         return <span style={{width: '61px'}} />;
-    }
-
+    
     return (
         <label className="swap swap-rotate justify-center">
             <input
                 type="checkbox"
                 className="theme-controller"
-                checked={theme === 'dim'}
+                checked={theme === 'dracula'}
                 onChange={toggleTheme}
             />
             <svg 

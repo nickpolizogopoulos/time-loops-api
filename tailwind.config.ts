@@ -18,6 +18,6 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ['valentine', 'dim']
+    themes: ['garden', 'dracula']
   },
 } satisfies Config;
