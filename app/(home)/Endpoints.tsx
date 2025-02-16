@@ -68,6 +68,10 @@ const Endpoints = () => {
         setUrl(category);
     };
 
+    const clickToCopy = (text: string): void => {
+        navigator.clipboard.writeText(text);
+    };
+
     const onObjectChange = (object: Endpoint['objectLoad']): void => {
         setObject(object);
     };
@@ -88,7 +92,8 @@ const Endpoints = () => {
                             <button 
                                 onClick={() => {
                                     urlClick(endpoint.category);
-                                    onObjectChange(endpoint.objectLoad) 
+                                    onObjectChange(endpoint.objectLoad);
+                                    clickToCopy(endpoint.endpoint);
                                 }}
                                 className={`
                                     btn cursor-copy rounded-full font-mono font-light hover:border-primary
