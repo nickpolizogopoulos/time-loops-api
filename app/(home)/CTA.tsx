@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const CTA = () => {
     return (
-        <section className="flex justify-end mb-10">
+        <section className="flex justify-end mb-10 max-w-screen-2xl">
             <Link href='/docs' className="max-w-fit group flex items-center gap-3 px-4 py-2transition-all hover:text-primary">
             <span className='text-xl'>
                 Documentation
