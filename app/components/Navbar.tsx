@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import ThemeController from './ThemeController';
 import Image from 'next/image';
+
+import ThemeController from './ThemeController';
 
 type NavLink = {
     name: string;
@@ -49,15 +50,11 @@ const Navbar = () => {
                         </button>
                         <Link href="/">
                             <Image
-                                className='ml-5 sm:ml-0'
-                                width={200}
-                                height={0}
+                                className="max-w-52 ml-5"
+                                width={2000}
+                                height={2000}
                                 src='/time-loops-logo.png'
-                                alt='Time Loops API Logo' 
-                                style={{
-                                    width: '200px',
-                                    height: 'auto',
-                                }}
+                                alt='Time Loops API'
                             />
                         </Link>
                     </section>
