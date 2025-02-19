@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Time Loops API",
-  description: "Reliable API for Developers Who Demand Real Data",
+  description: 'Discover Time Loops API – a powerful API designed for developers who demand real data. Get started with seamless integration and robust features.'
 };
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {

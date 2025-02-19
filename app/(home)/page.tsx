@@ -5,7 +5,7 @@ import CTA from "./CTA";
 
 const Home = () => {
   return (
-    <main className='flex flex-col gap gap-0 sm:gap-12  px-5'>
+    <main className='flex flex-col gap gap-0 sm:gap-10 px-5'>
       <HeroSection />
       <Endpoints />
       <Categories />

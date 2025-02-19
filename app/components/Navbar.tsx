@@ -31,7 +31,7 @@ const Navbar = () => {
     return (
         <>
             <div className="shadow-xl shadow-black/5">
-                <nav className="navbar h-24 justify-between mx-auto max-w-screen-2xl px-5 select-none">
+                <nav className="navbar h-24 justify-between mx-auto max-w-screen-2xl px-5">
                     <section>
                         <button className="px-2 btn btn-ghost block sm:hidden">
                             <svg
