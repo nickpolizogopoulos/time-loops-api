@@ -64,7 +64,8 @@ const Categories = () => {
                                             See on Docs
                                         </Link>
                                         <Link
-                                            href={`/api${card.buttonText}`}
+                                            target='_blank'
+                                            href={`${card.buttonText}`}
                                             className="btn btn-primary min-w-36"
                                         >
                                             {card.buttonText}
