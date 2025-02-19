@@ -6,6 +6,10 @@
   user-select: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn, .swap-rotate {
   @apply rounded-md;
 }
