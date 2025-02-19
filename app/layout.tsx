@@ -26,7 +26,12 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <ThemeProvider >
+        <ThemeProvider 
+          attribute="data-theme"
+          defaultTheme="garden"
+          themes={['garden', 'dracula']}
+          storageKey="theme"
+        >
           <Navbar />
           {children}
           <Footer />

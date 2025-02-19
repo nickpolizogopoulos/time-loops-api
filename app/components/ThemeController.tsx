@@ -1,37 +1,29 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const ThemeController = () => {
+    const { theme, setTheme, resolvedTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
 
-    const [theme, setTheme] = useState<string | null>(null);
-    
     useEffect(() => {
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        setTheme(savedTheme);
-        document.documentElement.setAttribute('data-theme', savedTheme);
+        setMounted(true);
     }, []);
 
-    useEffect(() => {
-        if (theme) {
-            document.documentElement.setAttribute('data-theme', theme);
-            localStorage.setItem('theme', theme);
-        }
-    }, [theme]);
+    if (!mounted || !resolvedTheme)
+        return <span style={{width: '61px'}} />;
 
     const toggleTheme = () => {
-        setTheme(prevTheme => prevTheme === 'light' ? 'dracula' : 'light');
+        setTheme(resolvedTheme === 'garden' ? 'dracula' : 'garden');
     };
 
-    if (!theme)
-        return <span style={{width: '61px'}} />;
-    
     return (
         <label className="swap swap-rotate justify-center">
             <input
                 type="checkbox"
                 className="theme-controller"
-                checked={theme === 'dracula'}
+                checked={resolvedTheme === "dracula"}
                 onChange={toggleTheme}
             />
             <svg 
