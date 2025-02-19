@@ -29,3 +29,21 @@ code {
 ::selection {
   @apply bg-primary text-black;
 }
+
+.mockup-browser-home {
+  @media screen and (min-width: 1150px) { 
+    min-width: 680px;
+  }
+}
+
+.card-actions {
+  .btn {
+    @media screen and (min-width: 640px) and (max-width: 794px) {
+        min-width: 100%;
+    }
+    
+    @media screen and (max-width: 401px) {
+        min-width: 100%;
+    }
+  }
+}
