@@ -1,49 +1,13 @@
 'use client';
 
 import { useState } from "react";
+import { album, quote, softwareTool } from './data';
 
 type Endpoint = {
     endpoint: string;
     category: 'albums' | 'quotes' | 'software-tools';
     objectLoad: 'album' | 'quote' | 'software-tool';
 };
-
-const album = JSON.stringify({
-    id: 1,
-    name: 'Thriller',
-    artist: 'Michael Jackson',
-    releaseDate: {
-        day: 29,
-        month: 'November',
-        year: 1982
-    },
-    genre: 'Pop',
-    label: 'Epic',
-    wikipedia: 'https://en.wikipedia.org/wiki/Thriller_(album)',
-}, null, 3);
-
-const quote = JSON.stringify({
-    id: 1,
-    quote: `When done well, software is invisible`,
-    author: `Bjarne Stroustrup`,
-    category: `Software Industry`
-}, null, 3);
-
-const softwareTool = JSON.stringify({
-    id: 1,
-    title: 'C',
-    description: 'A powerful, low-level programming language known for its efficiency and direct memory manipulation',
-    usage: 'System programming, embedded systems, and performance-critical applications',
-    creators: [
-        {
-            name: 'Dennis Ritchie',
-            wiki: 'https://en.wikipedia.org/wiki/Dennis_Ritchie'
-        },
-    ],
-    yearCreated: 1972,
-    wiki: 'https://en.wikipedia.org/wiki/C_(programming_language)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png'
-}, null, 3);
 
 const endpoints: Endpoint[] = [
     {
@@ -116,7 +80,6 @@ const Endpoints = () => {
                     )
                 }
             </div>
-
             <div className="mockup-browser mockup-browser-home bg-base-200/50 border-base-300 border xl:max-w-96">
                 <div className="mockup-browser-toolbar">
                     <div className="input py-px border-base-300 border">
