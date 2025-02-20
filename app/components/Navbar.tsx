@@ -10,7 +10,7 @@ type NavLink = {
     path: string;
 };
 
-const github: string = 'https://github.com/nickpolizogopoulos';
+const github: string = 'https://github.com/nickpolizogopoulos/time-loops-api';
 
 const navLinks: NavLink[] = [
     {
