@@ -30,14 +30,14 @@ code {
   @apply text-base;
 }
 
-::selection {
-  @apply bg-primary text-black;
-}
-
 .mockup-browser-home {
   @media screen and (min-width: 1150px) { 
     min-width: 680px;
   }
+}
+
+.mockup-code {
+  @apply min-w-full sm:min-w-fit;
 }
 
 .card-actions {
@@ -50,4 +50,25 @@ code {
         min-width: 100%;
     }
   }
+}
+
+.table tr td {
+  @apply align-top;
+}
+
+$selection-bg: #b1b1b1;
+
+::-moz-selection { 
+  color: black;
+  background: $selection-bg;
+}
+::selection {
+  color: black;
+  background: $selection-bg;
+}
+
+.compiler-shouts {
+  @apply underline decoration-rose-500 decoration-wavy;
+  text-decoration-thickness: 1.2px;
+  text-underline-offset: 3px;
 }

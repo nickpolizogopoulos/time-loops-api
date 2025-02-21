@@ -2,48 +2,49 @@ import Link from 'next/link';
 
 import PageHeader from '../components/PageHeader';
 import SectionTitle from './_components/SectionTitle';
-import { sideLinks } from './sideLinks';
+import { sections } from './Sections';
+import { Metadata } from 'next';
 
 const Docs = () => {
   return (
     <main className='flex'>
-      <aside className='px-5 hidden sm:inline pt-10 min-w-60'>
-        <ul className="menu gap-1 text-base-content sticky top-5">
+      <aside className='hidden sm:inline py-10 px-2 min-w-60'>
+        <ul className="menu gap-1 text-base-content sticky top-5 border-r border-gray-400 min-h-screen border-solid">
           {
-            sideLinks.map(link => 
+            sections.map(link => 
               <li key={link.path}>
                 <Link 
                   href={`#${link.path}`}
-                  className='text-sm lg:text-lg'
+                  className={`
+                    text-base font-light
+                    ${link.isCategoryTitle ? 'font-semibold lg:text-lg' : 'pl-7'}
+                  `}
                 >
-                  {link.title}
+                  {link.listTitle}
                 </Link>
               </li>
             )
           }
         </ul>
       </aside>
-      <section className='flex flex-col pt-14 pb-24 gap-16 px-5'>
+      <section className='flex flex-col pt-14 pb-24 gap-16 px-5 max-w-full xl:max-w-7xl xl:pl-10'>
         <PageHeader title='Documentation' />
-
-        <section id=''>
-          <SectionTitle content='Getting Started' scrollToId='getting-started' />
-          <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus provident perspiciatis impedit laboriosam sapiente, ab debitis error ex. Sit vitae inventore architecto nesciunt temporibus officia praesentium. Nulla deleniti placeat cupiditate, voluptate enim obcaecati corrupti expedita nesciunt iste architecto facilis ad quaerat sequi accusamus quo eius quisquam at harum voluptates tempore.</p>
-          <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit blanditiis cupiditate! Vitae perspiciatis mollitia esse facere ipsum ratione impedit laudantium dicta ipsam quasi, recusandae porro, doloribus officiis fugit nihil.</p>
-        </section>
-        <section id=''>
-          <SectionTitle content='Getting Started' scrollToId='' />
-          <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus provident perspiciatis impedit laboriosam sapiente, ab debitis error ex. Sit vitae inventore architecto nesciunt temporibus officia praesentium. Nulla deleniti placeat cupiditate, voluptate enim obcaecati corrupti expedita nesciunt iste architecto facilis ad quaerat sequi accusamus quo eius quisquam at harum voluptates tempore.</p>
-          <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit blanditiis cupiditate! Vitae perspiciatis mollitia esse facere ipsum ratione impedit laudantium dicta ipsam quasi, recusandae porro, doloribus officiis fugit nihil.</p>
-        </section>
-        <section id=''>
-          <SectionTitle content='Getting Started' scrollToId='' />
-          <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus provident perspiciatis impedit laboriosam sapiente, ab debitis error ex. Sit vitae inventore architecto nesciunt temporibus officia praesentium. Nulla deleniti placeat cupiditate, voluptate enim obcaecati corrupti expedita nesciunt iste architecto facilis ad quaerat sequi accusamus quo eius quisquam at harum voluptates tempore.</p>
-          <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit blanditiis cupiditate! Vitae perspiciatis mollitia esse facere ipsum ratione impedit laudantium dicta ipsam quasi, recusandae porro, doloribus officiis fugit nihil.</p>
-        </section>
+        {
+          sections.map(link => 
+            <section key={link.path} id={link.path}>
+              <SectionTitle content={link.sectionTitle ? link.sectionTitle : link.listTitle} scrollToId={link.path} />
+              {typeof link.content === 'string' ? <p>{link.content}</p> : link.content}
+            </section>
+          )
+        }
       </section>
     </main>
   );
+};
+
+export const metadata: Metadata = {
+  title: 'Time Loops API - Documentation',
+  description: 'Learn how to utilize Time Loops API effectively. Explore endpoints, request parameters, and response formats to integrate seamlessly into your applications.'
 };
 
 export default Docs;
