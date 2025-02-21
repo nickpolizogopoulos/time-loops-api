@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+$selection-bg: #b1b1b1;
+$selection-colour: rgb(24, 24, 24);
+
 * {
   user-select: none;
 }
@@ -56,19 +59,17 @@ code {
   @apply align-top;
 }
 
-$selection-bg: #b1b1b1;
-
-::-moz-selection { 
-  color: black;
-  background: $selection-bg;
-}
-::selection {
-  color: black;
-  background: $selection-bg;
-}
-
 .compiler-shouts {
   @apply underline decoration-rose-500 decoration-wavy;
   text-decoration-thickness: 1.2px;
   text-underline-offset: 3px;
+}
+
+::-moz-selection { 
+  color: $selection-colour;
+  background: $selection-bg;
+}
+::selection {
+  color: $selection-colour;
+  background: $selection-bg;
 }
