@@ -63,14 +63,16 @@ const Navbar = () => {
                         {
                             navLinks.map(link => {
                                 const target = link.path === github ? '_blank' : '_self';
-                                return <li
-                                    key={link.path}
-                                    className='px-2'
-                                >
-                                    <Link className='font-medium rounded-lg' href={link.path} target={target}>
-                                        {link.name}
-                                    </Link>
-                                </li>
+                                return (
+                                    <li
+                                        key={link.path}
+                                        className='px-2 text-base font-light'
+                                    >
+                                        <Link className=' rounded-lg' href={link.path} target={target}>
+                                            {link.name}
+                                        </Link>
+                                    </li>
+                                );
                             })
                         }
                         <li>
