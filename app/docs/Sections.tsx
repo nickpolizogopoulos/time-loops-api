@@ -2,9 +2,12 @@ import Link from "next/link";
 import { JSX } from "react";
 
 import Note from './_components/Note';
-import * as shapes from "./shapes";
-import { operations } from "./supportedOperations";
 import { postRequest } from "./crudCode";
+import {
+    endpoints,
+    operations
+} from "./endpointsAndOperations";
+import * as shapes from "./shapes";
 
 type Section = {
     listTitle: string | JSX.Element;
@@ -26,7 +29,7 @@ export const sections: Section[] = [
         listTitle: 'What You Get',
         path: 'what-you-get',
         isCategoryTitle: false,
-        content: 
+        content:
             <div className="overflow-x-auto">
                 <table className="table text-xl font-light">
                     <thead>
@@ -37,7 +40,7 @@ export const sections: Section[] = [
                     </thead>
                     <tbody>
                         {
-                            operations.map(item => 
+                            endpoints.map(item =>
                                 <tr>
                                     <td>
                                         <Link href={item.path} target='_blank' className='underline'>
@@ -56,25 +59,30 @@ export const sections: Section[] = [
         listTitle: 'Supported Operations',
         path: 'supported-operations',
         isCategoryTitle: false,
-        content: 
+        content:
             <>
                 <p className='pb-4'>Time Loops API supports a full set of CRUD operations, allowing you to:</p>
-                <p className='pb-1'><span className='font-medium'>Create (POST)</span>: Simulate adding new records for music albums, quotes, buildings, or software tools.</p>
-                <p className='pb-1'><span className='font-medium'>Read (GET)</span>: Retrieve detailed information on all available categories and individual items.</p>
-                <p className='pb-1'><span className='font-medium'>Update (PUT)</span>: Simulate modifying existing records.</p>
-                <p><span className='font-medium'>Delete (DELETE)</span>: Simulate the removal of records.</p>
-                <Note strongText='Note:' note='The POST, PUT, and DELETE operations simulate real-world behavior but do not persist or modify data.' />
+                <ul className='list-decimal pl-4 sm:pl-10'>
+                    {
+                        operations.map(operation =>
+                            <li className='text-xl font-light'>
+                                <span className='font-medium'>{operation.name}:</span> {operation.description}
+                            </li>
+                        )
+                    }
+                </ul>
+                <Note strongText='Note:' note='The POST, PUT, PATCH and DELETE operations simulate real-world behavior but do not persist or modify data.' />
             </>
     },
     {
         listTitle: 'Shapes',
         path: 'shapes',
         isCategoryTitle: true,
-        content: 
+        content:
             <>
                 <p className="pb-4">The shapes provided here are written in TypeScript.</p>
                 <p className="pb-1 text-lg font-medium">General type Month: Used in Albums and Skyscrapers.</p>
-                <div className="mockup-code max-w-4xl mb-7">
+                <div className="mockup-code max-w-fit mb-7">
                     <div className='pt-2 pb-5'>
                         {
                             shapes.monthType.map((line, index) =>
@@ -96,7 +104,7 @@ export const sections: Section[] = [
         sectionTitle: '1. Albums',
         path: 'albums',
         isCategoryTitle: false,
-        content: 
+        content:
             <div className="mockup-code max-w-96 mb-7">
                 <div className='pt-2 pb-5'>
                     {
@@ -154,11 +162,11 @@ export const sections: Section[] = [
                         <div key={idx} className="mockup-code min-w-full sm:min-w-fit mb-7">
                             <div className="pt-2 pb-5">
                                 {shapeType.map((line, index) => (
-                                <pre key={index} data-prefix={index + 1}>
-                                    <code className={line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'}>
-                                        {line.line}
-                                    </code>
-                                </pre>
+                                    <pre key={index} data-prefix={index + 1}>
+                                        <code className={line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'}>
+                                            {line.line}
+                                        </code>
+                                    </pre>
                                 ))}
                             </div>
                         </div>
@@ -241,7 +249,7 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-5'>
                         <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums')`}</code></pre>
                         <pre data-prefix="2"><code className='pl-7'>{`.then(response => response.json())`}</code></pre>
-                        <pre data-prefix="3"><code  className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
+                        <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
                     </div>
                 </div>
                 <Note note='This will fetch the list of all albums.' />
@@ -258,7 +266,7 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-5'>
                         <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums/2')`}</code></pre>
                         <pre data-prefix="2"><code className='pl-7'>{`.then(response => response.json())`}</code></pre>
-                        <pre data-prefix="3"><code  className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
+                        <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
                     </div>
                 </div>
                 <Note note='This will fetch the third item in the list of all albums.' />
@@ -278,10 +286,10 @@ export const sections: Section[] = [
                             postRequest.map((line, index) =>
                                 <pre data-prefix={index + 1} className={line.style ?? undefined}>
                                     <code className={
-                                          line.position === 0 ? '' 
-                                        : line.position === 1 ? 'pl-7' 
-                                        : line.position === 2 ? 'pl-14' 
-                                        : 'pl-24'
+                                        line.position === 0 ? ''
+                                            : line.position === 1 ? 'pl-7'
+                                                : line.position === 2 ? 'pl-14'
+                                                    : 'pl-24'
                                     }>
                                         {line.line}
                                     </code>
@@ -296,13 +304,23 @@ export const sections: Section[] = [
             </>
     },
     {
+        listTitle: <span><span className='font-medium'>(DELETE)</span> Single item</span>,
+        sectionTitle: 'Delete a Single item (DELETE request)',
+        path: 'delete-a-single-item',
+        isCategoryTitle: false,
+        content:
+            <>
+                <p className='pb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
+            </>
+    },
+    {
         listTitle: <span><span className='font-medium'>(PUT)</span> Single item</span>,
         sectionTitle: 'Update a Single item (PUT request)',
         path: 'put-a-single-item',
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
+                <p className='pb-3'>MPOYXTISA Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
             </>
     },
 ];
