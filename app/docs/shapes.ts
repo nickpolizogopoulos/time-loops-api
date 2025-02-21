@@ -11,10 +11,6 @@ export const monthType: CodeLine[] = [
     {
         line: `| 'July' | 'August' | 'September' | 'October' | 'November' | 'December';`,
         position: 1
-    },
-    {
-        line: '};',
-        position: 0
     }
 ];
 
@@ -33,6 +29,10 @@ export const albumType: CodeLine[] = [
     },
     {
         line: 'artist: string;',
+        position: 1
+    },
+    {
+        line: 'description: string;',
         position: 1
     },
     {
@@ -64,7 +64,7 @@ export const albumType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'wikipedia: string;',
+        line: 'wiki: string;',
         position: 1
     },
     {
@@ -229,7 +229,7 @@ export const ownerType: CodeLine[] = [
 
 export const skyscraperType: CodeLine[] = [
     {
-        line: 'export type Building = {',
+        line: 'export type Skyscraper = {',
         position: 0
     },
     {
@@ -313,7 +313,7 @@ export const skyscraperType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'wikipediaLink: string;',
+        line: 'wiki: string;',
         position: 1
     },
     {
@@ -334,10 +334,6 @@ export const softwareToolCreatorType: CodeLine[] = [
     },
     {
         line: 'wiki: string;',
-        position: 1
-    },
-    {
-        line: 'image: string;',
         position: 1
     },
     {

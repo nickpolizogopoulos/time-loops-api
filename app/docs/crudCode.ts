@@ -43,6 +43,10 @@ export const postRequest: Request[] = [
         position: 2
     },
     {
+        line: `description: 'My Album Description',`,
+        position: 2
+    },
+    {
         line: 'releaseDate: {',
         position: 2
     },
@@ -72,7 +76,7 @@ export const postRequest: Request[] = [
         position: 2
     },
     {
-        line: `wikipedia: 'https://en.wikipedia.org/wiki/Album_Name',`,
+        line: `wiki: 'https://en.wikipedia.org/wiki/Album_Name',`,
         position: 2
     },
     {
