@@ -40,7 +40,10 @@ code {
 }
 
 .mockup-code {
-  @apply min-w-full sm:min-w-fit;
+  @apply min-w-full md:min-w-full lg:min-w-fit;
+  @media screen and (max-width: 1121px) {
+    min-width: 100%;
+  }
 }
 
 .card-actions {
@@ -63,6 +66,12 @@ code {
   @apply underline decoration-rose-500 decoration-wavy;
   text-decoration-thickness: 1.2px;
   text-underline-offset: 3px;
+}
+
+.docs-main {
+  @media screen and (min-width: 640px) and (max-width: 1113px) {
+    overflow: hidden;
+  }
 }
 
 ::-moz-selection { 
