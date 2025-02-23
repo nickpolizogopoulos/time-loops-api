@@ -27,7 +27,7 @@ const navigationLinks: NavLink[] = [
 const Footer = () => {
     return (
         
-        <footer className="footer bg-base-200 text-base-content items-end p-10">
+        <footer className="footer bg-base-200 text-base-content p-10">
             <aside className="flex flex-col sm:flex-row gap-7 xl:ml-16">
                 <Link href='/'>
                     <Image
@@ -40,7 +40,7 @@ const Footer = () => {
                 </Link>
                 <div>
                     <h6 className="footer-title">
-                        © 2025 - Time Loops API - All rights reserved.
+                        © 2025 Time Loops API - All rights reserved.
                     </h6>
                     <p className='text-base'>
                         Reliable API for Developers Who Demand Real Data, 
