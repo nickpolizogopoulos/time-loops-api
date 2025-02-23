@@ -65,7 +65,7 @@ const Endpoints = () => {
                         <div 
                             key={endpoint.category}
                             data-tip='Click to copy!'
-                            className="tooltip tooltip-left min-w-full sm:min-w-fit"
+                            className="sm:tooltip sm:tooltip-left min-w-full sm:min-w-fit"
                         >
                             <button 
                                 onClick={_ => onButtonClick(endpoint.category, endpoint.objectLoad, endpoint.endpoint)}
