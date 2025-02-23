@@ -40,14 +40,14 @@ export const sections: Section[] = [
                     </thead>
                     <tbody>
                         {
-                            endpoints.map(item =>
-                                <tr>
+                            endpoints.map(endpoint =>
+                                <tr key={endpoint.description}>
                                     <td>
-                                        <Link href={item.path} target='_blank' className='underline'>
-                                            {item.name}
+                                        <Link href={endpoint.path} target='_blank' className='underline'>
+                                            {endpoint.name}
                                         </Link>
                                     </td>
-                                    <td>{item.description}</td>
+                                    <td>{endpoint.description}</td>
                                 </tr>
                             )
                         }
@@ -62,10 +62,10 @@ export const sections: Section[] = [
         content:
             <>
                 <p className='pb-4'>Time Loops API supports a full set of CRUD operations, allowing you to:</p>
-                <ul className='list-decimal pl-4 sm:pl-10'>
+                <ul className='list-decimal pl-10 pb-2'>
                     {
                         operations.map(operation =>
-                            <li className='text-xl font-light'>
+                            <li key={operation.description} className='text-xl font-light py-1'>
                                 <span className='font-medium'>{operation.name}:</span> {operation.description}
                             </li>
                         )
@@ -80,13 +80,13 @@ export const sections: Section[] = [
         isCategoryTitle: true,
         content:
             <>
-                <p className="pb-4">The shapes provided here are written in TypeScript.</p>
+                <p className="pb-4">These are the expected data shapes when fetching, using TypeScript as an example.</p>
                 <p className="pb-1 text-lg font-medium">General type Month: Used in Albums and Skyscrapers.</p>
                 <div className="mockup-code max-w-fit mb-7">
                     <div className='pt-2 pb-5'>
                         {
                             shapes.monthType.map((line, index) =>
-                                <pre data-prefix={index + 1}>
+                                <pre key={index} data-prefix={index + 1}>
                                     <code className={
                                         line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'
                                     }>
@@ -109,7 +109,7 @@ export const sections: Section[] = [
                 <div className='pt-2 pb-5'>
                     {
                         shapes.albumType.map((line, index) =>
-                            <pre data-prefix={index + 1}>
+                            <pre key={index} data-prefix={index + 1}>
                                 <code className={
                                     line.position === 0 ? '' : line.position === 1 ? 'pl-7' : line.position === 2 ? 'pl-14' : 'pl-24'
                                 }>
@@ -131,7 +131,7 @@ export const sections: Section[] = [
                 <div className='pt-2 pb-5'>
                     {
                         shapes.quoteType.map((line, index) =>
-                            <pre data-prefix={index + 1}>
+                            <pre key={index} data-prefix={index + 1}>
                                 <code className={
                                     line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'
                                 }>
@@ -158,8 +158,8 @@ export const sections: Section[] = [
                         shapes.galleryItemType,
                         shapes.areaType,
                         shapes.ownerType
-                    ].map((shapeType, idx) => (
-                        <div key={idx} className="mockup-code min-w-full sm:min-w-fit mb-7">
+                    ].map((shapeType, index) => (
+                        <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7">
                             <div className="pt-2 pb-5">
                                 {shapeType.map((line, index) => (
                                     <pre key={index} data-prefix={index + 1}>
@@ -176,7 +176,7 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-5'>
                         {
                             shapes.skyscraperType.map((line, index) =>
-                                <pre data-prefix={index + 1}>
+                                <pre key={index} data-prefix={index + 1}>
                                     <code className={
                                         line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'
                                     }>
@@ -200,7 +200,7 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-5'>
                         {
                             shapes.softwareToolCreatorType.map((line, index) =>
-                                <pre data-prefix={index + 1}>
+                                <pre key={index} data-prefix={index + 1}>
                                     <code className={
                                         line.position === 0 ? '' : line.position === 1 ? 'pl-7' : line.position === 2 ? 'pl-14' : 'pl-24'
                                     }>
@@ -215,7 +215,7 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-5'>
                         {
                             shapes.softwareToolType.map((line, index) =>
-                                <pre data-prefix={index + 1}>
+                                <pre key={index} data-prefix={index + 1}>
                                     <code className={
                                         line.position === 0 ? '' : line.position === 1 ? 'pl-7' : line.position === 2 ? 'pl-14' : 'pl-24'
                                     }>
@@ -284,7 +284,7 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-2'>
                         {
                             postRequest.map((line, index) =>
-                                <pre data-prefix={index + 1} className={line.style ?? undefined}>
+                                <pre key={index} data-prefix={index + 1} className={line.style ?? undefined}>
                                     <code className={
                                         line.position === 0 ? ''
                                             : line.position === 1 ? 'pl-7'
@@ -323,4 +323,14 @@ export const sections: Section[] = [
                 <p className='pb-3'>MPOYXTISA Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
             </>
     },
+    {
+        listTitle: <span><span className='font-medium'>(PATCH)</span> Single item</span>,
+        sectionTitle: 'Update a Single item (PATCH request)',
+        path: 'patch-a-single-item',
+        isCategoryTitle: false,
+        content:
+            <>
+                <p className='pb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
+            </>
+    }
 ];
