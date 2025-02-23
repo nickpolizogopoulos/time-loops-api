@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-import PageHeader from '../components/PageHeader';
 import SectionTitle from './_components/SectionTitle';
 import { sections } from './Sections';
 import { Metadata } from 'next';
@@ -27,8 +26,10 @@ const Docs = () => {
           }
         </ul>
       </aside>
-      <section className='flex flex-col pt-14 pb-24 gap-16 px-5 max-w-full xl:max-w-7xl xl:pl-10'>
-        <PageHeader title='Documentation' />
+      <section className='flex flex-col pt-14 pb-24 gap-16 px-5 max-w-full xl:max-w-7xl xl:pl-10 docs-main'>
+        <h1 className='text-4xl md:py-10 md:text-6xl lg:text-7xl font-bold'>
+          Documentation
+        </h1>
         {
           sections.map(link => 
             <section key={link.path} id={link.path}>
