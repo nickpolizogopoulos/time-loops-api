@@ -1,11 +1,4 @@
-interface CodeLine {
-    line: string;
-    position: 0 | 1 | 2 | 3;
-};
-
-interface Request extends CodeLine {
-    style?: string;
-};
+import { type Request } from "./types/types";
 
 export const postRequest: Request[] = [
     {

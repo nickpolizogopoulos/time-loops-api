@@ -1,8 +1,7 @@
-type Endpoint = {
-    name: string;
-    path: string;
-    description: string;
-};
+import {
+    type Endpoint,
+    type Operation
+} from "./types/types";
 
 export const endpoints: Endpoint[] = [
     {
@@ -26,11 +25,6 @@ export const endpoints: Endpoint[] = [
         description: 'Information about software tools, including descriptions, usage, creators, and more.'
     }
 ];
-
-type Operation = {
-    name: string;
-    description: string;
-};
 
 export const operations: Operation[] = [
     {
