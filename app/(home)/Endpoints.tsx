@@ -68,10 +68,10 @@ const Endpoints = () => {
                             className="sm:tooltip sm:tooltip-left min-w-full sm:min-w-fit"
                         >
                             <button 
-                                onClick={_ => onButtonClick(endpoint.category, endpoint.objectLoad, endpoint.endpoint)}
+                                onClick={() => onButtonClick(endpoint.category, endpoint.objectLoad, endpoint.endpoint)}
                                 className={`
                                     btn cursor-copy font-mono font-light min-w-full sm:min-w-96 hover:border-primary
-                                    ${endpoint.objectLoad === object ? 'border border-primary shadow-inner' : ''}
+                                    ${endpoint.objectLoad === object ? 'ring-1 ring-primary' : undefined}
                                 `}
                             >
                                 <code className="text-sm sm:text-base">{endpoint.endpoint}</code>
@@ -84,8 +84,9 @@ const Endpoints = () => {
                 <div className="mockup-browser-toolbar">
                     <div className="input py-px border-base-300 border">
                         https://timeloopsapi.com/
-                        <span className='hidden sm:inline mx-1 bg-white/10 py-px px-1 rounded-sm border border-primary border-opacity-70'>{url}</span>
-                        <span className='inline sm:hidden'>{url}</span>
+                        <span className='rounded-sm px-0 py-0 sm:py-px sm:px-1 sm:mx-1 border-0 sm:border border-primary sm:border-opacity-70 sm:bg-white/15'>
+                            {url}
+                        </span>
                         /1
                     </div>
                 </div>

@@ -5,12 +5,16 @@
 $selection-bg: #b1b1b1;
 $selection-colour: rgb(24, 24, 24);
 
-// * {
-//   user-select: none;
-// }
-
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  user-select: none;
+}
+
+.mockup-browser, .mockup-code {
+  user-select: text;
 }
 
 .btn, .swap-rotate {
@@ -37,6 +41,10 @@ code {
   @media screen and (min-width: 1150px) { 
     min-width: 680px;
   }
+}
+
+.drawer-item-parent {
+  @apply font-semibold text-base;
 }
 
 .mockup-code {

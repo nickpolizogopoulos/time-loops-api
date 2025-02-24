@@ -24,7 +24,7 @@ const SectionTitle = ({scrollToId, content}: Props) => {
                 </g>
             </svg>
             <h2
-                className={`text-2xl font-semibold ${isPressed ? 'scale-95' : ''} transition-transform duration-75`}
+                className={`text-2xl font-semibold ${isPressed ? 'scale-95' : undefined} transition-transform duration-75`}
                 onMouseDown={() => setIsPressed(true)}
                 onMouseUp={() => setIsPressed(false)}
                 onMouseLeave={() => setIsPressed(false)}

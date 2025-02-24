@@ -29,7 +29,7 @@ const cards: Card[] = [
         docksPath: 'skyscrapers'
     },
     {
-        title: 'Software Tools',
+        title: '40 Software Tools',
         description: 'Revolutionary Software Tools that Transformed Technology!',
         buttonText: '/software-tools',
         docksPath: 'software-tools'
