@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import SectionTitle from './_components/SectionTitle';
 import { sections } from './Sections';
-import { Metadata } from 'next';
+import { type Metadata } from 'next';
 
 const Docs = () => {
   return (

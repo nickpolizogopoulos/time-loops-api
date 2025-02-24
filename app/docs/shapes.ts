@@ -1,7 +1,4 @@
-export type CodeLine = {
-    line: string;
-    position: 0 | 1 | 2 | 3;
-};
+import { type CodeLine } from "./types/types";
 
 export const monthType: CodeLine[] = [
     {
@@ -342,6 +339,13 @@ export const softwareToolCreatorType: CodeLine[] = [
     },
 ];
 
+export const softwareToolCategoryType: CodeLine[] = [
+    {
+        line: `type Category = 'programming-language' | 'runtime' | 'framework' | 'library';`,
+        position: 0
+    }
+];
+
 export const softwareToolType: CodeLine[] = [
     {
         line: 'export type SoftwareTool = {',
@@ -360,7 +364,15 @@ export const softwareToolType: CodeLine[] = [
         position: 1
     },
     {
+        line: 'image: string;',
+        position: 1
+    },
+    {
         line: 'usage: string;',
+        position: 1
+    },
+    {
+        line: 'category: Category;',
         position: 1
     },
     {
@@ -376,12 +388,7 @@ export const softwareToolType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'image: string;',
-        position: 1
-    },
-
-    {
         line: '};',
         position: 0
-    },
+    }
 ];

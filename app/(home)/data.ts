@@ -26,6 +26,7 @@ export const softwareTool = JSON.stringify({
     description: 'A powerful, low-level programming language known for its efficiency and direct memory manipulation',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png',
     usage: 'System programming, embedded systems, and performance-critical applications',
+    category: 'programming-language',
     creators: [
         {
             name: 'Dennis Ritchie',
