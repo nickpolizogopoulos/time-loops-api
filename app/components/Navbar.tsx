@@ -30,24 +30,28 @@ const navLinks: NavLink[] = [
 const Navbar = () => {
     return (
         <>
-            <div className="shadow-xl shadow-black/5">
+            <div className="shadow-xl shadow-black/5 sticky top-0 sm:static bg-base-100 z-40">
                 <nav className="navbar h-24 justify-between mx-auto max-w-screen-2xl px-5">
+
                     <section>
-                        <button className="px-2 btn btn-ghost block sm:hidden">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                className="inline-block h-6 w-6 stroke-current"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M4 6h16M4 12h16M4 18h16"
-                                />
-                            </svg>
-                        </button>
+                        <div>
+                            <label htmlFor='drawer' className='px-2 btn btn-ghost sm:hidden'>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    className="inline-block h-6 w-6 stroke-current"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="M4 6h16M4 12h16M4 18h16"
+                                    />
+                                </svg>
+                            </label>
+                        </div>
+
                         <Link href="/">
                             <Image
                                 className="max-w-52 ml-5"
@@ -58,7 +62,7 @@ const Navbar = () => {
                             />
                         </Link>
                     </section>
-                    
+
                     <ul className="menu menu-horizontal hidden sm:inline-flex px-0">
                         {
                             navLinks.map(link => {

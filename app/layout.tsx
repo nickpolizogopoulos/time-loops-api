@@ -4,8 +4,7 @@ import "./globals.scss";
 
 import { ThemeProvider } from 'next-themes';
 
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Drawer from "./components/Drawer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,13 +29,13 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
           attribute="data-theme"
           defaultTheme="garden"
           themes={['garden', 'dracula']}
-          storageKey="theme"
+          storageKey="time-loops-api-theme"
         >
-          <Navbar />
-          {children}
-          <Footer />
+          <Drawer>
+            {children}
+          </Drawer>
         </ThemeProvider>
       </body>
     </html>
   );
-}
+};
