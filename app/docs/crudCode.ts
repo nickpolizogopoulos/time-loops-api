@@ -11,24 +11,11 @@ export const postRequest: Request[] = [
         style: 'bg-secondary text-secondary-content'
     },
     {
-        line: 'headers: {',
-        position: 1
-    },
-    {
-        line: `'Content-Type': 'application/json',`,
-        position: 2,
-        style: 'text-warning'
-    },
-    {
-        line: '},',
-        position: 1
-    },
-    {
         line: 'body: JSON.stringify({',
         position: 1
     },
     {
-        line: `name: 'New Album',`,
+        line: `title: 'New Album',`,
         position: 2
     },
     {

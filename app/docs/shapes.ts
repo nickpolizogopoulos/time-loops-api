@@ -21,7 +21,7 @@ export const albumType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'name: string;',
+        line: 'title: string;',
         position: 1
     },
     {
@@ -341,8 +341,12 @@ export const softwareToolCreatorType: CodeLine[] = [
 
 export const softwareToolCategoryType: CodeLine[] = [
     {
-        line: `type Category = 'programming-language' | 'runtime' | 'framework' | 'library';`,
+        line: `type Category = 'programming-language' | 'runtime' | 'framework' | 'library'`,
         position: 0
+    },
+    {
+        line: `'query-language' | 'relational-database-management-system';`,
+        position: 1
     }
 ];
 

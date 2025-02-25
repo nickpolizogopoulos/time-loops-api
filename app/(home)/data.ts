@@ -1,6 +1,6 @@
 export const album = JSON.stringify({
     id: 1,
-    name: 'Thriller',
+    title: 'Thriller',
     artist: 'Michael Jackson',
     description: "Thriller is Michael Jackson's groundbreaking album, blending pop, rock, and R&B. It features iconic hits like 'Billie Jean' and 'Beat It', revolutionizing the music industry and becoming one of the best-selling albums",
     releaseDate: {
@@ -24,7 +24,7 @@ export const softwareTool = JSON.stringify({
     id: 1,
     title: 'C',
     description: 'A powerful, low-level programming language known for its efficiency and direct memory manipulation',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png',
+    image: 'https://timeloopsapi.com/images/software-tools/c.svg',
     usage: 'System programming, embedded systems, and performance-critical applications',
     category: 'programming-language',
     creators: [
