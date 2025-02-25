@@ -37,7 +37,7 @@ export const postRequest: Request[] = [
     {
         line: `month: 'Mar',`,
         position: 3,
-        style: 'compiler-shouts'
+        style: 'underline decoration-1 underline-offset-2 decoration-rose-500 decoration-wavy'
     },
     {
         line: 'year: 2023,',
