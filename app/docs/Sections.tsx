@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { JSX } from "react";
 
 import Note from './_components/Note';
 import { postRequest } from "./crudCode";
@@ -8,13 +7,22 @@ import {
     operations
 } from "./endpointsAndOperations";
 import * as shapes from "./shapes";
+import {
+    type CodeLine,
+    type Section
+} from "./types/types";
 
-type Section = {
-    listTitle: string | JSX.Element;
-    sectionTitle?: string;
-    path: string;
-    isCategoryTitle: boolean;
-    content: string | JSX.Element;
+const linePosition = (position: CodeLine['position']): string | undefined => {
+    switch (position) {
+        case 0:
+            return undefined;
+        case 1:
+            return 'pl-7';
+        case 2:
+            return 'pl-14';
+        default:
+            return 'pl-24';
+    }
 };
 
 export const sections: Section[] = [
@@ -88,7 +96,7 @@ export const sections: Section[] = [
                             shapes.monthType.map((line, index) =>
                                 <pre key={index} data-prefix={index + 1}>
                                     <code className={
-                                        line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'
+                                        linePosition(line.position)
                                     }>
                                         {line.line}
                                     </code>
@@ -111,7 +119,7 @@ export const sections: Section[] = [
                         shapes.albumType.map((line, index) =>
                             <pre key={index} data-prefix={index + 1}>
                                 <code className={
-                                    line.position === 0 ? '' : line.position === 1 ? 'pl-7' : line.position === 2 ? 'pl-14' : 'pl-24'
+                                    linePosition(line.position)
                                 }>
                                     {line.line}
                                 </code>
@@ -133,7 +141,7 @@ export const sections: Section[] = [
                         shapes.quoteType.map((line, index) =>
                             <pre key={index} data-prefix={index + 1}>
                                 <code className={
-                                    line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'
+                                    linePosition(line.position)
                                 }>
                                     {line.line}
                                 </code>
@@ -163,7 +171,9 @@ export const sections: Section[] = [
                             <div className="pt-2 pb-5">
                                 {shapeType.map((line, index) => (
                                     <pre key={index} data-prefix={index + 1}>
-                                        <code className={line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'}>
+                                        <code className={
+                                            linePosition(line.position)
+                                        }>
                                             {line.line}
                                         </code>
                                     </pre>
@@ -178,7 +188,7 @@ export const sections: Section[] = [
                             shapes.skyscraperType.map((line, index) =>
                                 <pre key={index} data-prefix={index + 1}>
                                     <code className={
-                                        line.position === 0 ? '' : line.position === 1 ? 'pl-7' : 'pl-14'
+                                        linePosition(line.position)
                                     }>
                                         {line.line}
                                     </code>
@@ -199,10 +209,25 @@ export const sections: Section[] = [
                 <div className="mockup-code max-w-96 mb-7">
                     <div className='pt-2 pb-5'>
                         {
+                            shapes.softwareToolCategoryType.map((line, index) =>
+                                <pre key={index} data-prefix={index + 1}>
+                                    <code className={
+                                        linePosition(line.position)
+                                    }>
+                                        {line.line}
+                                    </code>
+                                </pre>
+                            )
+                        }
+                    </div>
+                </div>
+                <div className="mockup-code max-w-96 mb-7">
+                    <div className='pt-2 pb-5'>
+                        {
                             shapes.softwareToolCreatorType.map((line, index) =>
                                 <pre key={index} data-prefix={index + 1}>
                                     <code className={
-                                        line.position === 0 ? '' : line.position === 1 ? 'pl-7' : line.position === 2 ? 'pl-14' : 'pl-24'
+                                        linePosition(line.position)
                                     }>
                                         {line.line}
                                     </code>
@@ -217,7 +242,7 @@ export const sections: Section[] = [
                             shapes.softwareToolType.map((line, index) =>
                                 <pre key={index} data-prefix={index + 1}>
                                     <code className={
-                                        line.position === 0 ? '' : line.position === 1 ? 'pl-7' : line.position === 2 ? 'pl-14' : 'pl-24'
+                                        linePosition(line.position)
                                     }>
                                         {line.line}
                                     </code>
@@ -235,7 +260,7 @@ export const sections: Section[] = [
         content:
             <>
                 <p>Here’s how you can start using Time Loops API in your project:</p>
-                <Note strongText='Note:' note='The examples in the documentation are written in JavaScript, but you can achieve the same results using any programming language or HTTP client, such as Axios, if preferred.' />
+                <Note strongText='Note:' note='The examples in the documentation are written in JavaScript using the fetch API, but you can achieve the same results using any programming language or HTTP client, such as Axios, which automatically parses JSON responses.' />
             </>
     },
     {
@@ -269,7 +294,7 @@ export const sections: Section[] = [
                         <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
                     </div>
                 </div>
-                <Note note='This will fetch the third item in the list of all albums.' />
+                <Note note='This will fetch the third item from the list of all albums.' />
             </>
     },
     {
@@ -286,10 +311,7 @@ export const sections: Section[] = [
                             postRequest.map((line, index) =>
                                 <pre key={index} data-prefix={index + 1} className={line.style ?? undefined}>
                                     <code className={
-                                        line.position === 0 ? ''
-                                            : line.position === 1 ? 'pl-7'
-                                                : line.position === 2 ? 'pl-14'
-                                                    : 'pl-24'
+                                        linePosition(line.position)
                                     }>
                                         {line.line}
                                     </code>
