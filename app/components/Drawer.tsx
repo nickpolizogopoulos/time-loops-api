@@ -55,17 +55,17 @@ const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
                             </label>
                         </div>
                         <li>
-                            <Link onClick={closeDrawer} href='/' className='drawer-item-parent'>Home</Link>
+                            <Link onClick={closeDrawer} href='/' className='font-semibold text-base'>Home</Link>
                         </li>
                         <li>
                             <details open>
                                 <summary>
-                                    <Link onClick={closeDrawer} href='/docs' className='drawer-item-parent'>Docs</Link>
+                                    <Link onClick={closeDrawer} href='/docs' className='font-semibold text-base'>Docs</Link>
                                 </summary>
                                 <ul>
                                     {
                                         sections.map(section =>
-                                            <li onClick={closeDrawer} key={section.path} className={`${section.isCategoryTitle ? 'drawer-item-parent' : 'pl-5 font-light'}`}>
+                                            <li onClick={closeDrawer} key={section.path} className={`${section.isCategoryTitle ? 'font-semibold text-base' : 'pl-5 font-light'}`}>
                                                 <Link href={`/docs#${section.path}`}>{section.listTitle}</Link>
                                             </li>
                                         )
@@ -74,7 +74,7 @@ const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
                             </details>
                         </li>
                         <li>
-                            <Link href='https://github.com/nickpolizogopoulos/time-loops-api' className='drawer-item-parent' target='_blank'>GitHub</Link>
+                            <Link href='https://github.com/nickpolizogopoulos/time-loops-api' className='font-semibold text-base' target='_blank'>GitHub</Link>
                         </li>
                     </section>
                     <section>
