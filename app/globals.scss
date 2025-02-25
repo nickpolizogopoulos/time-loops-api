@@ -6,15 +6,15 @@ $selection-bg: #b1b1b1;
 $selection-colour: rgb(24, 24, 24);
 
 html {
-  scroll-behavior: smooth;
+  @apply scroll-smooth;
 }
 
 body {
-  user-select: none;
+  @apply select-none;
 }
 
 .mockup-browser, .mockup-code {
-  user-select: text;
+  @apply select-text;
 }
 
 .btn, .swap-rotate {
@@ -43,25 +43,21 @@ code {
   }
 }
 
-.drawer-item-parent {
-  @apply font-semibold text-base;
-}
-
 .mockup-code {
   @apply min-w-full md:min-w-full lg:min-w-fit;
   @media screen and (max-width: 1121px) {
-    min-width: 100%;
+    @apply min-w-full;
   }
 }
 
 .card-actions {
   .btn {
     @media screen and (min-width: 640px) and (max-width: 794px) {
-        min-width: 100%;
-    }
-    
+        @apply min-w-full;
+      }
+      
     @media screen and (max-width: 401px) {
-        min-width: 100%;
+        @apply min-w-full;
     }
   }
 }
@@ -70,15 +66,9 @@ code {
   @apply align-top;
 }
 
-.compiler-shouts {
-  @apply underline decoration-rose-500 decoration-wavy;
-  text-decoration-thickness: 1.2px;
-  text-underline-offset: 3px;
-}
-
 .docs-main {
   @media screen and (min-width: 640px) and (max-width: 1113px) {
-    overflow: hidden;
+      @apply overflow-hidden;
   }
 }
 
