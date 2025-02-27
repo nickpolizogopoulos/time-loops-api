@@ -1,0 +1,855 @@
+[
+    {
+        "id": 1,
+        "title": "C",
+        "description": "A powerful, low-level programming language known for its efficiency and direct memory manipulation",
+        "image": "http://localhost:3000/images/software-tools/c.svg",
+        "usage": "System programming, embedded systems, and performance-critical applications",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Dennis Ritchie",
+                "wiki": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+            }
+        ],
+        "yearCreated": 1972,
+        "wiki": "https://en.wikipedia.org/wiki/C_(programming_language)"
+    },
+    {
+        "id": 2,
+        "title": "C++",
+        "description": "An extension of C that supports object-oriented programming, known for its performance and flexibility",
+        "image": "http://localhost:3000/images/software-tools/cpp.svg",
+        "usage": "Application development, game development, and systems programming",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Bjarne Stroustrup",
+                "wiki": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup"
+            }
+        ],
+        "yearCreated": 1985,
+        "wiki": "https://en.wikipedia.org/wiki/C%2B%2B"
+    },
+    {
+        "id": 3,
+        "title": "C#",
+        "description": "A modern, object-oriented programming language developed by Microsoft, known for its strong typing and performance",
+        "image": "http://localhost:3000/images/software-tools/csharp.svg",
+        "usage": "Enterprise applications, game development (Unity), and web development",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Microsoft",
+                "wiki": "https://en.wikipedia.org/wiki/Microsoft"
+            }
+        ],
+        "yearCreated": 2000,
+        "wiki": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+    },
+    {
+        "id": 4,
+        "title": "HolyC",
+        "description": "A powerful, high-level programming language used in the TempleOS operating system, known for its integration with the OS kernel.",
+        "image": "http://localhost:3000/images/software-tools/holyc.svg",
+        "usage": "TempleOS development, scripting within the TempleOS environment",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Terry A. Davis",
+                "wiki": "https://en.wikipedia.org/wiki/Terry_A._Davis"
+            }
+        ],
+        "yearCreated": 2005,
+        "wiki": "https://en.wikipedia.org/wiki/TempleOS"
+    },
+    {
+        "id": 5,
+        "title": "Objective-C",
+        "description": "A general-purpose, object-oriented programming language primarily used for macOS and iOS applications before Swift.",
+        "image": "http://localhost:3000/images/software-tools/objectivec.svg",
+        "usage": "macOS and iOS application development",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Brad Cox",
+                "wiki": "https://en.wikipedia.org/wiki/Brad_Cox"
+            }
+        ],
+        "yearCreated": 1984,
+        "wiki": "https://en.wikipedia.org/wiki/Objective-C"
+    },
+    {
+        "id": 6,
+        "title": "Swift",
+        "description": "A modern programming language developed by Apple for iOS, macOS, watchOS, and tvOS development.",
+        "image": "http://localhost:3000/images/software-tools/swift.svg",
+        "usage": "iOS and macOS application development",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Apple Inc.",
+                "wiki": "https://en.wikipedia.org/wiki/Apple_Inc."
+            }
+        ],
+        "yearCreated": 2014,
+        "wiki": "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+    },
+    {
+        "id": 7,
+        "title": "JavaScript",
+        "description": "A high-level, interpreted programming language primarily used for web development",
+        "image": "http://localhost:3000/images/software-tools/javascript.svg",
+        "usage": "Web development, front-end and back-end scripting, and server-side applications",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Brendan Eich",
+                "wiki": "https://en.wikipedia.org/wiki/Brendan_Eich"
+            }
+        ],
+        "yearCreated": 1995,
+        "wiki": "https://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+        "id": 8,
+        "title": "TypeScript",
+        "description": "A strongly typed superset of JavaScript that compiles to plain JavaScript.",
+        "image": "http://localhost:3000/images/software-tools/typescript.svg",
+        "usage": "Web development, front-end frameworks, and large-scale applications",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Microsoft",
+                "wiki": "https://en.wikipedia.org/wiki/Microsoft"
+            }
+        ],
+        "yearCreated": 2012,
+        "wiki": "https://en.wikipedia.org/wiki/TypeScript"
+    },
+    {
+        "id": 9,
+        "title": "Ruby",
+        "description": "A dynamic, interpreted programming language known for its simplicity and productivity, often used in web development.",
+        "image": "http://localhost:3000/images/software-tools/ruby.svg",
+        "usage": "Web development, scripting, and automation",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Yukihiro Matsumoto",
+                "wiki": "https://en.wikipedia.org/wiki/Yukihiro_Matsumoto"
+            }
+        ],
+        "yearCreated": 1995,
+        "wiki": "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+    },
+    {
+        "id": 10,
+        "title": "Java",
+        "description": "A widely used, class-based, object-oriented programming language known for its portability and robustness.",
+        "image": "http://localhost:3000/images/software-tools/java.svg",
+        "usage": "Enterprise applications and backend systems",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "James Gosling",
+                "wiki": "https://en.wikipedia.org/wiki/James_Gosling"
+            }
+        ],
+        "yearCreated": 1995,
+        "wiki": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    },
+    {
+        "id": 11,
+        "title": "Go",
+        "description": "A statically typed, compiled language designed by Google for performance and simplicity.",
+        "image": "http://localhost:3000/images/software-tools/go.svg",
+        "usage": "Cloud computing, backend development, and networking",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Google",
+                "wiki": "https://en.wikipedia.org/wiki/Google"
+            },
+            {
+                "name": "Ken Thompson",
+                "wiki": "https://en.wikipedia.org/wiki/Ken_Thompson"
+            },
+            {
+                "name": "Rob Pike",
+                "wiki": "https://en.wikipedia.org/wiki/Rob_Pike"
+            },
+            {
+                "name": "Robert Griesemer",
+                "wiki": "https://en.wikipedia.org/wiki/Robert_Griesemer"
+            }
+            
+        ],
+        "yearCreated": 2009,
+        "wiki": "https://en.wikipedia.org/wiki/Go_(programming_language)"
+    },
+    {
+        "id": 12,
+        "title": "Rust",
+        "description": "A memory-safe, systems programming language focused on performance and concurrency.",
+        "image": "http://localhost:3000/images/software-tools/rust.svg",
+        "usage": "Systems programming, embedded systems, and web assembly",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Graydon Hoare",
+                "wiki": "https://wikitia.com/wiki/Graydon_Hoare"
+            },
+            {
+              "name": "Mozilla Foundation",
+              "wiki": "https://en.wikipedia.org/wiki/Mozilla_Foundation"
+            }
+        ],
+        "yearCreated": 2012,
+        "wiki": "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+    },
+    {
+        "id": 13,
+        "title": "Kotlin",
+        "description": "A modern, statically typed programming language designed to interoperate with Java.",
+        "image": "http://localhost:3000/images/software-tools/kotlin.svg",
+        "usage": "Android development, backend services, and cross-platform applications",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "JetBrains",
+                "wiki": "https://en.wikipedia.org/wiki/JetBrains"
+            }
+        ],
+        "yearCreated": 2011,
+        "wiki": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)"
+    },
+    {
+        "id": 14,
+        "title": "Perl",
+        "description": "A high-level, general-purpose programming language known for its text processing capabilities.",
+        "image": "http://localhost:3000/images/software-tools/perl.svg",
+        "usage": "Text processing, web development, and system administration",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Larry Wall",
+                "wiki": "https://en.wikipedia.org/wiki/Larry_Wall"
+            }
+        ],
+        "yearCreated": 1987,
+        "wiki": "https://en.wikipedia.org/wiki/Perl"
+    },
+    {
+        "id": 15,
+        "title": "Lua",
+        "description": "A lightweight, high-level scripting language commonly used in game development.",
+        "image": "http://localhost:3000/images/software-tools/lua.svg",
+        "usage": "Game development, scripting, and embedded systems",
+        "category": "programming-language",
+        "creators": [
+          {
+            "name": "Roberto Ierusalimschy",
+            "wiki": "https://en.wikipedia.org/wiki/Roberto_Ierusalimschy"
+          }
+        ],
+        "yearCreated": 1993,
+        "wiki": "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+    },
+    {
+        "id": 16,
+        "title": "R",
+        "description": "A programming language primarily used for statistical computing and data analysis.",
+        "image": "http://localhost:3000/images/software-tools/r.svg",
+        "usage": "Data analysis, statistical computing, and machine learning",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Ross Ihaka",
+                "wiki": "https://en.wikipedia.org/wiki/Ross_Ihaka"
+            },
+            {
+                "name": "Robert Gentleman",
+                "wiki": "https://en.wikipedia.org/wiki/Robert_Gentleman_(statistician)"
+            }
+        ],
+        "yearCreated": 1993,
+        "wiki": "https://en.wikipedia.org/wiki/R_(programming_language)"
+    },
+    {
+        "id": 17,
+        "title": "Dart",
+        "description": "A client-optimized programming language developed by Google for building web and mobile applications.",
+        "image": "http://localhost:3000/images/software-tools/dart.svg",
+        "usage": "Mobile and web application development (Flutter)",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Google",
+                "wiki": "https://en.wikipedia.org/wiki/Google"
+            },
+            {
+                "name": "Lars Bak",
+                "wiki": "https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)"
+            }
+        ],
+        "yearCreated": 2011,
+        "wiki": "https://en.wikipedia.org/wiki/Dart_(programming_language)"
+    },
+    {
+        "id": 18,
+        "title": "Scala",
+        "description": "A hybrid functional and object-oriented programming language that runs on the Java Virtual Machine (JVM).",
+        "image": "http://localhost:3000/images/software-tools/scala.svg",
+        "usage": "Big data, distributed systems, and backend services",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Martin Odersky",
+                "wiki": "https://en.wikipedia.org/wiki/Martin_Odersky"
+            }
+        ],
+        "yearCreated": 2004,
+        "wiki": "https://en.wikipedia.org/wiki/Scala_(programming_language)"
+    },
+    {
+        "id": 19,
+        "title": "Pascal",
+        "description": "A procedural programming language designed for structured programming and data structuring.",
+        "image": "http://localhost:3000/images/software-tools/pascal.svg",
+        "usage": "Education, embedded systems, and early software development",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Niklaus Wirth",
+                "wiki": "https://en.wikipedia.org/wiki/Niklaus_Wirth"
+            }
+        ],
+        "yearCreated": 1970,
+        "wiki": "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+    },
+    {
+        "id": 20,
+        "title": "F#",
+        "description": "A functional-first programming language for .NET, known for its strong type inference and concise syntax.",
+        "image": "http://localhost:3000/images/software-tools/fsharp.svg",
+        "usage": "Data science, web development, and financial computing",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Microsoft",
+                "wiki": "https://en.wikipedia.org/wiki/Microsoft"
+            },
+            {
+                "name": "Don Syme",
+                "wiki": "https://en.wikipedia.org/wiki/Don_Syme"
+            }
+        ],
+        "yearCreated": 2005,
+        "wiki": "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)"
+    },
+    {
+        "id": 21,
+        "title": "Zig",
+        "description": "A programming language designed for robustness, optimality, and clarity, with manual memory management and a focus on performance and safety.",
+        "image": "http://localhost:3000/images/software-tools/zig.svg",
+        "usage": "Systems programming, embedded systems, performance-critical applications",
+        "category": "programming-language",
+        "creators": [
+          {
+            "name": "Andrew Kelley",
+            "wiki": "https://andrewkelley.me/"
+          }
+        ],
+        "yearCreated": 2016,
+        "wiki": "https://en.wikipedia.org/wiki/Zig_(programming_language)"
+    },
+    {
+        "id": 22,
+        "title": "PHP",
+        "description": "A popular general-purpose scripting language especially suited for web development. Known for its ease of use and deep integration with databases and servers.",
+        "image": "http://localhost:3000/images/software-tools/php.svg",
+        "usage": "Web development, server-side scripting, content management systems (CMS) like WordPress",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Rasmus Lerdorf",
+                "wiki": "https://en.wikipedia.org/wiki/Rasmus_Lerdorf"
+            }
+        ],
+        "yearCreated": 1994,
+        "wiki": "https://en.wikipedia.org/wiki/PHP"
+    },
+    {
+        "id": 23,
+        "title": "Julia",
+        "description": "A high-level, high-performance programming language for technical computing, with syntax that is familiar to users of other technical computing environments.",
+        "image": "http://localhost:3000/images/software-tools/julia.svg",
+        "usage": "Data science, numerical computing, machine learning, scientific computing, and parallel computing.",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Jeff Bezanson",
+                "wiki": "https://en.wikipedia.org/wiki/Jeff_Bezanson"
+            },
+            {
+                "name": "Stefan Karpinski",
+                "wiki": "https://en.wikipedia.org/wiki/Stefan_Karpinski"
+            },
+            {
+                "name": "Viral B. Shah",
+                "wiki": "https://en.wikipedia.org/wiki/Viral_B._Shah"
+            },
+            {
+                "name": "Alan Edelman",
+                "wiki": "https://en.wikipedia.org/wiki/Alan_Edelman"
+            }
+        ],
+        "yearCreated": 2012,
+        "wiki": "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+    },
+    {
+        "id": 24,
+        "title": "Delphi",
+        "description": "A high-level, compiled, strongly typed programming language that is based on Object Pascal, used for developing desktop, mobile, web, and database applications.",
+        "image": "http://localhost:3000/images/software-tools/delphi.svg",
+        "usage": "Desktop applications, mobile apps, web development, and database applications.",
+        "category": "programming-language",
+        "creators": [
+            {
+                "name": "Anders Hejlsberg",
+                "wiki": "https://en.wikipedia.org/wiki/Anders_Hejlsberg"
+            },
+            {
+                "name": "Borland",
+                "wiki": "https://en.wikipedia.org/wiki/Borland"
+            }
+        ],
+        "yearCreated": 1995,
+        "wiki": "https://en.wikipedia.org/wiki/Delphi_(programming_language)"
+    },
+    {
+        "id": 25,
+        "title": "Simula",
+        "description": "A pioneering object-oriented programming language, considered the first object-oriented language, designed for simulation and modeling complex systems.",
+        "image": "http://localhost:3000/images/software-tools/simula.svg",
+        "category": "programming-language",
+        "usage": "Simulation, modeling, and early object-oriented programming.",
+        "creators": [
+            {
+                "name": "Ole-Johan Dahl",
+                "wiki": "https://en.wikipedia.org/wiki/Ole-Johan_Dahl"
+            },
+            {
+                "name": "Kristen Nygaard",
+                "wiki": "https://en.wikipedia.org/wiki/Kristen_Nygaard"
+            }
+        ],
+        "yearCreated": 1967,
+        "wiki": "https://en.wikipedia.org/wiki/Simula"
+    },
+    {
+        "id": 26,
+        "title": "Node.js",
+        "description": "An open-source JavaScript runtime built on Chrome's V8 engine, designed for building scalable network applications.",
+        "image": "http://localhost:3000/images/software-tools/nodejs.svg",
+        "usage": "Web development, server-side scripting, real-time applications",
+        "category": "runtime",
+        "creators": [
+            {
+                "name": "Ryan Dahl",
+                "wiki": "https://en.wikipedia.org/wiki/Ryan_Dahl"
+            }
+        ],
+        "yearCreated": 2009,
+        "wiki": "https://en.wikipedia.org/wiki/Node.js"
+    },
+    {
+        "id": 27,
+        "title": "Deno",
+        "description": "A secure runtime for JavaScript and TypeScript, created by the original author of Node.js, designed for modern applications with built-in TypeScript support.",
+        "image": "http://localhost:3000/images/software-tools/deno.svg",
+        "usage": "Web development, server-side scripting, modern JavaScript/TypeScript applications",
+        "category": "runtime",
+        "creators": [
+            {
+                "name": "Ryan Dahl",
+                "wiki": "https://en.wikipedia.org/wiki/Ryan_Dahl"
+            }
+        ],
+        "yearCreated": 2018,
+        "wiki": "https://en.wikipedia.org/wiki/Deno_(runtime)"
+    },
+    {
+        "id": 28,
+        "title": "Bun",
+        "description": "A fast all-in-one JavaScript runtime, bundler, and task runner that aims to be simpler and faster than Node.js and Deno.",
+        "image": "http://localhost:3000/images/software-tools/bun.svg",
+        "usage": "Web development, server-side scripting, full-stack applications, rapid prototyping",
+        "category": "runtime",
+        "creators": [
+            {
+                "name": "Jarred Sumner",
+                "wiki": "https://github.com/jarred-sumner"
+            }
+        ],
+        "yearCreated": 2021,
+        "wiki": "https://en.wikipedia.org/wiki/Bun_(software)"
+    },
+    {
+        "id": 29,
+        "title": ".NET",
+        "description": "A free, open-source, cross-platform framework for building modern applications, from web apps to mobile, desktop, cloud, and more.",
+        "image": "http://localhost:3000/images/software-tools/dotnet.svg",
+        "usage": "Web development, desktop applications, mobile apps, cloud services, gaming",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Microsoft",
+                "wiki": "https://en.wikipedia.org/wiki/Microsoft"
+            }
+        ],
+        "yearCreated": 2002,
+        "wiki": "https://en.wikipedia.org/wiki/.NET"
+    },
+    {
+        "id": 30,
+        "title": "Express.js",
+        "description": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+        "image": "http://localhost:3000/images/software-tools/express.svg",
+        "usage": "Web applications, REST APIs, real-time applications (e.g., chat apps), microservices.",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "TJ Holowaychuk",
+                "wiki": "https://github.com/tj"
+            }
+        ],
+        "yearCreated": 2010,
+        "wiki": "https://en.wikipedia.org/wiki/Express.js"
+    },
+    {
+        "id": 31,
+        "title": "Spring Boot",
+        "description": "A Java-based framework used to create stand-alone, production-grade Spring-based applications. It simplifies the setup and configuration of Spring applications.",
+        "image": "http://localhost:3000/images/software-tools/spring.svg",
+        "usage": "Web applications, microservices, REST APIs, enterprise applications.",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Rod Johnson",
+                "wiki": "https://en.wikipedia.org/wiki/Rod_Johnson_(programmer)"
+            }
+        ],
+        "yearCreated": 2013,
+        "wiki": "https://en.wikipedia.org/wiki/Spring_Boot"
+    },
+    {
+        "id": 32,
+        "title": "Ruby on Rails",
+        "description": "A web application framework written in Ruby, emphasizing convention over configuration and fast development.",
+        "image": "http://localhost:3000/images/software-tools/rails.svg",
+        "usage": "Web development, full-stack applications",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "David Heinemeier Hansson",
+                "wiki": "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+            }
+        ],
+        "yearCreated": 2004,
+        "wiki": "https://en.wikipedia.org/wiki/Ruby_on_Rails"
+    },
+    {
+        "id": 33,
+        "title": "Gin",
+        "description": "A high-performance web framework for Go (Golang) known for its speed and efficiency in building APIs and web applications.",
+        "image": "http://localhost:3000/images/software-tools/gin.svg",
+        "usage": "Web development, API development, microservices",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Manu Martínez-Almeida",
+                "wiki": "https://x.com/manucorporat"
+            }
+        ],
+        "yearCreated": 2014,
+        "wiki": "https://pkg.go.dev/github.com/gin-gonic/gin"
+    },
+    {
+        "id": 34,
+        "title": "Angular",
+        "description": "A platform and framework for building client-side applications with HTML, CSS, and TypeScript, focusing on dynamic single-page applications.",
+        "image": "http://localhost:3000/images/software-tools/angular.svg",
+        "usage": "Web development, single-page applications (SPA), front-end development",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Google",
+                "wiki": "https://en.wikipedia.org/wiki/Google"
+            }
+        ],
+        "yearCreated": 2016,
+        "wiki": "https://en.wikipedia.org/wiki/Angular_(web_framework)"
+    },
+    {
+        "id": 35,
+        "title": "Next.js",
+        "description": "A React-based framework for building server-side rendered (SSR) and statically generated web applications with support for routing, serverless functions, and more.",
+        "image": "http://localhost:3000/images/software-tools/nextjs.svg",
+        "usage": "Web development, server-side rendering (SSR), static site generation, React applications",
+        "category": "framework",
+        "creators": [
+          {
+            "name": "Vercel",
+            "wiki": "https://en.wikipedia.org/wiki/Vercel"
+          }
+        ],
+        "yearCreated": 2016,
+        "wiki": "https://en.wikipedia.org/wiki/Next.js"
+    },
+    {
+        "id": 36,
+        "title": "Vue",
+        "description": "A progressive JavaScript framework for building user interfaces. Vue can function as a web application framework capable of powering sophisticated single-page applications.",
+        "image": "http://localhost:3000/images/software-tools/vue.svg",
+        "usage": "Single-page applications, interactive UIs, front-end development.",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Evan You",
+                "wiki": "https://evanyou.me/"
+            }
+        ],
+        "yearCreated": 2014,
+        "wiki": "https://en.wikipedia.org/wiki/Vue.js"
+    },
+    {
+        "id": 37,
+        "title": "Flutter",
+        "description": "An open-source UI software development kit by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+        "image": "http://localhost:3000/images/software-tools/flutter.svg",
+        "usage": "Mobile, web, and desktop app development",
+        "category": "framework",
+        "creators": [
+          {
+            "name": "Google",
+            "wiki": "https://en.wikipedia.org/wiki/Google"
+          }
+        ],
+        "yearCreated": 2017,
+        "wiki": "https://en.wikipedia.org/wiki/Flutter_(software)"
+    },
+    {
+        "id": 38,
+        "title": "Electron",
+        "description": "A framework for building cross-platform desktop applications using web technologies like JavaScript, HTML, and CSS.",
+        "image": "http://localhost:3000/images/software-tools/electron.svg",
+        "usage": "Desktop application development, cross-platform apps",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "OpenJS Foundation",
+                "wiki": "https://en.wikipedia.org/wiki/OpenJS_Foundation"
+            }
+        ],
+        "yearCreated": 2013,
+        "wiki": "https://en.wikipedia.org/wiki/Electron_(software_framework)"
+    },
+    {
+        "id": 39,
+        "title": "Laravel",
+        "description": "A popular open-source PHP framework for web application development, known for its elegant syntax, scalability, and ease of use for tasks like routing, authentication, and database management.",
+        "image": "http://localhost:3000/images/software-tools/laravel.svg",
+        "usage": "Web application development, MVC architecture, backend API services",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Taylor Otwell",
+                "wiki": "https://www.linkedin.com/in/taylorotwell/"
+            }
+        ],
+        "yearCreated": 2011,
+        "wiki": "https://en.wikipedia.org/wiki/Laravel"
+    },
+    {
+        "id": 40,
+        "title": "Preact",
+        "description": "A fast, lightweight alternative to React, with the same modern API but a smaller footprint, designed for high-performance applications.",
+        "image": "http://localhost:3000/images/software-tools/preact.svg",
+        "usage": "Building fast, lightweight, and efficient user interfaces, often for projects where performance is a priority.",
+        "category": "library",
+        "creators": [
+          {
+            "name": "Jason Miller",
+            "wiki": "https://github.com/developit"
+          }
+        ],
+        "yearCreated": 2015,
+        "wiki": "https://dev.fandom.com/wiki/Preact"
+    },
+    {
+        "id": 41,
+        "title": "React",
+        "description": "A JavaScript library for building user interfaces, particularly for single-page applications, focusing on component-based architecture.",
+        "image": "http://localhost:3000/images/software-tools/react.svg",
+        "usage": "Web development, single-page applications (SPA), user interfaces",
+        "category": "library",
+        "creators": [
+            {
+                "name": "Jordan Walke",
+                "wiki": "https://github.com/jordwalke"
+            }
+        ],
+        "yearCreated": 2013,
+        "wiki": "https://en.wikipedia.org/wiki/React_(web_framework)"
+    },
+    {
+        "id": 42,
+        "title": "React Native",
+        "description": "A popular open-source framework for building mobile applications using JavaScript and React, allowing developers to create cross-platform apps for iOS and Android.",
+        "image": "http://localhost:3000/images/software-tools/react.svg",
+        "usage": "Mobile app development for iOS and Android, cross-platform development.",
+        "category": "framework",
+        "creators": [
+            {
+                "name": "Meta",
+                "wiki": "https://en.wikipedia.org/wiki/Meta_Platforms"
+            }
+        ],
+        "yearCreated": 2015,
+        "wiki": "https://en.wikipedia.org/wiki/React_Native"
+    },
+    {
+        "id": 43,
+        "title": "Lodash",
+        "description": "A modern utility library delivering performance, consistency, and modularity for common programming tasks like data manipulation, object cloning, and function debouncing.",
+        "image": "http://localhost:3000/images/software-tools/lodash.svg",
+        "usage": "Data manipulation, performance optimization, functional programming",
+        "category": "library",
+        "creators": [
+            {
+                "name": "John-David Dalton",
+                "wiki": "https://github.com/jdalton"
+            }
+        ],
+        "yearCreated": 2009,
+        "wiki": "https://en.wikipedia.org/wiki/Lodash"
+    },
+    {
+        "id": 44,
+        "title": "Redux",
+        "description": "A predictable state container for JavaScript apps, primarily used with React to manage the global state in a consistent and easy-to-debug way.",
+        "image": "http://localhost:3000/images/software-tools/redux.svg",
+        "usage": "State management, global app state, React ecosystem",
+        "category": "library",
+        "creators": [
+            {
+                "name": "Dan Abramov",
+                "wiki": "https://github.com/gaearon"
+            },
+            {
+                "name": "Andrew Clark",
+                "wiki": "https://github.com/acdlite"
+            }
+        ],
+        "yearCreated": 2015,
+        "wiki": "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)"
+    },
+    {
+        "id": 45,
+        "title": "RxJS",
+        "description": "A library for reactive programming using Observables that makes it easier to compose asynchronous or callback-based code in a declarative way.",
+        "image": "http://localhost:3000/images/software-tools/rxjs.svg",
+        "usage": "Reactive programming, asynchronous programming, event handling",
+        "category": "library",
+        "creators": [
+            {
+                "name": "Erik Meijer",
+                "wiki": "https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)"
+            }
+        ],
+        "yearCreated": 2015,
+        "wiki": "https://en.wikipedia.org/wiki/ReactiveX"
+    },
+    {
+        "id": 46,
+        "title": "SQL",
+        "description": "A standard language for managing and querying relational databases, used to retrieve, update, and manipulate data.",
+        "image": "http://localhost:3000/images/software-tools/sql.svg",
+        "usage": "Database management, querying, data manipulation",
+        "category": "query-language",
+        "creators": [
+            {
+                "name": "Donald D. Chamberlin and Raymond F. Boyce",
+                "wiki": "https://en.wikipedia.org/wiki/SQL"
+            }
+        ],
+        "yearCreated": 1974,
+        "wiki": "https://en.wikipedia.org/wiki/SQL"
+    },
+    {
+        "id": 47,
+        "title": "GraphQL",
+        "description": "A query language for APIs and a runtime for executing those queries with your existing data, offering a more flexible alternative to RESTful APIs.",
+        "image": "http://localhost:3000/images/software-tools/graphql.svg",
+        "usage": "API development, data fetching, flexible query language",
+        "category": "query-language",
+        "creators": [
+            {
+                "name": "Meta",
+                "wiki": "https://en.wikipedia.org/wiki/Meta_Platforms"
+            }
+        ],
+        "yearCreated": 2012,
+        "wiki": "https://en.wikipedia.org/wiki/GraphQL"
+    },
+    {
+        "id": 48,
+        "title": "MySQL",
+        "description": "An open-source relational database management system (RDBMS) based on SQL, known for its reliability, scalability, and use in web applications.",
+        "image": "http://localhost:3000/images/software-tools/mysql.svg",
+        "usage": "Database management, relational data storage, web applications",
+        "category": "relational-database-management-system",
+        "creators": [
+            {
+                "name": "Michael Widenius",
+                "wiki": "https://en.wikipedia.org/wiki/Michael_Widenius"
+            }
+        ],
+        "yearCreated": 1995,
+        "wiki": "https://en.wikipedia.org/wiki/MySQL"
+    },
+    {
+        "id": 49,
+        "title": "PostgreSQL",
+        "description": "An open-source, object-relational database system known for its extensibility, standards compliance, and advanced features like JSON support and ACID compliance.",
+        "image": "http://localhost:3000/images/software-tools/postgresql.svg",
+        "usage": "Database management, relational and non-relational data storage, web applications",
+        "category": "relational-database-management-system",
+        "creators": [
+            {
+                "name": "Michael Stonebraker",
+                "wiki": "https://en.wikipedia.org/wiki/Michael_Stonebraker"
+            }
+        ],
+        "yearCreated": 1996,
+        "wiki": "https://en.wikipedia.org/wiki/PostgreSQL"
+    },
+    {
+        "id": 50,
+        "title": "Microsoft SQL Server",
+        "description": "A relational database management system developed by Microsoft, known for its integration with other Microsoft services and tools, and support for large-scale data operations.",
+        "image": "http://localhost:3000/images/software-tools/mssql.svg",
+        "usage": "Database management, enterprise data storage, data warehousing, web applications",
+        "category": "relational-database-management-system",
+        "creators": [
+            {
+                "name": "Microsoft",
+                "wiki": "https://en.wikipedia.org/wiki/Microsoft"
+            }
+        ],
+        "yearCreated": 1989,
+        "wiki": "https://en.wikipedia.org/wiki/Microsoft_SQL_Server"
+    }
+]
