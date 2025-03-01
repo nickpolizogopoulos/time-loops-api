@@ -6,13 +6,14 @@ import { softwareToolSchema } from './validationSchema';
 
 export const GET = async (): Promise<NextResponse<SoftwareTool[]>> => {
   const headers = getHeaders('GET');
-  return NextResponse.json(softwareTools, {headers: headers});
+  return NextResponse.json(softwareTools, { headers: headers });
 };
+
 
 export const POST = async (request: NextRequest) => {
   const body: SoftwareTool = await request.json();
+  const headers = getHeaders('POST');
   const validation = softwareToolSchema.safeParse(body);
-  const headers = getHeaders('GET');
 
   if (!validation.success) 
     return NextResponse.json(validation.error.format(), { status: 400, headers: headers });
