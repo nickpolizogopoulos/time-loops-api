@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "quote": "When done well, software is invisible",
+        "author": "Bjarne Stroustrup",
+        "category": "software-industry"
+    },
+    {
+        "id": 2,
+        "quote": "The strength of JavaScript is that you can do anythingm, the weakness is that you will",
+        "author": "Reg Braithwaite",
+        "category": "software-industry"
+    },
+    {
+        "id": 3,
+        "quote": "The most dangerous person is the one who listens, thinks and observes",
+        "author": "Bruce Lee",
+        "category": "general"
+    },
+    {
+        "id": 4,
+        "quote": "Theory and practice sometimes clash. And when that happens, theory loses. Every single time",
+        "author": "Linus Torvalds",
+        "category": "software-industry"
+    },
+    {
+        "id": 5,
+        "quote": "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off",
+        "author": "Bjarne Stroustrup",
+        "category": "software-industry"
+    },
+    {
+        "id": 6,
+        "quote": "People who think they know everything really annoy those of us who know we don't",
+        "author": "Bjarne Stroustrup",
+        "category": "software-industry"
+    },
+    {
+        "id": 7,
+        "quote": "Student is not a container you have to fill but a torch you have to light up",
+        "author": "Albert Einstein",
+        "category": "general"
+    },
+    {
+        "id": 8,
+        "quote": "If you can't explain it simply, you don't understand it well enough",
+        "author": "Albert Einstein",
+        "category": "general"
+    },
+    {
+        "id": 9,
+        "quote": "A ship in harbor is safe but that is not what ships are built for",
+        "author": "John A. Shedd",
+        "category": "general"
+    },
+    {
+        "id": 10,
+        "quote": "Skills can always be taught but passion and attitude are irreplaceable",
+        "author": "unknown",
+        "category": "general"
+    },
+    {
+        "id": 11,
+        "quote": "C is quirky, flawed, and an enormous success",
+        "author": "Dennis Ritchie",
+        "category": "software-industry"
+    },
+    {
+        "id": 12,
+        "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity",
+        "author": "Dennis Ritchie",
+        "category": "software-industry"
+    },
+    {
+        "id": 13,
+        "quote": "You have to be burning with an idea, or a problem, or a wrong that you want to right. If you're not passionate enough from the start, you'll never stick it out",
+        "author": "Steve Jobs",
+        "category": "creativity"
+    }
+    
+    
+
+]
