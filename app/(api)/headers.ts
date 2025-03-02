@@ -1,6 +1,7 @@
 
+type RequestType = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
 
-export const getHeaders = (requestType: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE') => {
+export const getHeaders = (requestType: RequestType) => {
     let allowedMethods: string;
 
     switch (requestType) {
