@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "description": "Thriller is Michael Jackson's groundbreaking album, blending pop, rock, and R&B. It features iconic hits like 'Billie Jean' and 'Beat It', revolutionizing the music industry and becoming one of the best-selling albums",
+        "releaseDate": {
+            "day": 29,
+            "month": "November",
+            "year": 1982
+        },
+        "genre": "Pop",
+        "label": "Epic",
+        "wiki": "https://en.wikipedia.org/wiki/Thriller_(album)"
+    }
+]
