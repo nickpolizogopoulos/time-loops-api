@@ -1,5 +1,6 @@
 //* General 
-export type Month = 'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December';
+export type Month = 'January' | 'February' | 'March' | 'April' | 'May' 
+    | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December';
 
 
 //* Music Album
@@ -35,7 +36,7 @@ type Creator = {
 };
 
 type Category = 
-      'programming-language' 
+    | 'programming-language' 
     | 'runtime'
     | 'framework'
     | 'library'
@@ -48,7 +49,7 @@ export type SoftwareTool = {
     description: string;
     image: string;
     usage: string;
-    category: string;
+    category: Category;
     creators: Creator[];
     yearCreated: number;
     wiki: string;
@@ -89,6 +90,14 @@ type Owner = {
     name: string;
 };
 
+type SkyscraperType =
+    | 'Commercial'
+    | 'Office'
+    | 'Retail'
+    | 'Residential'
+    | 'Hotel'
+    | 'Shopping Mall';
+
 export type Skyscraper = {
     architects: Architect[];
     architectureStyle: ArchitectureStyle;
@@ -108,7 +117,7 @@ export type Skyscraper = {
     slug: string;
     subtitle: string;
     title: string;
-    type: string;
+    type: SkyscraperType[];
     website: string;
     wiki: string;
 };
