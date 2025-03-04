@@ -1,13 +1,15 @@
 'use client';
 
+import Image from 'next/image';
 import Link from "next/link";
+import { useEffect } from "react";
+
 import { sections } from "../docs/Sections";
+import BackToTopButton from './BackToTop';
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Social from "./Social";
 import ThemeController from "./ThemeController";
-import Image from 'next/image';
-import { useEffect } from "react";
 
 const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
 
@@ -32,6 +34,7 @@ const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
             <div className="drawer-content">
                 <Navbar />
                     {children}
+                    <BackToTopButton />
                 <Footer />
             </div>
             <div className="drawer-side z-50 sm:hidden">
