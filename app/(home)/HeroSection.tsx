@@ -9,7 +9,10 @@ const HeroSection = () => {
             </h1>
 
             <p className="py-6">
-              Power your applications with real, accurate and up-to-date data. Time Loops is a fast, reliable, and developer-friendly REST API that ensures seamless integration, delivering the information you need to build smarter, more efficient and scalable solutions effortlessly!
+              Power your applications with real, accurate and up-to-date data. Time Loops is a {''}
+              <span className='font-medium'>free</span>, 
+              fast, reliable, and developer-friendly REST API that ensures seamless integration, 
+              delivering the information you need to build smarter, more efficient and scalable solutions effortlessly!
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-5 sm:gap-10">
