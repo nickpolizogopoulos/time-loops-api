@@ -5,7 +5,12 @@ const HeroSection = () => {
     <section className="hero min-h-80 py-10 lg:py-20">
         <div className="hero-content text-center flex-col">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">
-                Reliable API for Developers Who Demand Real Data
+                Reliable{' '}
+                <span className="text-and-shadow-gradience relative inline-block text-transparent bg-clip-text">
+                  <span className="text-and-shadow-gradience absolute inset-0 blur-lg opacity-30"></span>
+                  API for Developers
+                </span>{' '}
+                Who Demand Real Data
             </h1>
 
             <p className="py-6">

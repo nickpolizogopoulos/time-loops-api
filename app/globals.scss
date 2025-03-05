@@ -72,6 +72,10 @@ code {
   }
 }
 
+.text-and-shadow-gradience {
+  @apply bg-gradient-to-r from-primary via-[#dd9f33] to-primary;
+}
+
 ::-moz-selection { 
   color: $selection-colour;
   background: $selection-bg;
