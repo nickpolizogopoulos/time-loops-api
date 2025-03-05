@@ -40,9 +40,9 @@ const Categories = () => {
     return (
         <>
             <section className="mb-12 md:mb-10">
-                <h1 className="text-4xl font-semibold text-center mb-10">
+                <h2 className="text-4xl font-semibold text-center mb-10">
                     Choose between four categories
-                </h1>
+                </h2>
                 <div className="flex flex-wrap justify-center gap-6">
                     {
                         cards.map((card) => (

@@ -57,9 +57,9 @@ const Endpoints = () => {
     return (
         <section className="flex flex-col lg:flex-row justify-center gap-10 mb-14">
             <div className="flex flex-col items-center gap-3">
-                <h1 className="text-4xl font-semibold mb-5 text-center">
+                <h2 className="text-4xl font-semibold mb-5 text-center">
                     Try any endpoint in your browser
-                </h1>
+                </h2>
                 {
                     endpoints.map(endpoint => 
                         <div 
@@ -80,7 +80,7 @@ const Endpoints = () => {
                     )
                 }
             </div>
-            <div className="mockup-browser mockup-browser-home bg-base-200/50 border-base-300 border xl:max-w-96">
+            <div className="mockup-browser mockup-browser-home bg-base-200/50 shadow-lg border-base-300 border xl:max-w-96">
                 <div className="mockup-browser-toolbar">
                     <div className="input py-px border-base-300 border">
                         https://timeloopsapi.com/
