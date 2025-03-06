@@ -224,6 +224,37 @@ export const ownerType: CodeLine[] = [
     },
 ];
 
+export const skyscraperTypeType: CodeLine[] = [
+    {
+        line: 'type SkyscraperType = {',
+        position: 0
+    },
+    {
+        line: `| 'Commercial'`,
+        position: 1
+    },
+    {
+        line: `| 'Office'`,
+        position: 1
+    },
+    {
+        line: `| 'Retail'`,
+        position: 1
+    },
+    {
+        line: `| 'Residential'`,
+        position: 1
+    },
+    {
+        line: `| 'Hotel'`,
+        position: 1
+    },
+    {
+        line: `| 'Shopping Mall';`,
+        position: 1
+    },
+];
+
 export const skyscraperType: CodeLine[] = [
     {
         line: 'export type Skyscraper = {',
@@ -302,7 +333,7 @@ export const skyscraperType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'type: string;',
+        line: 'type: SkyscraperType[];',
         position: 1
     },
     {
