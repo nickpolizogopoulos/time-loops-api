@@ -88,9 +88,16 @@ export const sections: Section[] = [
         isCategoryTitle: true,
         content:
             <>
-                <p className="pb-4">These are the expected data shapes when fetching, using TypeScript as an example.</p>
+                <p className="pb-2">These are the expected data shapes when fetching, using TypeScript as an example.</p>
+                <p className="pb-4">
+                    You can find all types{' '}
+                    <a className='btn-link' href='https://github.com/nickpolizogopoulos/time-loops-api/blob/main/app/(api)/types.ts' target='_blank'>
+                        here
+                    </a>{' '}
+                    or copy them directly from the boxes below.
+                </p>
                 <p className="pb-1 text-lg font-medium">General type Month: Used in Albums and Skyscrapers.</p>
-                <div className="mockup-code max-w-fit mb-7">
+                <div className="mockup-code max-w-fit mb-7 pr-7">
                     <div className='pt-2 pb-5'>
                         {
                             shapes.monthType.map((line, index) =>
@@ -162,12 +169,13 @@ export const sections: Section[] = [
                     {[
                         shapes.architectType,
                         shapes.architectureStyleType,
-                        shapes.constructionDateType,
+                        shapes.ownerType,
                         shapes.galleryItemType,
                         shapes.areaType,
-                        shapes.ownerType
+                        shapes.constructionDateType,
+                        shapes.skyscraperTypeType
                     ].map((shapeType, index) => (
-                        <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7">
+                        <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7 pr-7">
                             <div className="pt-2 pb-5">
                                 {shapeType.map((line, index) => (
                                     <pre key={index} data-prefix={index + 1}>
@@ -206,35 +214,25 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <div className="mockup-code max-w-96 mb-7">
-                    <div className='pt-2 pb-5'>
-                        {
-                            shapes.softwareToolCategoryType.map((line, index) =>
-                                <pre key={index} data-prefix={index + 1}>
-                                    <code className={
-                                        linePosition(line.position)
-                                    }>
-                                        {line.line}
-                                    </code>
-                                </pre>
-                            )
-                        }
-                    </div>
-                </div>
-                <div className="mockup-code max-w-96 mb-7">
-                    <div className='pt-2 pb-5'>
-                        {
-                            shapes.softwareToolCreatorType.map((line, index) =>
-                                <pre key={index} data-prefix={index + 1}>
-                                    <code className={
-                                        linePosition(line.position)
-                                    }>
-                                        {line.line}
-                                    </code>
-                                </pre>
-                            )
-                        }
-                    </div>
+                <div className="flex flex-wrap gap-4 justify-start">
+                    {[
+                        shapes.softwareToolCreatorType,
+                        shapes.softwareToolCategoryType
+                    ].map((shapeType, index) => (
+                        <div key={index} className={`mockup-code min-w-full lg:min-w-fit mb-7 pr-7`}>
+                            <div className="pt-2 pb-5">
+                                {shapeType.map((line, index) => (
+                                    <pre key={index} data-prefix={index + 1}>
+                                        <code className={
+                                            linePosition(line.position)
+                                        }>
+                                            {line.line}
+                                        </code>
+                                    </pre>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
                 </div>
                 <div className="mockup-code max-w-96 mb-7">
                     <div className='pt-2 pb-5'>
@@ -270,7 +268,7 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <div className="mockup-code max-w-fit mb-1">
+                <div className="mockup-code max-w-fit mb-1 pr-7">
                     <div className='pt-2 pb-5'>
                         <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums')`}</code></pre>
                         <pre data-prefix="2"><code className='pl-7'>{`.then(response => response.json())`}</code></pre>
@@ -287,7 +285,7 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <div className="mockup-code max-w-fit  mb-1">
+                <div className="mockup-code max-w-fit mb-1 pr-7">
                     <div className='pt-2 pb-5'>
                         <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums/2')`}</code></pre>
                         <pre data-prefix="2"><code className='pl-7'>{`.then(response => response.json())`}</code></pre>
@@ -304,8 +302,8 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>To add a new music album, send a POST request to the /albums endpoint with the following data:</p>
-                <div className="mockup-code max-w-fit  mb-1">
+                <p className='pb-3'>To add a new music album, send a POST request to the /albums endpoint:</p>
+                <div className="mockup-code max-w-fit mb-1">
                     <div className='pt-2 pb-2'>
                         {
                             postRequest.map((line, index) =>
@@ -320,9 +318,9 @@ export const sections: Section[] = [
                         }
                     </div>
                 </div>
-                <Note strongText='Content-Type:' note={`Always include 'Content-Type': 'application/json' in the request headers to tell the server that you're sending JSON data.`} />
                 <Note strongText='Data Structure:' note={`Make sure your request body matches the expected data structure for each type. Refer to the examples above for the format.`} />
-                <Note strongText='Notice:' note={`The compiler shouts because month is of type Month. In this example, it must be written 'March'.`} />
+                <Note strongText='Notice:' note={`We add id: 1 to the Album object because TypeScript expects it. The id will be generated on the server based on the length of the Albums array.`} />
+                <Note strongText='Notice:' note={`The compiler shouts because month is of type Month. In this example, it must be written 'September'.`} />
             </>
     },
     {
