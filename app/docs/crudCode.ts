@@ -1,6 +1,67 @@
-import { type Request } from "./types/types";
+import { type CodeLine } from "./types/types";
 
-export const postRequest: Request[] = [
+const space: CodeLine = { line: '', position: 0 };
+
+export const postRequest: CodeLine[] = [
+    {
+        line: 'const newAlbum: MusicAlbum = {',
+        position: 0
+    },
+    {
+        line: 'id: 1,',
+        position: 1,
+        style: 'text-warning'
+    },
+    {
+        line: `title: 'Experience',`,
+        position: 1
+    },
+    {
+        line: `artist: 'The Prodigy',`,
+        position: 1
+    },
+    {
+        line: `description: 'Experience is the debut studio album by the Prodigy.',`,
+        position: 1
+    },
+    {
+        line: 'releaseDate: {',
+        position: 1
+    },
+    {
+        line: 'day: 28,',
+        position: 2
+    },
+    {
+        line: `month: 'Sept',`,
+        position: 2,
+        style: 'underline decoration-1 underline-offset-2 decoration-rose-500 decoration-wavy'
+    },
+    {
+        line: 'year: 1992,',
+        position: 2,
+    },
+    {
+        line: '},',
+        position: 1,
+    },
+    {
+        line: `genre: 'Electronic',`,
+        position: 1,
+    },
+    {
+        line: `label: 'XL Recordings',`,
+        position: 1,
+    },
+    {
+        line: `wiki: 'https://en.wikipedia.org/wiki/Experience_(The_Prodigy_album)',`,
+        position: 1,
+    },
+    {
+        line: '};',
+        position: 0,
+    },
+    space,
     {
         line: `fetch('https://timeloopsapi.com/albums', {`,
         position: 0
@@ -11,56 +72,7 @@ export const postRequest: Request[] = [
         style: 'bg-secondary text-secondary-content'
     },
     {
-        line: 'body: JSON.stringify({',
-        position: 1
-    },
-    {
-        line: `title: 'New Album',`,
-        position: 2
-    },
-    {
-        line: `artist: 'Artist Name',`,
-        position: 2
-    },
-    {
-        line: `description: 'My Album Description',`,
-        position: 2
-    },
-    {
-        line: 'releaseDate: {',
-        position: 2
-    },
-    {
-        line: 'day: 15,',
-        position: 3
-    },
-    {
-        line: `month: 'Mar',`,
-        position: 3,
-        style: 'underline decoration-1 underline-offset-2 decoration-rose-500 decoration-wavy'
-    },
-    {
-        line: 'year: 2023,',
-        position: 3
-    },
-    {
-        line: '},',
-        position: 2
-    },
-    {
-        line: `genre: 'Pop',`,
-        position: 2
-    },
-    {
-        line: `label: 'XYZ Label',`,
-        position: 2
-    },
-    {
-        line: `wiki: 'https://en.wikipedia.org/wiki/Album_Name',`,
-        position: 2
-    },
-    {
-        line: '}),',
+        line: 'body: JSON.stringify(newAlbum)',
         position: 1
     },
     {
@@ -78,5 +90,7 @@ export const postRequest: Request[] = [
     {
         line: `.catch(error => console.error('Error:', error));`,
         position: 1
-    }
+    },
+    space,
 ];
+
