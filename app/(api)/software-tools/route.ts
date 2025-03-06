@@ -1,10 +1,14 @@
-import { NextRequest, NextResponse } from 'next/server';
-import softwareTools from './data.json';
-import { SoftwareTool } from '../types';
+import {
+  NextRequest,
+  NextResponse
+} from 'next/server';
+
 import { getHeaders } from '../headers';
+import { SoftwareTool } from '../types';
+import softwareTools from './data.json';
 import { softwareToolSchema } from './validationSchema';
 
-export const GET = async (): Promise<NextResponse<SoftwareTool[]>> => {
+export const GET = async () => {
   const headers = getHeaders('GET');
   return NextResponse.json(softwareTools, { headers: headers });
 };

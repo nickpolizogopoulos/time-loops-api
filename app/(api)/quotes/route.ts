@@ -1,8 +1,13 @@
-import { NextResponse } from 'next/server';
-import quotes from './data.json';
-import { Quote } from '../types';
+import {
+  NextRequest,
+  NextResponse
+} from 'next/server';
+
 import { getHeaders } from '../headers';
+import { Quote } from '../types';
+import quotes from './data.json';
 import { quoteSchema } from './validationSchema';
+
 
 export const GET = async (): Promise<NextResponse<Quote[]>> => {
   const headers = getHeaders('GET');
@@ -10,7 +15,7 @@ export const GET = async (): Promise<NextResponse<Quote[]>> => {
 };
 
 
-export const POST = async (request: Request) => {
+export const POST = async (request: NextRequest) => {
   const body: Quote = await request.json();
   const headers = getHeaders('POST');
   const validation = quoteSchema.safeParse(body);

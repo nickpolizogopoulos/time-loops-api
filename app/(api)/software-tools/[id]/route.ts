@@ -2,13 +2,11 @@ import {
   NextRequest,
   NextResponse
 } from 'next/server';
+
 import { getHeaders } from '../../headers';
-import { SoftwareTool } from '../../types';
 import softwareTools from '../data.json';
 
-type ReturnType = Promise<NextResponse<SoftwareTool> | NextResponse<{ message: string }>>;
-
-export const GET = async (request: NextRequest): ReturnType => {
+export const GET = async (request: NextRequest) => {
   const url = new URL(request.url);
   const id = +(url.pathname.split('/').pop()!);
   const headers = getHeaders('GET');
@@ -21,16 +19,22 @@ export const GET = async (request: NextRequest): ReturnType => {
 };
 
 
-export const DELETE = async (request: NextRequest): ReturnType => {
+export const DELETE = async (request: NextRequest) => {
   const url = new URL(request.url);
   const headers = getHeaders('DELETE');
   const id = parseInt(url.pathname.split('/').pop()!);
-  const softwareToolId = softwareTools.findIndex(softwareTool => softwareTool.id === id);
+  const toolIndex = softwareTools.findIndex(tool => tool.id === id);
 
-  if (softwareToolId === -1)
-    return NextResponse.json({ message: 'Software tool not found' }, { status: 404 });
+  if (toolIndex === -1) 
+    return NextResponse.json(
+      { message: 'Album not found' },
+      { status: 404 }
+    );
 
-  softwareTools.splice(softwareToolId, 1);
+  const [tool] = softwareTools.splice(toolIndex, 1);
 
-  return NextResponse.json({ message: 'Software tool deleted successfully' }, { status: 200, headers: headers });
+  return NextResponse.json(
+    { message: `The Software Tool with id ${id} (${tool.title}), has been deleted successfully.` },
+    { status: 200, headers }
+  );
 };
