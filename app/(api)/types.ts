@@ -57,15 +57,24 @@ export type SoftwareTool = {
 
 
 //* Skyscraper
-type Architect = {
+type NamedLink = {
     link: string;
     name: string;
 };
+// type Architect = {
+//     link: string;
+//     name: string;
+// };
 
-type ArchitectureStyle = {
-    link: string;
-    name: string;
-};
+// type ArchitectureStyle = {
+//     link: string;
+//     name: string;
+// };
+
+// type Owner = {
+//     link: string;
+//     name: string;
+// };
 
 type ConstructionDate = {
     day: number;
@@ -85,11 +94,6 @@ type Area = {
     street: string;
 };
 
-type Owner = {
-    link: string;
-    name: string;
-};
-
 type SkyscraperType =
     | 'Commercial'
     | 'Office'
@@ -99,8 +103,8 @@ type SkyscraperType =
     | 'Shopping Mall';
 
 export type Skyscraper = {
-    architects: Architect[];
-    architectureStyle: ArchitectureStyle;
+    architects: NamedLink[];
+    architectureStyle: NamedLink;
     constructionEnded: ConstructionDate;
     constructionStarted: ConstructionDate;
     floorArea: number;
@@ -111,7 +115,7 @@ export type Skyscraper = {
     location: Area;
     numberOfElevators: number;
     openedDate: ConstructionDate;
-    owners: Owner[];
+    owners: NamedLink[];
     photo: string;
     record: string;
     slug: string;

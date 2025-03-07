@@ -98,44 +98,6 @@ export const quoteType: CodeLine[] = [
 ];
 
 //* skyscraper types =================================================
-export const architectType: CodeLine[] = [
-    {
-        line: 'type Architect = {',
-        position: 0
-    },
-    {
-        line: 'link: string;',
-        position: 1
-    },
-    {
-        line: 'name: string;',
-        position: 1
-    },
-    {
-        line: '};',
-        position: 0
-    },
-];
-
-export const architectureStyleType: CodeLine[] = [
-    {
-        line: 'type ArchitectureStyle = {',
-        position: 0
-    },
-    {
-        line: 'link: string;',
-        position: 1
-    },
-    {
-        line: 'name: string;',
-        position: 1
-    },
-    {
-        line: '};',
-        position: 0
-    },
-];
-
 export const constructionDateType: CodeLine[] = [
     {
         line: 'type ConstructionDate = {',
@@ -205,9 +167,9 @@ export const areaType: CodeLine[] = [
     },
 ];
 
-export const ownerType: CodeLine[] = [
+export const namedLink: CodeLine[] = [
     {
-        line: 'type Owner = {',
+        line: 'type NamedLink = {',
         position: 0
     },
     {
@@ -261,11 +223,11 @@ export const skyscraperType: CodeLine[] = [
         position: 0
     },
     {
-        line: 'architects: Architect[];',
+        line: 'architects: NamedLink[];',
         position: 1
     },
     {
-        line: 'architectureStyle: ArchitectureStyle;',
+        line: 'architectureStyle: NamedLink;',
         position: 1
     },
     {
@@ -309,7 +271,7 @@ export const skyscraperType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'owners: Owner[];',
+        line: 'owners: NamedLink[];',
         position: 1
     },
     {

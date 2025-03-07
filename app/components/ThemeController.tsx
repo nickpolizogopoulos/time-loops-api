@@ -1,7 +1,10 @@
 'use client';
 
+import {
+    useEffect,
+    useState
+} from "react";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 
 const ThemeController = () => {
     const { theme, setTheme, resolvedTheme } = useTheme();
