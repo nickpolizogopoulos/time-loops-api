@@ -1,7 +1,10 @@
 import Link from "next/link";
 
 import Note from './_components/Note';
-import { postRequest } from "./crudCode";
+import {
+    deleteRequest,
+    postRequest
+} from "./crudCode";
 import {
     endpoints,
     operations
@@ -79,7 +82,7 @@ export const sections: Section[] = [
                         )
                     }
                 </ul>
-                <Note strongText='Note:' note='The POST, PUT, PATCH and DELETE operations simulate real-world behavior but do not persist or modify data.' />
+                <Note strongText='Note:' note={<span>The POST, PUT, PATCH and DELETE operations simulate real-world behavior but <span className="docs-strong-note">do not persist or modify data.</span></span>} />
             </>
     },
     {
@@ -91,26 +94,36 @@ export const sections: Section[] = [
                 <p className="pb-2">These are the expected data shapes when fetching, using TypeScript as an example.</p>
                 <p className="pb-4">
                     You can find all types{' '}
-                    <a className='btn-link' href='https://github.com/nickpolizogopoulos/time-loops-api/blob/main/app/(api)/types.ts' target='_blank'>
+                    <a className='link link-primary' href='https://github.com/nickpolizogopoulos/time-loops-api/blob/main/app/(api)/types.ts' target='_blank'>
                         here
                     </a>{' '}
                     or copy them directly from the boxes below.
                 </p>
-                <p className="pb-1 text-lg font-medium">General type Month: Used in Albums and Skyscrapers.</p>
-                <div className="mockup-code max-w-fit mb-7 pr-7">
-                    <div className='pt-2 pb-5'>
-                        {
-                            shapes.monthType.map((line, index) =>
-                                <pre key={index} data-prefix={index + 1}>
-                                    <code className={
-                                        linePosition(line.position)
-                                    }>
-                                        {line.line}
-                                    </code>
-                                </pre>
-                            )
-                        }
-                    </div>
+                <p className="pb-1 text-lg font-medium">General types such as Month, CustomDate and NamedLink: Used in Album and Skyscraper types.</p>
+
+                <div className="flex flex-wrap gap-4 justify-start">
+                    {
+                        [
+                            shapes.monthType,
+                            shapes.namedLink,
+                            shapes.customDate
+                        ]
+                        .map((shapeType, index) => (
+                            <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7 pr-7">
+                                <div className="pt-2 pb-5">
+                                    {shapeType.map((line, index) => (
+                                        <pre key={index} data-prefix={index + 1}>
+                                            <code className={
+                                                linePosition(line.position)
+                                            }>
+                                                {line.line}
+                                            </code>
+                                        </pre>
+                                    ))}
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
             </>
     },
@@ -167,12 +180,8 @@ export const sections: Section[] = [
             <>
                 <div className="flex flex-wrap gap-4 justify-start">
                     {[
-                        shapes.architectType,
-                        shapes.architectureStyleType,
-                        shapes.ownerType,
                         shapes.galleryItemType,
                         shapes.areaType,
-                        shapes.constructionDateType,
                         shapes.skyscraperTypeType
                     ].map((shapeType, index) => (
                         <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7 pr-7">
@@ -258,7 +267,7 @@ export const sections: Section[] = [
         content:
             <>
                 <p>Here’s how you can start using Time Loops API in your project:</p>
-                <Note strongText='Note:' note='The examples in the documentation are written in JavaScript using the fetch API, but you can achieve the same results using any programming language or HTTP client, such as Axios, which automatically parses JSON responses.' />
+                <Note strongText='Note:' note='The examples in the documentation are written in JavaScript and TypeScript using the fetch API, but you can achieve the same results using any programming language or HTTP client, such as Axios, which automatically parses JSON responses.' />
             </>
     },
     {
@@ -270,11 +279,13 @@ export const sections: Section[] = [
             <>
                 <div className="mockup-code max-w-fit mb-1 pr-7">
                     <div className='pt-2 pb-5'>
-                        <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums')`}</code></pre>
+                    <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums')`}</code></pre>
                         <pre data-prefix="2"><code className='pl-7'>{`.then(response => response.json())`}</code></pre>
-                        <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
+                        <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log('Albums:', data))`}</code></pre>
+                        <pre data-prefix="4"><code className='pl-7'  >{`.catch(error => console.error('Error:', error));`}</code></pre>
                     </div>
                 </div>
+                <Note strongText="Notice:" note={<span>No need to specify method: "GET", because <span className="docs-strong-note"><span className="font-mono text-sm">fetch()</span> defaults to a GET request</span> if no method is provided.</span>} />
                 <Note note='This will fetch the list of all albums.' />
             </>
     },
@@ -289,10 +300,11 @@ export const sections: Section[] = [
                     <div className='pt-2 pb-5'>
                         <pre data-prefix="1"><code>{`fetch('https://timeloopsapi.com/albums/2')`}</code></pre>
                         <pre data-prefix="2"><code className='pl-7'>{`.then(response => response.json())`}</code></pre>
-                        <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log(data));`}</code></pre>
+                        <pre data-prefix="3"><code className='pl-7'  >{`.then(data => console.log('Album:', data))`}</code></pre>
+                        <pre data-prefix="4"><code className='pl-7'  >{`.catch(error => console.error('Error:', error));`}</code></pre>
                     </div>
                 </div>
-                <Note note='This will fetch the third item from the list of all albums.' />
+                <Note note='This will fetch the second item from the list of all albums.' />
             </>
     },
     {
@@ -302,7 +314,10 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>To add a new music album, send a POST request to the /albums endpoint:</p>
+                <p className='pb-3'>
+                    To add a new music album, send a POST request to the /albums endpoint{' '}
+                    <span className='underline'>(TypeScript)</span>.
+                </p>
                 <div className="mockup-code max-w-fit mb-1">
                     <div className='pt-2 pb-2'>
                         {
@@ -319,8 +334,8 @@ export const sections: Section[] = [
                     </div>
                 </div>
                 <Note strongText='Data Structure:' note={`Make sure your request body matches the expected data structure for each type. Refer to the examples above for the format.`} />
-                <Note strongText='Notice:' note={`We add id: 1 to the Album object because TypeScript expects it. The id will be generated on the server based on the length of the Albums array.`} />
-                <Note strongText='Notice:' note={`The compiler shouts because month is of type Month. In this example, it must be written 'September'.`} />
+                <Note strongText='Notice:' note={<span>We POST including <span className="docs-strong-note">id: 1 because TypeScript expects the id key.</span> The id will be generated on the server based on the length of the Albums array.</span>} />
+                <Note strongText='Notice:' note={<span>The compiler shouts because month is of <span className="docs-strong-note">type Month</span>. In this example, it must be written 'September'.</span>} />
             </>
     },
     {
@@ -330,7 +345,23 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
+                <p className='pb-3'>Deleting a single item is straightforward:</p>
+                <div className="mockup-code max-w-fit mb-1">
+                    <div className='pt-2 pb-2'>
+                        {
+                            deleteRequest.map((line, index) =>
+                                <pre key={index} data-prefix={index + 1} className={line.style ?? undefined}>
+                                    <code className={
+                                        linePosition(line.position)
+                                    }>
+                                        {line.line}
+                                    </code>
+                                </pre>
+                            )
+                        }
+                    </div>
+                </div>
+                <Note strongText="This returns:" note={`Software Tool deleted: { "message": "Software Tool with id 7 (JavaScript) has been deleted successfully" }`} />
             </>
     },
     {
@@ -340,7 +371,8 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>MPOYXTISA Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
+                <p className='pb-3'>The PUT request will <span className='underline'>replace the entire resource</span> with the new data. All fields must be provided, and missing fields will be overwritten.</p>
+                <Note strongText="Reminder: " note={<span>The PUT request does not actually update the resource on the server. Instead, the API simulates the update, making it appear as if the change was successful.</span>} />
             </>
     },
     {
@@ -350,7 +382,8 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quasi?</p>
+                <p className='pb-3'>The PATCH request will <span className='underline'>only update the specified fields</span>, leaving the other fields of the resource unchanged.</p>
+                <Note strongText="Reminder: " note={<span>The PATCH request won’t actually modify the resource on the server. Instead, the API mimics the update, giving the impression that the change was applied.</span>} />
             </>
     }
 ];
