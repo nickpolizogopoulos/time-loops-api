@@ -10,7 +10,10 @@
             "year": 1982
         },
         "genre": "Pop",
-        "label": "Epic",
-        "wiki": "https://en.wikipedia.org/wiki/Thriller_(album)"
+        "label": {
+            "name": "Epic",
+            "link": "https://en.wikipedia.org/wiki/Epic_Records"
+        },
+        "wiki": "https://en.wikipedia.org/wiki/Thriller_%28album%29"
     }
 ]

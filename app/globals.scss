@@ -76,6 +76,10 @@ code {
   @apply bg-gradient-to-r from-primary via-[#dd9f33] to-primary;
 }
 
+.docs-strong-note {
+  @apply font-medium underline;
+}
+
 ::-moz-selection { 
   color: $selection-colour;
   background: $selection-bg;
