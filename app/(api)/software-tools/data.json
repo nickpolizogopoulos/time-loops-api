@@ -13,7 +13,7 @@
             }
         ],
         "yearCreated": 1972,
-        "wiki": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/C_%28programming_language%29"
     },
     {
         "id": 2,
@@ -45,7 +45,7 @@
             }
         ],
         "yearCreated": 2000,
-        "wiki": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29"
     },
     {
         "id": 4,
@@ -93,7 +93,7 @@
             }
         ],
         "yearCreated": 2014,
-        "wiki": "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Swift_%28programming_language%29"
     },
     {
         "id": 7,
@@ -141,7 +141,7 @@
             }
         ],
         "yearCreated": 1995,
-        "wiki": "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Ruby_%28programming_language%29"
     },
     {
         "id": 10,
@@ -157,7 +157,7 @@
             }
         ],
         "yearCreated": 1995,
-        "wiki": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Java_%28programming_language%29"
     },
     {
         "id": 11,
@@ -186,7 +186,7 @@
             
         ],
         "yearCreated": 2009,
-        "wiki": "https://en.wikipedia.org/wiki/Go_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Go_%28programming_language%29"
     },
     {
         "id": 12,
@@ -206,7 +206,7 @@
             }
         ],
         "yearCreated": 2012,
-        "wiki": "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Rust_%28programming_language%29"
     },
     {
         "id": 13,
@@ -222,7 +222,7 @@
             }
         ],
         "yearCreated": 2011,
-        "wiki": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Kotlin_%28programming_language%29"
     },
     {
         "id": 14,
@@ -254,7 +254,7 @@
           }
         ],
         "yearCreated": 1993,
-        "wiki": "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Lua_%28programming_language%29"
     },
     {
         "id": 16,
@@ -270,11 +270,11 @@
             },
             {
                 "name": "Robert Gentleman",
-                "wiki": "https://en.wikipedia.org/wiki/Robert_Gentleman_(statistician)"
+                "wiki": "https://en.wikipedia.org/wiki/Robert_Gentleman_%28statistician%29"
             }
         ],
         "yearCreated": 1993,
-        "wiki": "https://en.wikipedia.org/wiki/R_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/R_%28programming_language%29"
     },
     {
         "id": 17,
@@ -290,11 +290,11 @@
             },
             {
                 "name": "Lars Bak",
-                "wiki": "https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)"
+                "wiki": "https://en.wikipedia.org/wiki/Lars_Bak_%28computer_programmer%29"
             }
         ],
         "yearCreated": 2011,
-        "wiki": "https://en.wikipedia.org/wiki/Dart_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Dart_%28programming_language%29"
     },
     {
         "id": 18,
@@ -310,7 +310,7 @@
             }
         ],
         "yearCreated": 2004,
-        "wiki": "https://en.wikipedia.org/wiki/Scala_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Scala_%28programming_language%29"
     },
     {
         "id": 19,
@@ -326,7 +326,7 @@
             }
         ],
         "yearCreated": 1970,
-        "wiki": "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Pascal_%28programming_language%29"
     },
     {
         "id": 20,
@@ -346,7 +346,7 @@
             }
         ],
         "yearCreated": 2005,
-        "wiki": "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29"
     },
     {
         "id": 21,
@@ -362,7 +362,7 @@
           }
         ],
         "yearCreated": 2016,
-        "wiki": "https://en.wikipedia.org/wiki/Zig_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Zig_%28programming_language%29"
     },
     {
         "id": 22,
@@ -406,7 +406,7 @@
             }
         ],
         "yearCreated": 2012,
-        "wiki": "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Julia_%28programming_language%29"
     },
     {
         "id": 24,
@@ -426,7 +426,7 @@
             }
         ],
         "yearCreated": 1995,
-        "wiki": "https://en.wikipedia.org/wiki/Delphi_(programming_language)"
+        "wiki": "https://en.wikipedia.org/wiki/Delphi_%28programming_language%29"
     },
     {
         "id": 25,
@@ -478,7 +478,7 @@
             }
         ],
         "yearCreated": 2018,
-        "wiki": "https://en.wikipedia.org/wiki/Deno_(runtime)"
+        "wiki": "https://en.wikipedia.org/wiki/Deno_%28runtime%29"
     },
     {
         "id": 28,
@@ -494,7 +494,7 @@
             }
         ],
         "yearCreated": 2021,
-        "wiki": "https://en.wikipedia.org/wiki/Bun_(software)"
+        "wiki": "https://en.wikipedia.org/wiki/Bun_%28software%29"
     },
     {
         "id": 29,
@@ -538,7 +538,7 @@
         "creators": [
             {
                 "name": "Rod Johnson",
-                "wiki": "https://en.wikipedia.org/wiki/Rod_Johnson_(programmer)"
+                "wiki": "https://en.wikipedia.org/wiki/Rod_Johnson_%28programmer%29"
             }
         ],
         "yearCreated": 2013,
@@ -590,7 +590,7 @@
             }
         ],
         "yearCreated": 2016,
-        "wiki": "https://en.wikipedia.org/wiki/Angular_(web_framework)"
+        "wiki": "https://en.wikipedia.org/wiki/Angular_%28web_framework%29"
     },
     {
         "id": 35,
@@ -638,7 +638,7 @@
           }
         ],
         "yearCreated": 2017,
-        "wiki": "https://en.wikipedia.org/wiki/Flutter_(software)"
+        "wiki": "https://en.wikipedia.org/wiki/Flutter_%28software%29"
     },
     {
         "id": 38,
@@ -654,7 +654,7 @@
             }
         ],
         "yearCreated": 2013,
-        "wiki": "https://en.wikipedia.org/wiki/Electron_(software_framework)"
+        "wiki": "https://en.wikipedia.org/wiki/Electron_%28software_framework%29"
     },
     {
         "id": 39,
@@ -702,7 +702,7 @@
             }
         ],
         "yearCreated": 2013,
-        "wiki": "https://en.wikipedia.org/wiki/React_(web_framework)"
+        "wiki": "https://en.wikipedia.org/wiki/React_%28web_framework%29"
     },
     {
         "id": 42,
@@ -754,7 +754,7 @@
             }
         ],
         "yearCreated": 2015,
-        "wiki": "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)"
+        "wiki": "https://en.wikipedia.org/wiki/Redux_%28JavaScript_library%29"
     },
     {
         "id": 45,
@@ -766,7 +766,7 @@
         "creators": [
             {
                 "name": "Erik Meijer",
-                "wiki": "https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)"
+                "wiki": "https://en.wikipedia.org/wiki/Erik_Meijer_%28computer_scientist%29"
             }
         ],
         "yearCreated": 2015,

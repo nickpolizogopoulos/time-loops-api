@@ -1,26 +1,32 @@
-//* General 
-export type Month = 'January' | 'February' | 'March' | 'April' | 'May' 
+//* General types.
+type Month = 'January' | 'February' | 'March' | 'April' | 'May' 
     | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December';
 
+type CustomDate = {
+    day: string;
+    month: Month;
+    year: number;
+};
 
-//* Music Album
+type NamedLink = {
+    link: string;
+    name: string;
+};
+
+//* Music Album type.
 export type MusicAlbum = {
     id: number;
     title: string;
     artist: string;
     description: string;
-    releaseDate: {
-        day: number;
-        month: Month;
-        year: number;
-    };
+    releaseDate: CustomDate;
     genre: string;
-    label: string;
+    label: NamedLink;
     wiki: string;
 };
 
 
-//* Quote
+//* Quote type.
 export type Quote = {
     id: number;
     quote: string;
@@ -29,7 +35,7 @@ export type Quote = {
 };
 
 
-//* Software Tool
+//* Software Tool type.
 type Creator = {
     name: string;
     wiki: string;
@@ -56,32 +62,7 @@ export type SoftwareTool = {
 };
 
 
-//* Skyscraper
-type NamedLink = {
-    link: string;
-    name: string;
-};
-// type Architect = {
-//     link: string;
-//     name: string;
-// };
-
-// type ArchitectureStyle = {
-//     link: string;
-//     name: string;
-// };
-
-// type Owner = {
-//     link: string;
-//     name: string;
-// };
-
-type ConstructionDate = {
-    day: number;
-    month: string;
-    year: number;
-};
-
+//* Skyscraper types.
 type GalleryItem = {
     caption: string;
     source: string;
@@ -105,8 +86,8 @@ type SkyscraperType =
 export type Skyscraper = {
     architects: NamedLink[];
     architectureStyle: NamedLink;
-    constructionEnded: ConstructionDate;
-    constructionStarted: ConstructionDate;
+    constructionEnded: CustomDate;
+    constructionStarted: CustomDate;
     floorArea: number;
     floorCount: number;
     gallery: GalleryItem[];
@@ -114,7 +95,7 @@ export type Skyscraper = {
     informationParagraphs: string[];
     location: Area;
     numberOfElevators: number;
-    openedDate: ConstructionDate;
+    openedDate: CustomDate;
     owners: NamedLink[];
     photo: string;
     record: string;
