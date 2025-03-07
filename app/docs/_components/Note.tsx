@@ -1,6 +1,8 @@
+import { JSX } from "react";
+
 type Props = {
     strongText?: string;
-    note: string;
+    note: string | JSX.Element;
 };
 
 const Note = ({strongText, note}: Props) => {
