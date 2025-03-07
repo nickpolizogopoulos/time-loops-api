@@ -1,16 +1,64 @@
 import { type CodeLine } from "./types/types";
 
+//* general types ==========
 export const monthType: CodeLine[] = [
     {
-        line: `export type Month = 'January' | 'February' | 'March' | 'April' | 'May' | 'June'`,
+        line: `export type Month =`,
         position: 0
     },
     {
-        line: `| 'July' | 'August' | 'September' | 'October' | 'November' | 'December';`,
+        line: `| 'January' | 'February' | 'March' | 'April' `,
+        position: 1
+    },
+    {
+        line: `| 'May' | 'June' | 'July' | 'August'`,
+        position: 1
+    },
+    {
+        line: `| 'September' | 'October' | 'November' | 'December';`,
         position: 1
     }
 ];
 
+export const namedLink: CodeLine[] = [
+    {
+        line: 'type NamedLink = {',
+        position: 0
+    },
+    {
+        line: 'link: string;',
+        position: 1
+    },
+    {
+        line: 'name: string;',
+        position: 1
+    },
+    {
+        line: '};',
+        position: 0
+    },
+];
+
+export const customDate: CodeLine[] = [
+    {
+        line: 'export type CustomDate = {',
+        position: 0
+    },
+    {
+        line: 'day: number;',
+        position: 1
+    },
+    {
+        line: 'month: Month;',
+        position: 1
+    },
+    {
+        line: 'year: number;',
+        position: 1
+    }
+];
+
+//* music albums types ==========
 export const albumType: CodeLine[] = [
     {
         line: 'export type MusicAlbum = {',
@@ -33,23 +81,7 @@ export const albumType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'releaseDate: {',
-        position: 1
-    },
-    {
-        line: 'day: number;',
-        position: 2
-    },
-    {
-        line: 'month: Month;',
-        position: 2
-    },
-    {
-        line: 'year: number;',
-        position: 2
-    },
-    {
-        line: '};',
+        line: 'releaseDate: CustomDate;',
         position: 1
     },
     {
@@ -57,7 +89,7 @@ export const albumType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'label: string;',
+        line: 'label: NamedLink;',
         position: 1
     },
     {
@@ -70,6 +102,7 @@ export const albumType: CodeLine[] = [
     }
 ];
 
+//* quotes types ==========
 export const quoteType: CodeLine[] = [
     {
         line: 'export type Quote = {',
@@ -97,30 +130,7 @@ export const quoteType: CodeLine[] = [
     }
 ];
 
-//* skyscraper types =================================================
-export const constructionDateType: CodeLine[] = [
-    {
-        line: 'type ConstructionDate = {',
-        position: 0
-    },
-    {
-        line: 'day: number;',
-        position: 1
-    },
-    {
-        line: 'month: Month;',
-        position: 1
-    },
-    {
-        line: 'year: number;',
-        position: 1
-    },
-    {
-        line: '};',
-        position: 0
-    },
-];
-
+//* skyscraper types ==========
 export const galleryItemType: CodeLine[] = [
     {
         line: 'type GalleryItem = {',
@@ -167,54 +177,19 @@ export const areaType: CodeLine[] = [
     },
 ];
 
-export const namedLink: CodeLine[] = [
-    {
-        line: 'type NamedLink = {',
-        position: 0
-    },
-    {
-        line: 'link: string;',
-        position: 1
-    },
-    {
-        line: 'name: string;',
-        position: 1
-    },
-    {
-        line: '};',
-        position: 0
-    },
-];
-
 export const skyscraperTypeType: CodeLine[] = [
     {
-        line: 'type SkyscraperType = {',
+        line: 'type SkyscraperType =',
         position: 0
     },
     {
-        line: `| 'Commercial'`,
+        line: `| 'Commercial' | 'Office' | 'Retail'`,
         position: 1
     },
     {
-        line: `| 'Office'`,
+        line: `| 'Residential' | 'Hotel' | 'Shopping Mall';`,
         position: 1
-    },
-    {
-        line: `| 'Retail'`,
-        position: 1
-    },
-    {
-        line: `| 'Residential'`,
-        position: 1
-    },
-    {
-        line: `| 'Hotel'`,
-        position: 1
-    },
-    {
-        line: `| 'Shopping Mall';`,
-        position: 1
-    },
+    }
 ];
 
 export const skyscraperType: CodeLine[] = [
@@ -231,11 +206,11 @@ export const skyscraperType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'constructionEnded: ConstructionDate;',
+        line: 'constructionEnded: CustomDate;',
         position: 1
     },
     {
-        line: 'constructionStarted: ConstructionDate;',
+        line: 'constructionStarted: CustomDate;',
         position: 1
     },
     {
@@ -267,7 +242,7 @@ export const skyscraperType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'openedDate: ConstructionDate;',
+        line: 'openedDate: CustomDate;',
         position: 1
     },
     {
@@ -311,8 +286,8 @@ export const skyscraperType: CodeLine[] = [
         position: 0
     }
 ];
-//* skyscraper types end =================================================
 
+//* software-tools types ==========
 export const softwareToolCreatorType: CodeLine[] = [
     {
         line: 'type Creator = {',
@@ -334,11 +309,19 @@ export const softwareToolCreatorType: CodeLine[] = [
 
 export const softwareToolCategoryType: CodeLine[] = [
     {
-        line: `type Category = 'programming-language' | 'runtime' | 'framework' | 'library'`,
+        line: `type Category =`,
         position: 0
     },
     {
-        line: `'query-language' | 'relational-database-management-system';`,
+        line: `| 'programming-language' | 'runtime' `,
+        position: 1
+    },
+    {
+        line: `| 'framework' | 'library' | 'query-language'`,
+        position: 1
+    },
+    {
+        line: `| 'relational-database-management-system';`,
         position: 1
     }
 ];
