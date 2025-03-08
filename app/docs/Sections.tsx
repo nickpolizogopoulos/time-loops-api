@@ -109,7 +109,7 @@ export const sections: Section[] = [
                             shapes.customDate
                         ]
                         .map((shapeType, index) => (
-                            <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7 pr-7">
+                            <div key={index} className="mockup-code max-w-96 mb-7 pr-7">
                                 <div className="pt-2 pb-5">
                                     {shapeType.map((line, index) => (
                                         <pre key={index} data-prefix={index + 1}>
@@ -184,7 +184,7 @@ export const sections: Section[] = [
                         shapes.areaType,
                         shapes.skyscraperTypeType
                     ].map((shapeType, index) => (
-                        <div key={index} className="mockup-code min-w-full sm:min-w-fit mb-7 pr-7">
+                        <div key={index} className="mockup-code max-w-96 mb-7 pr-7">
                             <div className="pt-2 pb-5">
                                 {shapeType.map((line, index) => (
                                     <pre key={index} data-prefix={index + 1}>
