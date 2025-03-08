@@ -7,14 +7,17 @@ export const softwareToolSchema = z.object({
     description: z.string().min(10, { message: 'Description must be at least 10 characters long.' }),
     image: URL,
     usage: z.string().min(5, { message: 'Usage must be at least 5 characters long.' }),
-    category: z.enum([
-        'programming-language',
-        'runtime',
-        'framework',
-        'library',
-        'query-language',
-        'relational-database-management-system',
-    ], { message: `Category must be one of the predefined values: [programming-language, runtime, framework, library, query-language or relational-database-management-system` }),
+    category: z.enum(
+        [
+            'programming-language',
+            'runtime',
+            'framework',
+            'library',
+            'query-language',
+            'relational-database-management-system',
+        ],
+        { message: `Category must be one of the predefined values: [programming-language, runtime, framework, library, query-language or relational-database-management-system` }
+    ),
     creators: z.array(
         z.object({
             name: z.string().min(1, { message: 'Creator name is required.' }),

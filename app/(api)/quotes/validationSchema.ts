@@ -7,5 +7,5 @@ export const quoteSchema = z.object({
         'software-industry',
         'general',
         'creativity'
-    ], { message: `Category must be one of the predefined values: "software-industry" | "general" | "creativity"` }),
+    ], { message: `Category must be either software-industry, general or creativity` })
 });
