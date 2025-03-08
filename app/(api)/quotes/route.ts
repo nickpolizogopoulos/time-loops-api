@@ -11,7 +11,7 @@ import { quoteSchema } from './validationSchema';
 
 export const GET = async (): Promise<NextResponse<Quote[]>> => {
   const headers = getHeaders('GET');
-  return NextResponse.json(quotes, { headers: headers });
+  return NextResponse.json(quotes, { status: 200, headers });
 };
 
 
@@ -21,7 +21,7 @@ export const POST = async (request: NextRequest) => {
   const validation = quoteSchema.safeParse(body);
 
   if (!validation.success)
-    return NextResponse.json(validation.error.format(), { status: 400, headers: headers });
+    return NextResponse.json(validation.error.format(), { status: 400, headers });
 
   const id = quotes.length + 1;
   const newQuote = { ...body, id: id };

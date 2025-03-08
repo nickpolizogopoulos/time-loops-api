@@ -13,9 +13,9 @@ export const GET = async (request: NextRequest) => {
   const album = musicAlbums.find(album => album.id === id);
 
   if (!album)
-    return NextResponse.json({ message: 'Album not found' }, { status: 404, headers: headers });
+    return NextResponse.json({ message: 'Album not found' }, { status: 404, headers });
   
-  return NextResponse.json(album, { headers: headers });
+  return NextResponse.json(album, { status: 200, headers });
 };
 
 
@@ -26,10 +26,7 @@ export const DELETE = async (request: NextRequest) => {
   const albumIndex = musicAlbums.findIndex(album => album.id === id);
 
   if (albumIndex === -1) 
-    return NextResponse.json(
-      { message: 'Quote not found' },
-      { status: 404 }
-    );
+    return NextResponse.json({ message: 'Quote not found' }, { status: 404, headers });
 
   const [album] = musicAlbums.splice(albumIndex, 1);
 

@@ -10,7 +10,7 @@ import { softwareToolSchema } from './validationSchema';
 
 export const GET = async () => {
   const headers = getHeaders('GET');
-  return NextResponse.json(softwareTools, { headers: headers });
+  return NextResponse.json(softwareTools, { status: 200, headers });
 };
 
 
@@ -20,10 +20,10 @@ export const POST = async (request: NextRequest) => {
   const validation = softwareToolSchema.safeParse(body);
 
   if (!validation.success) 
-    return NextResponse.json(validation.error.format(), { status: 400, headers: headers });
+    return NextResponse.json(validation.error.format(), { status: 400, headers });
 
   const id = softwareTools.length + 1;
   const newSoftwareTool = { ...validation.data, id: id }; 
 
-  return NextResponse.json(newSoftwareTool, { status: 201, headers: headers });
+  return NextResponse.json(newSoftwareTool, { status: 201, headers });
 };

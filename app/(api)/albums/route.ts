@@ -13,7 +13,7 @@ import { musicAlbumSchema } from './validationSchema';
 
 export const GET = async (): Promise<NextResponse<MusicAlbum[]>> => {
   const headers = getHeaders('GET');
-  return NextResponse.json(musicAlbums as MusicAlbum[], {headers: headers});
+  return NextResponse.json(musicAlbums as MusicAlbum[], { status: 200, headers });
 };
 
 
@@ -23,7 +23,7 @@ export const POST = async (request: NextRequest) => {
   const validation = musicAlbumSchema.safeParse(body);
   
   if (!validation.success)
-    return NextResponse.json(validation.error.format(), { status: 400, headers: headers });
+    return NextResponse.json(validation.error.format(), { status: 400, headers });
 
   const id = musicAlbums.length + 1;
   const newAlbum = { ...body, id: id };
