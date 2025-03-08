@@ -1,6 +1,6 @@
 import { type CodeLine } from "./types/types";
 
-const space: CodeLine = { line: '', position: 0 };
+export const space: CodeLine = { line: '', position: 0 };
 
 export const postRequest: CodeLine[] = [
     {
@@ -94,3 +94,35 @@ export const postRequest: CodeLine[] = [
     space,
 ];
 
+export const deleteRequest: CodeLine[] = [
+    {
+        line: `fetch('https://timeloopsapi.com/software-tools/7', {`,
+        position: 0
+    },
+    {
+        line: `method: 'DELETE'`,
+        position: 1,
+        style: 'bg-secondary text-secondary-content'
+    },
+    {
+        line: '})',
+        position: 0
+    },
+    {
+        line: '.then(response => response.json())',
+        position: 1
+    },
+    {
+        line: `.then(data => console.log('Software Tool deleted:', data))`,
+        position: 1
+    },
+    {
+        line: `.catch(error => console.error('Error:', error));`,
+        position: 1
+    },
+    space
+];
+
+
+export const putRequest: CodeLine[] = [];
+export const patchRequest: CodeLine[] = [];
