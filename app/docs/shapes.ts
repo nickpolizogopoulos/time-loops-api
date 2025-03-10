@@ -89,7 +89,7 @@ export const albumType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'label: NamedLink;',
+        line: 'label: NamedLink[];',
         position: 1
     },
     {
@@ -183,13 +183,29 @@ export const skyscraperTypeType: CodeLine[] = [
         position: 0
     },
     {
-        line: `| 'Commercial' | 'Office' | 'Retail'`,
+        line: `| 'Commercial'`,
         position: 1
     },
     {
-        line: `| 'Residential' | 'Hotel' | 'Shopping Mall';`,
+        line: `| 'Office'`,
         position: 1
-    }
+    },
+    {
+        line: `| 'Retail'`,
+        position: 1
+    },
+    {
+        line: `| 'Residential'`,
+        position: 1
+    },
+    {
+        line: `| 'Hotel'`,
+        position: 1
+    },
+    {
+        line: `| 'Shopping Mall';`,
+        position: 1
+    },
 ];
 
 export const skyscraperType: CodeLine[] = [

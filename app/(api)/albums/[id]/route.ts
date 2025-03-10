@@ -6,6 +6,7 @@ import {
 import { getHeaders } from '../../headers';
 import musicAlbums from '../data.json';
 
+
 export const GET = async (request: NextRequest) => {
   const url = new URL(request.url);
   const id = +(url.pathname.split('/').pop()!);

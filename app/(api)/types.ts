@@ -21,7 +21,7 @@ export type MusicAlbum = {
     description: string;
     releaseDate: CustomDate;
     genre: string;
-    label: NamedLink;
+    label: NamedLink[];
     wiki: string;
 };
 
