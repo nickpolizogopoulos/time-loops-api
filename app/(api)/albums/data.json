@@ -10,10 +10,1985 @@
             "year": 1982
         },
         "genre": "Pop",
-        "label": {
-            "name": "Epic",
-            "link": "https://en.wikipedia.org/wiki/Epic_Records"
-        },
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
         "wiki": "https://en.wikipedia.org/wiki/Thriller_%28album%29"
+    },
+    {
+        "id": 2,
+        "title": "Pet Sounds",
+        "artist": "The Beach Boys",
+        "description": "The Beach Boys are an American rock band formed in Hawthorne, California, in 1961. The group's original lineup consisted of brothers Brian, Dennis and Carl Wilson, their cousin Mike Love, and friend Al Jardine",
+        "releaseDate": {
+            "day": 16,
+            "month": "May",
+            "year": 1966
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Pet_Sounds"
+    },
+    {
+        "id": 3,
+        "title": "Experience",
+        "artist": "The Prodigy",
+        "description": "Experience (also known as The Prodigy Experience) is the debut studio album by English electronic music group the Prodigy",
+        "releaseDate": {
+            "day": 28,
+            "month": "September",
+            "year": 1992
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "XL",
+                "link": "https://en.wikipedia.org/wiki/XL_Recordings"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Experience_%28The_Prodigy_album%29"
+    },
+    {
+        "id": 4,
+        "title": "Play",
+        "artist": "Moby",
+        "description": "Play is the fifth studio album by American electronic musician Moby. It was released on May 17, 1999, through Mute Records internationally and V2 Records in North America.",
+        "releaseDate": {
+            "day": 17,
+            "month": "May",
+            "year": 1999
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Mute",
+                "link": "https://en.wikipedia.org/wiki/Mute_Records"
+            },
+            {
+                "name": "V2",
+                "link": "https://en.wikipedia.org/wiki/V2_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Play_%28Moby_album%29"
+    },
+    {
+        "id": 5,
+        "title": "The Best of Sade",
+        "artist": "Sade",
+        "description": "The Best of Sade is the first greatest hits album by English band Sade, released by Epic Records in the United Kingdom on 31 October 1994 and in the United States on 4 November 1994.",
+        "releaseDate": {
+            "day": 31,
+            "month": "October",
+            "year": 1994
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Best_of_Sade"
+    },
+    {
+        "id": 6,
+        "title": "Random Access Memories",
+        "artist": "Daft Punk",
+        "description": "Random Access Memories is the fourth and final studio album by the French electronic music duo Daft Punk, released on 17 May 2013 through Columbia Records. It pays tribute to late 1970s and early 1980s American music, particularly from Los Angeles.",
+        "releaseDate": {
+            "day": 17,
+            "month": "May",
+            "year": 2013
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Columbia",
+                "link": "https://en.wikipedia.org/wiki/Columbia_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Random_Access_Memories"
+    },
+    {
+        "id": 7,
+        "title": "R Plus Seven",
+        "artist": "Oneohtrix Point Never",
+        "description": "R Plus Seven is the eighth studio album by Oneohtrix Point Never, released in 2013. Known for its experimental electronic sound, the album explores abstract textures and melodies with tracks like 'Boring Angel' and 'Still Life'. It challenges traditional song structures and delves into the realms of ambient and noise music.",
+        "releaseDate": {
+            "day": 30,
+            "month": "September",
+            "year": 2013
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Warp",
+                "link": "https://en.wikipedia.org/wiki/Warp_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/R_Plus_Seven"
+    },    
+    {
+        "id": 8,
+        "title": "Revolver",
+        "artist": "The Beatles",
+        "description": "Revolver is the seventh studio album by the English rock band the Beatles. It was released on 5 August 1966, accompanied by the double A-side single \"Eleanor Rigby\" / \"Yellow Submarine\".",
+        "releaseDate": {
+            "day": 5,
+            "month": "August",
+            "year": 1966
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            },
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Revolver_%28Beatles_album%29"
+    },
+    {
+        "id": 9,
+        "title": "What's Going On",
+        "artist": "Marvin Gaye",
+        "description": "What's Going On is the eleventh studio album by the American soul singer Marvin Gaye. It was released on May 21, 1971, by the Motown Records subsidiary label Tamla.",
+        "releaseDate": {
+            "day": 21,
+            "month": "May",
+            "year": 1971
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Motown",
+                "link": "https://en.wikipedia.org/wiki/Motown"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/What%27s_Going_On_%28album%29"
+    },
+    {
+        "id": 10,
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "The Beatles",
+        "description": "Sgt. Pepper's Lonely Hearts Club Band is a groundbreaking album by The Beatles, known for its experimental production, psychedelic influences, and iconic songs like 'Lucy in the Sky with Diamonds' and 'A Day in the Life'. It is widely regarded as one of the greatest albums of all time.",
+        "releaseDate": {
+            "day": 26,
+            "month": "May",
+            "year": 1967
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band"
+    },
+    {
+        "id": 11,
+        "title": "OK Computer",
+        "artist": "Radiohead",
+        "description": "OK Computer is a landmark album by Radiohead, blending alternative rock with electronic and experimental elements. Featuring songs like 'Paranoid Android' and 'Karma Police', it explores themes of technology, alienation, and modern life, earning critical acclaim as one of the greatest albums ever made.",
+        "releaseDate": {
+            "day": 21,
+            "month": "May",
+            "year": 1997
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            },
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/OK_Computer"
+    },
+    {
+        "id": 12,
+        "title": "Never Mind the Bollocks, Here's the Sex Pistols",
+        "artist": "Sex Pistols",
+        "description": "Never Mind the Bollocks, Here's the Sex Pistols is the only studio album by the Sex Pistols. A defining record of punk rock, it features rebellious anthems like 'Anarchy in the U.K.' and 'God Save the Queen', influencing generations of punk and alternative music.",
+        "releaseDate": {
+            "day": 28,
+            "month": "October",
+            "year": 1977
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Virgin",
+                "link": "https://en.wikipedia.org/wiki/Virgin_Records"
+            },
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Never_Mind_the_Bollocks,_Here%27s_the_Sex_Pistols"
+    },
+    {
+        "id": 13,
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "description": "The Dark Side of the Moon is Pink Floyd's legendary concept album, exploring themes of time, mental illness, greed, and human experience. Featuring iconic tracks like 'Time' and 'Money', its groundbreaking production and immersive soundscapes have made it one of the best-selling and most influential albums of all time.",
+        "releaseDate": {
+            "day": 1,
+            "month": "March",
+            "year": 1973
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Harvest",
+                "link": "https://en.wikipedia.org/wiki/Harvest_Records"
+            },
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
+    },
+    {
+        "id": 14,
+        "title": "The Queen Is Dead",
+        "artist": "The Smiths",
+        "description": "The Queen Is Dead is the third studio album by The Smiths, widely considered their finest work. With tracks like 'There Is a Light That Never Goes Out' and 'Bigmouth Strikes Again', it blends melancholy with biting social commentary, becoming a landmark in alternative rock history.",
+        "releaseDate": {
+            "day": 16,
+            "month": "June",
+            "year": 1986
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Rough Trade",
+                "link": "https://en.wikipedia.org/wiki/Rough_Trade_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Queen_Is_Dead"
+    },
+    {
+        "id": 15,
+        "title": "Rubber Soul",
+        "artist": "The Beatles",
+        "description": "Rubber Soul is a groundbreaking album by The Beatles, marking a shift towards more introspective and experimental music. Featuring songs like 'Norwegian Wood' and 'In My Life', it blends folk rock with the band’s evolving sound, influencing countless artists in the years that followed.",
+        "releaseDate": {
+            "day": 3,
+            "month": "December",
+            "year": 1965
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rubber_Soul"
+    },
+    {
+        "id": 16,
+        "title": "Led Zeppelin IV",
+        "artist": "Led Zeppelin",
+        "description": "Led Zeppelin IV is one of the most influential rock albums of all time. Featuring classic tracks like 'Stairway to Heaven' and 'Black Dog', it showcases the band’s masterful fusion of hard rock, blues, and folk, solidifying Led Zeppelin's place as pioneers of the genre.",
+        "releaseDate": {
+            "day": 8,
+            "month": "November",
+            "year": 1971
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Atlantic",
+                "link": "https://en.wikipedia.org/wiki/Atlantic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+    },
+    {
+        "id": 17,
+        "title": "Seventeen Seconds",
+        "artist": "The Cure",
+        "description": "Seventeen Seconds is the second studio album by The Cure, released in 1980. With its darker, more atmospheric sound, the album marked a departure from the band's earlier pop influences. Featuring tracks like 'A Forest' and 'Play for Today', it helped solidify The Cure's presence in the post-punk and new wave scenes.",
+        "releaseDate": {
+            "day": 18,
+            "month": "April",
+            "year": 1980
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Fiction",
+                "link": "https://en.wikipedia.org/wiki/Fiction_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Seventeen_Seconds"
+    },    
+    {
+        "id": 18,
+        "title": "Beggars Banquet",
+        "artist": "The Rolling Stones",
+        "description": "Beggars Banquet is a pivotal album by The Rolling Stones, blending rock, blues, and country influences. Featuring iconic tracks like 'Sympathy for the Devil' and 'Street Fighting Man', it marked a return to the band’s roots, with a raw, energetic sound that helped define the late '60s rock scene.",
+        "releaseDate": {
+            "day": 6,
+            "month": "December",
+            "year": 1968
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Decca",
+                "link": "https://en.wikipedia.org/wiki/Decca_Records"
+            },
+            {
+                "name": "London",
+                "link": "https://en.wikipedia.org/wiki/London_Recordings"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Beggars_Banquet"
+    },
+    {
+        "id": 19,
+        "title": "Songs in the Key of Life",
+        "artist": "Stevie Wonder",
+        "description": "Songs in the Key of Life is a critically acclaimed double album by Stevie Wonder, blending soul, funk, jazz, and R&B. With timeless tracks like 'Isn’t She Lovely' and 'Sir Duke', it’s a musical journey that touches on themes of love, social issues, and spirituality.",
+        "releaseDate": {
+            "day": 28,
+            "month": "September",
+            "year": 1976
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Motown",
+                "link": "https://en.wikipedia.org/wiki/Motown"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Songs_in_the_Key_of_Life"
+    },
+    {
+        "id": 20,
+        "title": "Achtung Baby",
+        "artist": "U2",
+        "description": "Achtung Baby is U2's landmark album, pushing the boundaries of rock with its innovative blend of alternative rock, industrial, and electronic elements. With tracks like 'One' and 'Mysterious Ways', the album explores themes of love, politics, and personal introspection.",
+        "releaseDate": {
+            "day": 18,
+            "month": "November",
+            "year": 1991
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Island",
+                "link": "https://en.wikipedia.org/wiki/Island_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Achtung_Baby"
+    },
+    {
+        "id": 21,
+        "title": "I Never Loved a Man the Way I Love You",
+        "artist": "Aretha Franklin",
+        "description": "I Never Loved a Man the Way I Love You is a powerful album by Aretha Franklin, showcasing her incredible vocal range and soul-stirring performances. Featuring the iconic track 'Respect', the album blends soul, R&B, and gospel, marking Franklin's rise to superstardom.",
+        "releaseDate": {
+            "day": 10,
+            "month": "March",
+            "year": 1967
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Atlantic",
+                "link": "https://en.wikipedia.org/wiki/Atlantic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/I_Never_Loved_a_Man_the_Way_I_Love_You"
+    },
+    {
+        "id": 22,
+        "title": "Off the Wall",
+        "artist": "Michael Jackson",
+        "description": "Off the Wall is Michael Jackson's fifth studio album, blending pop, R&B, and disco to create a groundbreaking sound. With hits like 'Don't Stop 'Til You Get Enough' and 'Rock with You', the album helped solidify Jackson as one of the most influential artists of the era.",
+        "releaseDate": {
+            "day": 10,
+            "month": "August",
+            "year": 1979
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Off_the_Wall"
+    },
+    {
+        "id": 23,
+        "title": "Imagine",
+        "artist": "John Lennon",
+        "description": "Imagine is John Lennon's iconic album, featuring the timeless title track that advocates for peace and unity. Blending rock, pop, and socially conscious themes, it is one of the most influential albums of the 1970s and remains a testament to Lennon's vision of a better world.",
+        "releaseDate": {
+            "day": 9,
+            "month": "September",
+            "year": 1971
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Apple",
+                "link": "https://en.wikipedia.org/wiki/Apple_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Imagine_%28John_Lennon_album%29"
+    },
+    {
+        "id": 24,
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "description": "Hotel California is a classic album by Eagles, blending rock, country, and soft rock influences. Known for its title track, which became a timeless anthem, the album explores themes of excess, fame, and disillusionment, becoming one of the best-selling albums of all time.",
+        "releaseDate": {
+            "day": 8,
+            "month": "December",
+            "year": 1976
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Asylum",
+                "link": "https://en.wikipedia.org/wiki/Asylum_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Hotel_California"
+    },
+    {
+        "id": 25,
+        "title": "Back in Black",
+        "artist": "AC/DC",
+        "description": "Back in Black is AC/DC's iconic album, marking the band’s return after the death of original vocalist Bon Scott. Featuring hard rock anthems like 'You Shook Me All Night Long' and 'Hells Bells', the album is one of the best-selling records of all time and solidified AC/DC's place in rock history.",
+        "releaseDate": {
+            "day": 25,
+            "month": "July",
+            "year": 1980
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Atlantic",
+                "link": "https://en.wikipedia.org/wiki/Atlantic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Back_in_Black"
+    },
+    {
+        "id": 26,
+        "title": "Elvis Presley",
+        "artist": "Elvis Presley",
+        "description": "Elvis Presley is the debut studio album by Elvis Presley, featuring the early hits that defined his groundbreaking rock 'n' roll career. Including tracks like 'Blue Suede Shoes' and 'I Got a Woman', this album helped launch Presley into superstardom and change the course of popular music.",
+        "releaseDate": {
+            "day": 23,
+            "month": "March",
+            "year": 1956
+        },
+        "genre": "Rock and Roll",
+        "label": [
+            {
+                "name": "RCA Victor",
+                "link": "https://en.wikipedia.org/wiki/RCA_Victor"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Elvis_Presley_%28album%29"
+    },
+    {
+        "id": 27,
+        "title": "A Night at the Opera",
+        "artist": "Queen",
+        "description": "A Night at the Opera is Queen's fourth studio album, known for its groundbreaking blend of rock, opera, and progressive elements. Featuring the legendary 'Bohemian Rhapsody', the album cemented Queen's reputation as one of the most innovative bands in music history.",
+        "releaseDate": {
+            "day": 28,
+            "month": "November",
+            "year": 1975
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "EMI",
+                "link": "https://en.wikipedia.org/wiki/EMI"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/A_Night_at_the_Opera_%28Queen_album%29"
+    },
+    {
+        "id": 28,
+        "title": "Whatever People Say I Am, That's What I'm Not",
+        "artist": "Arctic Monkeys",
+        "description": "Whatever People Say I Am, That's What I'm Not is the debut album by Arctic Monkeys, featuring their unique blend of indie rock and post-punk influences. With tracks like 'I Bet You Look Good on the Dancefloor' and 'Fake Tales of San Francisco', the album became a cultural touchstone of the 2000s and established the band as one of the most important new acts of the era.",
+        "releaseDate": {
+            "day": 23,
+            "month": "January",
+            "year": 2006
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Domino",
+                "link": "https://en.wikipedia.org/wiki/Domino_Recording_Company"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Whatever_People_Say_I_Am,_That%27s_What_I%27m_Not"
+    },
+    {
+        "id": 29,
+        "title": "Discovery",
+        "artist": "Daft Punk",
+        "description": "Discovery is Daft Punk's second studio album, marking a departure from their house music roots to a more eclectic blend of disco, funk, and electronic music. With hits like 'One More Time' and 'Digital Love', the album became a defining work of 2000s electronic music and a massive influence on the genre.",
+        "releaseDate": {
+            "day": 12,
+            "month": "March",
+            "year": 2001
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Virgin",
+                "link": "https://en.wikipedia.org/wiki/Virgin_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Discovery_%28Daft_Punk_album%29"
+    },
+    {
+        "id": 30,
+        "title": "A Hard Day's Night",
+        "artist": "The Beatles",
+        "description": "A Hard Day's Night is The Beatles' third studio album, featuring a mix of their early rock and pop sound. With iconic tracks like 'Can't Buy Me Love' and 'A Hard Day's Night', the album became one of the band's most celebrated works, capturing the essence of the '60s British Invasion.",
+        "releaseDate": {
+            "day": 10,
+            "month": "July",
+            "year": 1964
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/A_Hard_Day%27s_Night_%28album%29"
+    },
+    {
+        "id": 31,
+        "title": "xx",
+        "artist": "The xx",
+        "description": "xx is The xx's debut studio album, blending minimalism, indie pop, and electronic music. With atmospheric production and emotionally charged lyrics, tracks like 'Crystalised' and 'Islands' helped define the sound of the 2000s indie scene.",
+        "releaseDate": {
+            "day": 14,
+            "month": "August",
+            "year": 2009
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Young",
+                "link": "https://en.wikipedia.org/wiki/Young_%28record_label%29"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/xx_%28the_xx_album%29"
+    },
+    {
+        "id": 32,
+        "title": "Songs for Swingin' Lovers!",
+        "artist": "Frank Sinatra",
+        "description": "Songs for Swingin' Lovers! is one of Frank Sinatra's most iconic albums, combining his smooth vocal style with a big-band sound. Tracks like 'I've Got You Under My Skin' and 'You Make Me Feel So Young' became some of Sinatra's signature songs.",
+        "releaseDate": {
+            "day": 5,
+            "month": "March",
+            "year": 1956
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Songs_for_Swingin%27_Lovers%21"
+    },
+    {
+        "id": 33,
+        "title": "In the Wee Small Hours",
+        "artist": "Frank Sinatra",
+        "description": "In the Wee Small Hours is one of Frank Sinatra's most emotional and intimate albums. Featuring moody, introspective tracks like 'In the Wee Small Hours of the Morning' and 'Mood Indigo', this album highlights Sinatra's ability to convey deep feelings through his voice.",
+        "releaseDate": {
+            "day": 25,
+            "month": "April",
+            "year": 1955
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/In_the_Wee_Small_Hours"
+    },
+    {
+        "id": 34,
+        "title": "With the Beatles",
+        "artist": "The Beatles",
+        "description": "With the Beatles is the band's second studio album, showcasing their continued evolution in the early '60s. Featuring classic tracks like 'All My Loving' and 'It Won't Be Long', it captures the spirit of Beatlemania and solidified their place in music history.",
+        "releaseDate": {
+            "day": 22,
+            "month": "November",
+            "year": 1963
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/With_the_Beatles"
+    },
+    {
+        "id": 35,
+        "title": "A Rush of Blood to the Head",
+        "artist": "Coldplay",
+        "description": "A Rush of Blood to the Head is Coldplay's second studio album, blending alternative rock with introspective lyrics and atmospheric sound. With hits like 'The Scientist' and 'Clocks', the album marked a major evolution in the band's musical style, earning critical acclaim and commercial success.",
+        "releaseDate": {
+            "day": 26,
+            "month": "August",
+            "year": 2002
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/A_Rush_of_Blood_to_the_Head"
+    },
+    {
+        "id": 36,
+        "title": "Toys in the Attic",
+        "artist": "Aerosmith",
+        "description": "Toys in the Attic is Aerosmith's third studio album, known for its hard rock sound and gritty, blues-influenced tracks. With iconic songs like 'Sweet Emotion' and 'Walk This Way', the album helped solidify the band's place in rock history and became one of their most influential works.",
+        "releaseDate": {
+            "day": 8,
+            "month": "April",
+            "year": 1975
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Columbia",
+                "link": "https://en.wikipedia.org/wiki/Columbia_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Toys_in_the_Attic_%28album%29"
+    },
+    {
+        "id": 37,
+        "title": "Desperado",
+        "artist": "Eagles",
+        "description": "Desperado is the second studio album by the Eagles, released in 1973. The album is themed around the Old West and outlaw culture, featuring classics like 'Tequila Sunrise' and the title track 'Desperado', which became one of the band's signature songs.",
+        "releaseDate": {
+            "day": 17,
+            "month": "April",
+            "year": 1973
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Asylum",
+                "link": "https://en.wikipedia.org/wiki/Asylum_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Desperado_%28Eagles_album%29"
+    },    
+    {
+        "id": 38,
+        "title": "Music for the Jilted Generation",
+        "artist": "The Prodigy",
+        "description": "Music for the Jilted Generation is The Prodigy's second studio album, blending electronic music with rave, breakbeat, and industrial influences. Featuring hits like 'Voodoo People' and 'Poison', the album captured the angst of the '90s and became one of the genre-defining works of electronic music.",
+        "releaseDate": {
+            "day": 4,
+            "month": "July",
+            "year": 1994
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "XL",
+                "link": "https://en.wikipedia.org/wiki/XL_Recordings"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Music_for_the_Jilted_Generation"
+    },
+    {
+        "id": 39,
+        "title": "Dire Straits",
+        "artist": "Dire Straits",
+        "description": "Dire Straits is the debut studio album by the British rock band Dire Straits, known for its blend of rock, jazz, and blues influences. With tracks like 'Sultans of Swing' and 'Down to the Waterline', the album established the band's unique sound and became a major commercial success.",
+        "releaseDate": {
+            "day": 7,
+            "month": "June",
+            "year": 1978
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Vertigo",
+                "link": "https://en.wikipedia.org/wiki/Vertigo_Records"
+            },
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            },
+            {
+                "name": "Mercury",
+                "link": "https://en.wikipedia.org/wiki/Mercury_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Dire_Straits_%28album%29"
+    },
+    {
+        "id": 40,
+        "title": "Parachutes",
+        "artist": "Coldplay",
+        "description": "Parachutes is the debut studio album by Coldplay, featuring a mix of alternative rock, post-Britpop, and soft rock influences. With hits like 'Yellow' and 'Shiver', the album became a worldwide success, earning Coldplay critical acclaim and establishing them as one of the most influential bands of the early 2000s.",
+        "releaseDate": {
+            "day": 10,
+            "month": "July",
+            "year": 2000
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Parachutes_%28Coldplay_album%29"
+    },
+    {
+        "id": 41,
+        "title": "Control",
+        "artist": "Janet Jackson",
+        "description": "Control is the third studio album by Janet Jackson, marking a major turning point in her career. The album blends R&B, pop, and funk influences, with tracks like 'What Have You Done for Me Lately' and 'Nasty' establishing Jackson as a powerful force in music. The album explores themes of empowerment, independence, and self-confidence.",
+        "releaseDate": {
+            "day": 4,
+            "month": "February",
+            "year": 1986
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "A&M",
+                "link": "https://en.wikipedia.org/wiki/A%26M_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Control_%28Janet_Jackson_album%29"
+    },
+    {
+        "id": 42,
+        "title": "Madonna",
+        "artist": "Madonna",
+        "description": "Madonna is the debut studio album by American singer Madonna, released in 1983. Featuring a blend of dance-pop and post-disco elements, the album includes hits like 'Holiday' and 'Lucky Star'. It introduced the world to Madonna's unique style, establishing her as a global pop icon.",
+        "releaseDate": {
+            "day": 27,
+            "month": "July",
+            "year": 1983
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Sire",
+                "link": "https://en.wikipedia.org/wiki/Sire_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Madonna_%28album%29"
+    },
+    {
+        "id": 43,
+        "title": "St. Elsewhere",
+        "artist": "Gnarls Barkley",
+        "description": "St. Elsewhere is the debut studio album by Gnarls Barkley, a collaboration between Danger Mouse and CeeLo Green. Released in 2006, the album blends elements of soul, R&B, funk, and psychedelia, with standout tracks like 'Crazy' and 'Smiley Faces'. It became a critical and commercial success, establishing Gnarls Barkley as a unique force in music.",
+        "releaseDate": {
+            "day": 24,
+            "month": "April",
+            "year": 2006
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Downtown",
+                "link": "https://en.wikipedia.org/wiki/Downtown_Records"
+            },
+            {
+                "name": "Atlantic",
+                "link": "https://en.wikipedia.org/wiki/Atlantic_Records"
+            },
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            },
+            {
+                "name": "Lex",
+                "link": "https://en.wikipedia.org/wiki/Lex_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/St._Elsewhere_%28album%29"
+    },
+    {
+        "id": 44,
+        "title": "Rio",
+        "artist": "Duran Duran",
+        "description": "Rio is the second studio album by Duran Duran, released in 1982. It features a blend of new wave, synth-pop, and funk influences, with iconic tracks like 'Hungry Like the Wolf' and the title track 'Rio'. The album became one of the band's most successful, both commercially and critically, cementing their place in the '80s music scene.",
+        "releaseDate": {
+            "day": 10,
+            "month": "May",
+            "year": 1982
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "EMI",
+                "link": "https://en.wikipedia.org/wiki/EMI_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rio_%28Duran_Duran_album%29"
+    },
+    {
+        "id": 45,
+        "title": "Bad",
+        "artist": "Michael Jackson",
+        "description": "Bad is the seventh studio album by Michael Jackson, released in 1987. Known for its bold sound and themes of self-empowerment, the album features hits like 'Smooth Criminal', 'Bad', and 'The Way You Make Me Feel'. It solidified Jackson's status as the King of Pop and became one of the best-selling albums of all time.",
+        "releaseDate": {
+            "day": 31,
+            "month": "August",
+            "year": 1987
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Bad_%28album%29"
+    },
+    {
+        "id": 46,
+        "title": "All Eyez on Me",
+        "artist": "2Pac",
+        "description": "All Eyez on Me is the fourth studio album by 2Pac, released in 1996. It is a double album that features a blend of gangsta rap and West Coast hip hop. With tracks like 'California Love', 'Ambitionz Az a Ridah', and 'I Get Around', the album became one of the most influential in hip hop history and solidified 2Pac's legacy.",
+        "releaseDate": {
+            "day": 13,
+            "month": "February",
+            "year": 1996
+        },
+        "genre": "Hip Hop",
+        "label": [
+            {
+                "name": "Death Row",
+                "link": "https://en.wikipedia.org/wiki/Death_Row_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/All_Eyez_on_Me"
+    },
+    {
+        "id": 47,
+        "title": "Miss E... So Addictive",
+        "artist": "Missy Elliott",
+        "description": "Miss E... So Addictive is the third studio album by Missy Elliott, released in 2001. Known for its innovative production and bold fusion of hip hop and R&B, the album features hits like 'Get Ur Freak On' and 'One Minute Man'. It received critical acclaim for its forward-thinking sound and helped cement Missy Elliott as a pioneering force in hip hop and R&B.",
+        "releaseDate": {
+            "day": 15,
+            "month": "May",
+            "year": 2001
+        },
+        "genre": "Hip Hop",
+        "label": [
+            {
+                "name": "The Goldmind Inc",
+                "link": "https://en.wikipedia.org/wiki/The_Goldmind_Inc."
+            },
+            {
+                "name": "Elektra",
+                "link": "https://en.wikipedia.org/wiki/Elektra_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Miss_E..._So_Addictive"
+    },
+    {
+        "id": 48,
+        "title": "Rhythm Nation 1814",
+        "artist": "Janet Jackson",
+        "description": "Rhythm Nation 1814 is the fourth studio album by Janet Jackson, released in 1989. The album blends pop, R&B, and dance music, addressing social issues such as racism, inequality, and unity. With iconic tracks like 'Rhythm Nation', 'Miss You Much', and 'Escapade', it became one of the most successful albums of the decade, earning widespread acclaim and setting new standards in pop music.",
+        "releaseDate": {
+            "day": 16,
+            "month": "September",
+            "year": 1989
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "A&M",
+                "link": "https://en.wikipedia.org/wiki/A%26M_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rhythm_Nation_1814"
+    },
+    {
+        "id": 49,
+        "title": "Beatles for Sale",
+        "artist": "The Beatles",
+        "description": "Beatles for Sale is the fourth studio album by The Beatles, released in 1964. The album features a mix of original compositions and cover songs, showcasing the band's evolving sound. It includes notable tracks like 'Eight Days a Week' and 'I'm a Loser', reflecting a more introspective lyrical approach.",
+        "releaseDate": {
+            "day": 4,
+            "month": "December",
+            "year": 1964
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Beatles_for_Sale"
+    },
+    {
+        "id": 50,
+        "title": "Frank Sinatra Sings for Only the Lonely",
+        "artist": "Frank Sinatra",
+        "description": "Frank Sinatra Sings for Only the Lonely is a 1958 concept album featuring deeply emotional and melancholic ballads. Often regarded as one of Sinatra's most powerful recordings, the album includes classics like 'One for My Baby (And One More for the Road)' and 'Angel Eyes', showcasing his masterful vocal delivery and poignant orchestration.",
+        "releaseDate": {
+            "day": 8,
+            "month": "September",
+            "year": 1958
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Frank_Sinatra_Sings_for_Only_the_Lonely"
+    },
+    {
+        "id": 51,
+        "title": "Amazing Grace",
+        "artist": "Aretha Franklin",
+        "description": "Amazing Grace is a live gospel album by Aretha Franklin, recorded in 1972 at the New Temple Missionary Baptist Church in Los Angeles. The album showcases Franklin’s powerful vocals and deep-rooted gospel influences, becoming one of the best-selling gospel albums of all time. It features soul-stirring performances like 'Precious Lord, Take My Hand' and 'Amazing Grace'.",
+        "releaseDate": {
+            "day": 1,
+            "month": "June",
+            "year": 1972
+        },
+        "genre": "Gospel",
+        "label": [
+            {
+                "name": "Atlantic",
+                "link": "https://en.wikipedia.org/wiki/Atlantic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Amazing_Grace_%28Aretha_Franklin_album%29"
+    },
+    {
+        "id": 52,
+        "title": "Fulfillingness' First Finale",
+        "artist": "Stevie Wonder",
+        "description": "Fulfillingness' First Finale is Stevie Wonder's 1974 album, showcasing his mastery of funk, soul, and R&B. Featuring introspective lyrics and rich instrumentation, the album includes hits like 'You Haven't Done Nothin'' and 'Boogie On Reggae Woman'. It won the Grammy Award for Album of the Year and is considered one of Wonder's most socially conscious works.",
+        "releaseDate": {
+            "day": 22,
+            "month": "July",
+            "year": 1974
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Motown",
+                "link": "https://en.wikipedia.org/wiki/Motown"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Fulfillingness%27_First_Finale"
+    },
+    {
+        "id": 53,
+        "title": "Bad Girls",
+        "artist": "Donna Summer",
+        "description": "Bad Girls is Donna Summer's 1979 disco masterpiece, blending dance, funk, and rock elements. Featuring hits like 'Hot Stuff', 'Bad Girls', and 'Dim All the Lights', the album became one of the best-selling disco records of all time, cementing Summer's status as the 'Queen of Disco'.",
+        "releaseDate": {
+            "day": 25,
+            "month": "April",
+            "year": 1979
+        },
+        "genre": "Disco",
+        "label": [
+            {
+                "name": "Casablanca",
+                "link": "https://en.wikipedia.org/wiki/Casablanca_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Bad_Girls_%28Donna_Summer_album%29"
+    },
+    {
+        "id": 54,
+        "title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "description": "Californication is Red Hot Chili Peppers' iconic 1999 album, marking a shift towards a more melodic and introspective sound. Featuring hits like 'Scar Tissue', 'Otherside', and 'Californication', the album became one of the band's most successful and influential works.",
+        "releaseDate": {
+            "day": 8,
+            "month": "June",
+            "year": 1999
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Californication_%28album%29"
+    },
+    {
+        "id": 55,
+        "title": "The Rolling Stones No. 2 / The Rolling Stones, Now!",
+        "artist": "The Rolling Stones",
+        "description": "The Rolling Stones No. 2 and The Rolling Stones, Now! are early albums by The Rolling Stones, showcasing their raw blues and rock influences. Featuring tracks like 'Time Is on My Side' and 'Down the Road Apiece', these albums solidified the band's reputation in the British and American rock scenes.",
+        "releaseDate": {
+            "day": 15,
+            "month": "January",
+            "year": 1965
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Decca",
+                "link": "https://en.wikipedia.org/wiki/Decca_Records"
+            },
+            {
+                "name": "London",
+                "link": "https://en.wikipedia.org/wiki/London_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Rolling_Stones_No._2"
+    },
+    {
+        "id": 56,
+        "title": "From a Basement on the Hill",
+        "artist": "Elliott Smith",
+        "description": "From a Basement on the Hill is Elliott Smith's posthumous album, blending folk, rock, and melancholic introspection. Featuring songs like 'King's Crossing' and 'Twilight', it showcases his raw emotion and intricate songwriting.",
+        "releaseDate": {
+            "day": 19,
+            "month": "October",
+            "year": 2004
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Anti-",
+                "link": "https://en.wikipedia.org/wiki/Anti-_%28record_label%29"
+            },
+            {
+                "name": "Domino",
+                "link": "https://en.wikipedia.org/wiki/Domino_Recording_Company"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/From_a_Basement_on_the_Hill"
+    },
+    {
+        "id": 57,
+        "title": "The Velvet Rope",
+        "artist": "Janet Jackson",
+        "description": "The Velvet Rope is Janet Jackson's introspective and genre-blending album, exploring themes of self-worth, intimacy, and social issues. Featuring hits like 'Together Again' and 'Got 'Til It's Gone', the album was critically acclaimed for its depth and innovation.",
+        "releaseDate": {
+            "day": 7,
+            "month": "October",
+            "year": 1997
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Virgin",
+                "link": "https://en.wikipedia.org/wiki/Virgin_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Velvet_Rope"
+    },
+    {
+        "id": 58,
+        "title": "Viva La Vida or Death and All His Friends",
+        "artist": "Coldplay",
+        "description": "Viva La Vida or Death and All His Friends is Coldplay's ambitious and experimental album, blending orchestral elements with alternative rock. Featuring the hit single 'Viva La Vida', the album marked a new artistic direction for the band and became one of their most successful releases.",
+        "releaseDate": {
+            "day": 12,
+            "month": "June",
+            "year": 2008
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Parlophone",
+                "link": "https://en.wikipedia.org/wiki/Parlophone"
+            },
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Viva_La_Vida_or_Death_and_All_His_Friends"
+    },
+    {
+        "id": 59,
+        "title": "Sheer Heart Attack",
+        "artist": "Queen",
+        "description": "Sheer Heart Attack is Queen's third studio album, known for its eclectic mix of rock, glam, and progressive elements. Featuring the iconic 'Killer Queen', the album helped establish Queen as one of the most unique and influential bands of the '70s.",
+        "releaseDate": {
+            "day": 8,
+            "month": "November",
+            "year": 1974
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "EMI",
+                "link": "https://en.wikipedia.org/wiki/EMI"
+            },
+            {
+                "name": "Elektra",
+                "link": "https://en.wikipedia.org/wiki/Elektra_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Sheer_Heart_Attack"
+    },
+    {
+        "id": 60,
+        "title": "Music of My Mind",
+        "artist": "Stevie Wonder",
+        "description": "Music of My Mind is Stevie Wonder's landmark album, showcasing his transition to more experimental and soulful sounds. The album marked the beginning of his 'classic period', with tracks like 'Superstition' that helped redefine the soul genre.",
+        "releaseDate": {
+            "day": 3,
+            "month": "March",
+            "year": 1972
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Motown",
+                "link": "https://en.wikipedia.org/wiki/Motown"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Music_of_My_Mind"
+    },
+    {
+        "id": 61,
+        "title": "Billion Dollar Babies",
+        "artist": "Alice Cooper",
+        "description": "Billion Dollar Babies is Alice Cooper's sixth studio album, featuring a mix of hard rock and shock rock. The album was a commercial success, with hits like 'No More Mr. Nice Guy' and 'Elected', cementing Alice Cooper's status as a rock icon.",
+        "releaseDate": {
+            "day": 27,
+            "month": "February",
+            "year": 1973
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Billion_Dollar_Babies"
+    },
+    {
+        "id": 62,
+        "title": "Whitney Houston",
+        "artist": "Whitney Houston",
+        "description": "Whitney Houston's self-titled debut album introduced the world to one of the greatest voices in music history. Featuring hit singles like 'Saving All My Love for You' and 'How Will I Know', the album became a landmark in pop and R&B music.",
+        "releaseDate": {
+            "day": 14,
+            "month": "February",
+            "year": 1985
+        },
+        "genre": "R&B",
+        "label": [
+            {
+                "name": "Arista",
+                "link": "https://en.wikipedia.org/wiki/Arista_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Whitney_Houston_%28album%29"
+    },
+    {
+        "id": 63,
+        "title": "Diamond Life",
+        "artist": "Sade",
+        "description": "Diamond Life is the debut album by Sade, blending smooth jazz, soul, and R&B. Featuring timeless hits like 'Smooth Operator' and 'Your Love Is King', the album established Sade as a leading voice in contemporary music.",
+        "releaseDate": {
+            "day": 16,
+            "month": "July",
+            "year": 1984
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Diamond_Life"
+    },
+    {
+        "id": 64,
+        "title": "Favourite Worst Nightmare",
+        "artist": "Arctic Monkeys",
+        "description": "Favourite Worst Nightmare is the second studio album by Arctic Monkeys, featuring a more aggressive and polished sound. With tracks like 'Brianstorm' and 'Fluorescent Adolescent', the album showcases the band's signature wit and high-energy style.",
+        "releaseDate": {
+            "day": 18,
+            "month": "April",
+            "year": 2007
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Domino",
+                "link": "https://en.wikipedia.org/wiki/Domino_Recording_Company"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Favourite_Worst_Nightmare"
+    },
+    {
+        "id": 65,
+        "title": "The Payback",
+        "artist": "James Brown",
+        "description": "The Payback is a landmark funk album by James Brown, known for its deep grooves and socially conscious lyrics. Featuring hits like 'The Payback' and 'Mind Power', the album remains one of Brown's most influential works.",
+        "releaseDate": {
+            "day": 1,
+            "month": "December",
+            "year": 1973
+        },
+        "genre": "Funk",
+        "label": [
+            {
+                "name": "Polydor",
+                "link": "https://en.wikipedia.org/wiki/Polydor_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Payback"
+    },
+    {
+        "id": 66,
+        "title": "Everything Is Wrong",
+        "artist": "Moby",
+        "description": "Everything Is Wrong is Moby's third studio album, blending techno, ambient, and breakbeat influences. It showcases his versatility with tracks ranging from high-energy rave anthems to introspective electronic compositions.",
+        "releaseDate": {
+            "day": 14,
+            "month": "March",
+            "year": 1995
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Mute",
+                "link": "https://en.wikipedia.org/wiki/Mute_Records"
+            },
+            {
+                "name": "Elektra",
+                "link": "https://en.wikipedia.org/wiki/Elektra_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Everything_Is_Wrong_%28album%29"
+    },
+    {
+        "id": 67,
+        "title": "Love It to Death",
+        "artist": "Alice Cooper",
+        "description": "Love It to Death is Alice Cooper's breakthrough album, featuring the hit 'I'm Eighteen' and establishing their signature shock rock sound. The album blends hard rock and theatrical elements, paving the way for their later success.",
+        "releaseDate": {
+            "day": 9,
+            "month": "March",
+            "year": 1971
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Love_It_to_Death"
+    },
+    {
+        "id": 68,
+        "title": "Tattoo You",
+        "artist": "The Rolling Stones",
+        "description": "Tattoo You is a classic Rolling Stones album known for its mix of rock and ballads, featuring iconic tracks like 'Start Me Up' and 'Waiting on a Friend'. The album became one of their most successful releases of the 1980s.",
+        "releaseDate": {
+            "day": 24,
+            "month": "August",
+            "year": 1981
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Rolling Stones",
+                "link": "https://en.wikipedia.org/wiki/Rolling_Stones_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Tattoo_You"
+    },
+    {
+        "id": 69,
+        "title": "Sex Machine",
+        "artist": "James Brown",
+        "description": "Sex Machine is a live album by James Brown, capturing his energetic stage presence and groundbreaking funk sound. The album includes the iconic title track 'Sex Machine' and showcases Brown's powerful influence on the evolution of soul, funk, and R&B.",
+        "releaseDate": {
+            "day": 1,
+            "month": "September",
+            "year": 1970
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "King",
+                "link": "https://en.wikipedia.org/wiki/King_Records_%28United_States%29"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Sex_Machine_%28album%29"
+    },
+    {
+        "id": 70,
+        "title": "September of My Years",
+        "artist": "Frank Sinatra",
+        "description": "September of My Years is a 1965 album by Frank Sinatra, reflecting on themes of aging, reflection, and nostalgia. With lush orchestral arrangements, it features classic songs like 'The September of My Years' and 'It Was a Very Good Year', marking a mature phase in Sinatra's career.",
+        "releaseDate": {
+            "day": 20,
+            "month": "August",
+            "year": 1965
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Reprise",
+                "link": "https://en.wikipedia.org/wiki/Reprise_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/September_of_My_Years"
+    },
+    {
+        "id": 71,
+        "title": "Harvest Moon",
+        "artist": "Neil Young",
+        "description": "Harvest Moon is Neil Young's 25th studio album, released in 1992. The album is a return to his folk and acoustic roots, featuring a warm, rustic sound with songs like 'Harvest Moon' and 'You and Me'. It's an introspective work, reflecting on love, aging, and life's cycles.",
+        "releaseDate": {
+            "day": 2,
+            "month": "November",
+            "year": 1992
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Reprise",
+                "link": "https://en.wikipedia.org/wiki/Reprise_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Harvest_Moon_%28album%29"
+    },
+    {
+        "id": 72,
+        "title": "Making Movies",
+        "artist": "Dire Straits",
+        "description": "Making Movies is the third studio album by Dire Straits, released in 1980. Known for its blend of rock, jazz, and progressive influences, the album features standout tracks like 'Tunnel of Love' and 'Romeo and Juliet'. The album marked a transition in the band's sound and cemented their place in rock history.",
+        "releaseDate": {
+            "day": 17,
+            "month": "October",
+            "year": 1980
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Vertigo",
+                "link": "https://en.wikipedia.org/wiki/Vertigo_Records"
+            },
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            },
+            {
+                "name": "Mercury",
+                "link": "https://en.wikipedia.org/wiki/Mercury_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Making_Movies"
+    },
+    {
+        "id": 73,
+        "title": "Let Love Rule",
+        "artist": "Lenny Kravitz",
+        "description": "Let Love Rule is the debut studio album by Lenny Kravitz, released in 1989. The album blends rock, funk, and soul, with Kravitz’s powerful songwriting and unique sound. Tracks like 'Let Love Rule' and 'Mr. Cab Driver' highlight his eclectic musical influences and his strong messages about love and equality.",
+        "releaseDate": {
+            "day": 6,
+            "month": "September",
+            "year": 1989
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Virgin",
+                "link": "https://en.wikipedia.org/wiki/Virgin_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Let_Love_Rule_%28Lenny_Kravitz_album%29"
+    },
+    {
+        "id": 74,
+        "title": "Nevermind",
+        "artist": "Nirvana",
+        "description": "Nevermind is the second studio album by the American rock band Nirvana, released on September 24, 1991, by DGC Records. It was Nirvana's first release on a major label and the first to feature drummer Dave Grohl.",
+        "releaseDate": {
+            "day": 24,
+            "month": "September",
+            "year": 1991
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "DGC",
+                "link": "https://en.wikipedia.org/wiki/DGC_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Nevermind"
+    },
+    {
+        "id": 75,
+        "title": "Is This It",
+        "artist": "The Strokes",
+        "description": "Is This It is The Strokes' debut album, a seminal release that helped define the garage rock revival of the early 2000s. With tracks like 'Last Nite' and 'Someday', the album blends raw, minimalist rock with catchy hooks, capturing the spirit of a new generation.",
+        "releaseDate": {
+            "day": 30,
+            "month": "July",
+            "year": 2001
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "RCA",
+                "link": "https://en.wikipedia.org/wiki/RCA_Records"
+            },
+            {
+                "name": "Rough Trade",
+                "link": "https://en.wikipedia.org/wiki/Rough_Trade_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Is_This_It"
+    },
+    {
+        "id": 76,
+        "title": "Love Deluxe",
+        "artist": "Sade",
+        "description": "Love Deluxe is the fourth studio album by the British band Sade, released in 1992. The album features a smooth blend of soul, jazz, and R&B, with tracks like 'No Ordinary Love' and 'Cherish the Day'. It received critical acclaim for its sensual and atmospheric sound, solidifying Sade's reputation as a leading figure in the genre.",
+        "releaseDate": {
+            "day": 26,
+            "month": "October",
+            "year": 1992
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Love_Deluxe"
+    },
+    {
+        "id": 77,
+        "title": "Two Sevens Clash",
+        "artist": "Culture",
+        "description": "Two Sevens Clash is the debut studio album by Jamaican reggae band Culture, released in 1977. The album is considered a classic in the roots reggae genre, featuring powerful and politically charged songs like 'Two Sevens Clash' and 'See Them a Come'. The album's themes of social justice and spirituality, combined with its deep rhythms, have made it a cornerstone of reggae music.",
+        "releaseDate": {
+            "day": 4,
+            "month": "August",
+            "year": 1977
+        },
+        "genre": "Reggae",
+        "label": [
+            {
+                "name": "Joe Gibbs",
+                "link": "https://en.wikipedia.org/wiki/Joe_Gibbs_%28producer%29"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Two_Sevens_Clash"
+    },
+    {
+        "id": 78,
+        "title": "Songs for Young Lovers",
+        "artist": "Frank Sinatra",
+        "description": "Songs for Young Lovers is the debut studio album by Frank Sinatra, released in 1954. It features a mix of romantic ballads and upbeat tracks, showcasing Sinatra's smooth vocal style. The album helped establish him as one of the most influential crooners of his era and remains a classic in the Great American Songbook.",
+        "releaseDate": {
+            "day": 4,
+            "month": "January",
+            "year": 1954
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Capitol",
+                "link": "https://en.wikipedia.org/wiki/Capitol_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Songs_for_Young_Lovers"
+    },
+    {
+        "id": 79,
+        "title": "Eden",
+        "artist": "Everything But the Girl",
+        "description": "Eden is the debut studio album by British musical duo Everything But the Girl, released in 1984. The album blends elements of jazz, pop, and folk, with smooth vocals from Tracey Thorn and intricate arrangements. It marked the beginning of the band's successful career, with a unique sound that evolved over the years.",
+        "releaseDate": {
+            "day": 4,
+            "month": "June",
+            "year": 1984
+        },
+        "genre": "Jazz",
+        "label": [
+            {
+                "name": "Virgin",
+                "link": "https://en.wikipedia.org/wiki/Virgin_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Eden_%28Everything_But_the_Girl_album%29"
+    },
+    {
+        "id": 80,
+        "title": "Loving You",
+        "artist": "Elvis Presley",
+        "description": "Loving You is a 1957 album by Elvis Presley, showcasing his vocal versatility across various styles including rock and roll, ballads, and pop. The album features the hit song 'Teddy Bear' and the title track 'Loving You', both of which became iconic songs in Elvis's career. This album helped solidify his status as a cultural icon.",
+        "releaseDate": {
+            "day": 20,
+            "month": "June",
+            "year": 1957
+        },
+        "genre": "Rock and Roll",
+        "label": [
+            {
+                "name": "RCA",
+                "link": "https://en.wikipedia.org/wiki/RCA_Victor"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/RCA_Records"
+    },
+    {
+        "id": 81,
+        "title": "Eagles",
+        "artist": "Eagles",
+        "description": "Eagles' self-titled debut album, released in 1972, features a blend of rock, country, and folk influences, establishing the band's signature sound. With hits like 'Take It Easy' and 'Witchy Woman', the album became a massive success and set the stage for the band's long and influential career in rock music.",
+        "releaseDate": {
+            "day": 1,
+            "month": "June",
+            "year": 1972
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Asylum",
+                "link": "https://en.wikipedia.org/wiki/Asylum_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Eagles_%28album%29"
+    },
+    {
+        "id": 82,
+        "title": "Listen Without Prejudice Vol. 1",
+        "artist": "George Michael",
+        "description": "Listen Without Prejudice Vol. 1 is George Michael's second studio album, released in 1990. The album features a more introspective and mature sound, with hits like 'Praying for Time' and 'Freedom! '90'. It marked a shift from the upbeat pop style of his previous work, showcasing Michael's deeper lyrical themes and vocal abilities.",
+        "releaseDate": {
+            "day": 3,
+            "month": "September",
+            "year": 1990
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            },
+            {
+                "name": "Columbia",
+                "link": "https://en.wikipedia.org/wiki/Columbia_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Listen_Without_Prejudice_Vol._1"
+    },
+    {
+        "id": 83,
+        "title": "How to Dismantle an Atomic Bomb",
+        "artist": "U2",
+        "description": "How to Dismantle an Atomic Bomb is U2's 11th studio album, released in 2004. The album features anthemic rock songs such as 'Vertigo' and 'Sometimes You Can't Make It On Your Own', and marks a return to a more straightforward rock sound following their previous experimental albums. The album received widespread critical acclaim and won several Grammy Awards.",
+        "releaseDate": {
+            "day": 22,
+            "month": "November",
+            "year": 2004
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Interscope",
+                "link": "https://en.wikipedia.org/wiki/Interscope_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/How_to_Dismantle_an_Atomic_Bomb"
+    },
+    {
+        "id": 84,
+        "title": "Hotter Than July",
+        "artist": "Stevie Wonder",
+        "description": "Hotter Than July is Stevie Wonder's 19th studio album, released in 1980. The album features the hit single 'Happy Birthday', which was a tribute to Dr. Martin Luther King Jr., as well as 'Master Blaster (Jammin')'. With its blend of funk, soul, and pop, it was both critically and commercially successful, becoming one of his most iconic works.",
+        "releaseDate": {
+            "day": 29,
+            "month": "September",
+            "year": 1980
+        },
+        "genre": "Soul",
+        "label": [
+            {
+                "name": "Tamla",
+                "link": "https://en.wikipedia.org/wiki/Tamla"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Hotter_Than_July"
+    },
+    {
+        "id": 85,
+        "title": "Music",
+        "artist": "Madonna",
+        "description": "Music is Madonna's eighth studio album, released in 2000. The album features a mix of electronic and dance-pop music, with hit singles like 'Music', 'Don't Tell Me', and 'What It Feels Like for a Girl'. The album was a commercial success, receiving positive reviews for its fresh, innovative sound and solidifying Madonna's position as a pop icon in the 21st century.",
+        "releaseDate": {
+            "day": 18,
+            "month": "September",
+            "year": 2000
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Maverick",
+                "link": "https://en.wikipedia.org/wiki/Maverick_Records"
+            },
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Music_%28Madonna_album%29"
+    },
+    {
+        "id": 86,
+        "title": "Lovesexy",
+        "artist": "Prince",
+        "description": "Lovesexy is Prince's tenth studio album, released in 1988. The album blends funk, soul, and pop, with themes of love, sexuality, and spirituality. Featuring singles like 'Alphabet St.' and 'Glam Slam', the album was praised for its bold production and its unconventional approach, marking a shift in Prince's musical direction during the late '80s.",
+        "releaseDate": {
+            "day": 10,
+            "month": "May",
+            "year": 1988
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Paisley Park",
+                "link": "https://en.wikipedia.org/wiki/Paisley_Park_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Lovesexy"
+    },
+    {
+        "id": 87,
+        "title": "Ceremonials",
+        "artist": "Florence + The Machine",
+        "description": "Ceremonials is the second studio album by Florence + The Machine, released in 2011. The album blends indie rock, baroque pop, and soul, with themes of love, death, and spirituality. Known for its grand orchestral arrangements and Florence Welch's powerful vocals, it features hit singles like 'Shake It Out' and 'What the Water Gave Me'.",
+        "releaseDate": {
+            "day": 28,
+            "month": "October",
+            "year": 2011
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Island",
+                "link": "https://en.wikipedia.org/wiki/Island_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Ceremonials"
+    },
+    {
+        "id": 88,
+        "title": "Wu-Tang Forever",
+        "artist": "Wu-Tang Clan",
+        "description": "Wu-Tang Forever is the second studio album by American hip hop group Wu-Tang Clan, released in 1997. The double album features a blend of hardcore rap and complex lyrical themes. It includes iconic tracks like 'Triumph' and 'Reunited', cementing Wu-Tang's legacy in hip hop.",
+        "releaseDate": {
+            "day": 3,
+            "month": "June",
+            "year": 1997
+        },
+        "genre": "Hip Hop",
+        "label": [
+            {
+                "name": "Loud",
+                "link": "https://en.wikipedia.org/wiki/Loud_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Wu-Tang_Forever"
+    },
+    {
+        "id": 89,
+        "title": "Dots and Loops",
+        "artist": "Stereolab",
+        "description": "Dots and Loops is the fifth studio album by British band Stereolab, released in 1997. The album blends elements of indie pop, krautrock, and electronic music, with intricate arrangements and experimental sounds. It includes standout tracks like 'The Free Design' and 'French Disko'.",
+        "releaseDate": {
+            "day": 22,
+            "month": "September",
+            "year": 1997
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Duophonic",
+                "link": "https://en.wikipedia.org/wiki/Duophonic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Dots_and_Loops"
+    },
+    {
+        "id": 90,
+        "title": "Atom Heart Mother",
+        "artist": "Pink Floyd",
+        "description": "Atom Heart Mother is the fifth studio album by British rock band Pink Floyd, released in 1970. The album is known for its experimental approach and includes the iconic 23-minute title track. It's a blend of progressive rock, orchestral arrangements, and experimental soundscapes.",
+        "releaseDate": {
+            "day": 2,
+            "month": "October",
+            "year": 1970
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Harvest",
+                "link": "https://en.wikipedia.org/wiki/Harvest_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Atom_Heart_Mother"
+    },
+    {
+        "id": 91,
+        "title": "Musik",
+        "artist": "Plastikman",
+        "description": "Musik is the debut studio album by Canadian electronic music artist Plastikman, released in 1994. The album is a pioneering work in the minimal techno genre, known for its deep, atmospheric soundscapes and intricate production techniques.",
+        "releaseDate": {
+            "day": 1,
+            "month": "March",
+            "year": 1994
+        },
+        "genre": "Electronic",
+        "label": [
+            {
+                "name": "Novamute",
+                "link": "https://en.wikipedia.org/wiki/Novamute"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Musik_%28album%29"
+    },
+    {
+        "id": 92,
+        "title": "Bailando",
+        "artist": "Enrique Iglesias",
+        "description": "Bailando is a hit single by Spanish singer Enrique Iglesias, featuring Sean Paul, Descemer Bueno, and Gente de Zona. The song, released in 2014, combines reggaeton, Latin pop, and tropical influences, becoming a massive chart-topper worldwide.",
+        "releaseDate": {
+            "day": 28,
+            "month": "April",
+            "year": 2014
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Universal Music",
+                "link": "https://en.wikipedia.org/wiki/Universal_Music_Group"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Bailando_%28Enrique_Iglesias_song%29"
+    },
+    {
+        "id": 93,
+        "title": "Sex and Love",
+        "artist": "Enrique Iglesias",
+        "description": "Sex and Love is the tenth studio album by Spanish singer Enrique Iglesias, released in 2014. The album blends Latin pop, dance, and reggaeton, featuring hit singles like 'Bailando' and 'I'm a Freak.' It became one of Iglesias' most successful albums, with international chart success.",
+        "releaseDate": {
+            "day": 14,
+            "month": "March",
+            "year": 2014
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Universal Music",
+                "link": "https://en.wikipedia.org/wiki/Universal_Music_Group"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Sex_and_Love_%28album%29"
+    },
+    {
+        "id": 94,
+        "title": "Rhythm of Love",
+        "artist": "Kylie Minogue",
+        "description": "Rhythm of Love is the sixth studio album by Australian singer Kylie Minogue, released in 1990. The album marks a shift towards a more dance-oriented sound, with hits like 'Better the Devil You Know' and 'Step Back in Time.' It solidified Minogue's place as a pop icon and continued her rise to global fame.",
+        "releaseDate": {
+            "day": 12,
+            "month": "November",
+            "year": 1990
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Republic",
+                "link": "https://en.wikipedia.org/wiki/Republic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rhythm_of_Love_%28Kylie_Minogue_album%29"
+    },
+    {
+        "id": 95,
+        "title": "Exile on Main St.",
+        "artist": "The Rolling Stones",
+        "description": "Exile on Main St. is the tenth studio album by The Rolling Stones, released in 1972. It is widely regarded as one of the greatest albums of all time. With a mix of rock, blues, country, and soul influences, the album captures the band's raw energy and is famous for tracks like 'Tumbling Dice' and 'Happy.' Its unpolished production added to the authenticity and impact of the album.",
+        "releaseDate": {
+            "day": 12,
+            "month": "May",
+            "year": 1972
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Rolling Stones",
+                "link": "https://en.wikipedia.org/wiki/Rolling_Stones_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Exile_on_Main_St."
+    },
+    {
+        "id": 96,
+        "title": "Highway 61 Revisited",
+        "artist": "Bob Dylan",
+        "description": "Highway 61 Revisited is the sixth studio album by Bob Dylan, released in 1965. It is a landmark in Dylan's career, featuring a more electric sound and incorporating blues, rock, and folk influences. The album includes the iconic track 'Like a Rolling Stone,' which marked a shift in popular music and became one of Dylan's most celebrated songs.",
+        "releaseDate": {
+            "day": 30,
+            "month": "August",
+            "year": 1965
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Columbia",
+                "link": "https://en.wikipedia.org/wiki/Columbia_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+    },
+    {
+        "id": 97,
+        "title": "The Velvet Underground & Nico",
+        "artist": "The Velvet Underground",
+        "description": "The Velvet Underground & Nico is the debut studio album by American rock band The Velvet Underground, released in 1967. Produced by Andy Warhol, the album blends rock, avant-garde, and experimental styles. It features the iconic track 'Heroin' and was groundbreaking for its raw lyrics and unique sound, which influenced generations of musicians.",
+        "releaseDate": {
+            "day": 12,
+            "month": "March",
+            "year": 1967
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Verve",
+                "link": "https://en.wikipedia.org/wiki/Verve_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/The_Velvet_Underground_%26_Nico"
+    },
+    {
+        "id": 98,
+        "title": "Purple Rain",
+        "artist": "Prince",
+        "description": "Purple Rain is the sixth studio album by American musician Prince, released in 1984. It was the soundtrack to the film of the same name and features a mix of rock, pop, and R&B. The album includes iconic tracks like 'When Doves Cry' and 'Let's Go Crazy,' and is widely regarded as one of the greatest albums of all time.",
+        "releaseDate": {
+            "day": 25,
+            "month": "June",
+            "year": 1984
+        },
+        "genre": "Pop",
+        "label": [
+            {
+                "name": "Warner",
+                "link": "https://en.wikipedia.org/wiki/Warner_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Purple_Rain_%28album%29"
+    },
+    {
+        "id": 99,
+        "title": "London Calling",
+        "artist": "The Clash",
+        "description": "London Calling is the third studio album by British punk rock band The Clash, released in 1979. The album blends punk rock with elements of reggae, rockabilly, ska, and jazz, creating a diverse sound. Iconic tracks like 'London Calling' and 'Train in Vain' became anthems of the era. It is considered one of the greatest albums of all time.",
+        "releaseDate": {
+            "day": 14,
+            "month": "December",
+            "year": 1979
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "Columbia",
+                "link": "https://en.wikipedia.org/wiki/Columbia_Records"
+            },
+            {
+                "name": "Epic",
+                "link": "https://en.wikipedia.org/wiki/Epic_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/London_Calling"
+    },
+    {
+        "id": 100,
+        "title": "Synchronicity",
+        "artist": "The Police",
+        "description": "Synchronicity is the fifth and final studio album by British rock band The Police, released in 1983. The album blends rock, pop, and reggae influences, and includes the band's biggest hit, 'Every Breath You Take.' Synchronicity became a commercial success and is widely regarded as one of the band's best works.",
+        "releaseDate": {
+            "day": 17,
+            "month": "June",
+            "year": 1983
+        },
+        "genre": "Rock",
+        "label": [
+            {
+                "name": "A&M",
+                "link": "https://en.wikipedia.org/wiki/A%26M_Records"
+            }
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Synchronicity_%28The_Police_album%29"
     }
 ]
