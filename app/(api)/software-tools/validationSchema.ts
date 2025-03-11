@@ -23,7 +23,9 @@ export const softwareToolSchema = z.object({
             name: z.string().min(1, { message: 'Creator name is required.' }),
             wiki: URL
         })
-    ).min(1, { message: 'At least one creator is required.' }),
+    )
+        .min(1, { message: 'At least one creator is required.' })
+        .nonempty("At least one creator is required"),
     yearCreated: z.number()
         .int({ message: 'Year must be an integer.' })
         .min(1950, { message: 'Year must be 1950 or later.' })

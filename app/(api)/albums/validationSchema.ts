@@ -9,6 +9,8 @@ export const musicAlbumSchema = z.object({
   description: z.string().min(1, "Description is required"),
   releaseDate: dateSchema,
   genre: z.string().min(1, "Genre is required"),
-  label: z.string().min(1, "Record label is required"),
+  label: z.array(
+    z.string().min(1, "Record label is required"),
+  ).nonempty("At least one record label is required"),
   wiki: URL
 });
