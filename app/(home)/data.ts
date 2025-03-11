@@ -9,10 +9,12 @@ export const album = JSON.stringify({
         year: 1982
     },
     genre: 'Pop',
-    label: {
-        name: 'Epic',
-        link: 'https://en.wikipedia.org/wiki/Epic_Records'
-    },
+    label: [
+        {
+            name: 'Epic',
+            link: 'https://en.wikipedia.org/wiki/Epic_Records'
+        }
+    ],
     wiki: 'https://en.wikipedia.org/wiki/Thriller_(album)',
 }, null, 3);
 
