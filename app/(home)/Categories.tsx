@@ -1,6 +1,8 @@
-'use client';
-
 import Link from "next/link";
+
+import * as albums from '../(api)/albums/data.json';
+import * as quotes from '../(api)/quotes/data.json';
+import * as skyscrapers from '../(api)/skyscrapers/data.json';
 
 type Card = {
     title: string;
@@ -8,22 +10,26 @@ type Card = {
     buttonText: string;
     docksPath: string;
 };
+
+const albumsCount = albums.length;
+const quotesCount = quotes.length;
+const skyscrapersCount = skyscrapers.length;
   
 const cards: Card[] = [
     {
-        title: 'Music Albums',
-        description: 'Iconic Music Albums from World-Famous Artists!',
+        title: albumsCount + ' Music Albums',
+        description: 'Timeless Music Albums from World-Famous Artists and Bands!',
         buttonText: '/albums',
         docksPath: 'albums'
     },
     {
-        title: 'Quotes',
+        title: quotesCount + ' Quotes',
         description: 'Iconic Quotes from Legendary Figures!',
         buttonText: '/quotes',
         docksPath: 'quotes'
     },
     {
-        title: 'Skyscrapers',
+        title: skyscrapersCount + ' Skyscrapers',
         description: 'Historic Skyscraper Buildings that shaped the Skyline!',
         buttonText: '/skyscrapers',
         docksPath: 'skyscrapers'
