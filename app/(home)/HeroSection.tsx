@@ -10,12 +10,12 @@ const HeroSection = () => {
                   <span className="text-and-shadow-gradience absolute inset-0 blur-lg opacity-30"></span>
                   API for Developers
                 </span>{' '}
-                Who Demand Real Data
+                Who Demand Real Data!
             </h1>
 
             <p className="py-6">
-              Power your applications with real, accurate and up-to-date data. Time Loops is a {''}
-              <span className='font-medium'>free</span>, 
+              Power your applications with real, accurate and up-to-date data with <span className='font-medium'>Time Loops API</span>.
+              A <span className='underline'>free</span>, 
               fast, reliable, and developer-friendly REST API that ensures seamless integration, 
               delivering the information you need to build smarter, more efficient and scalable solutions effortlessly!
             </p>

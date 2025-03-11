@@ -180,9 +180,9 @@ export const sections: Section[] = [
             <>
                 <div className="flex flex-wrap gap-4 justify-start">
                     {[
-                        shapes.galleryItemType,
+                        shapes.skyscraperTypeType,
                         shapes.areaType,
-                        shapes.skyscraperTypeType
+                        shapes.galleryItemType
                     ].map((shapeType, index) => (
                         <div key={index} className="mockup-code max-w-96 mb-7 pr-7">
                             <div className="pt-2 pb-5">
@@ -372,7 +372,7 @@ export const sections: Section[] = [
         content:
             <>
                 <p className='pb-3'>The PUT request will <span className='underline'>replace the entire resource</span> with the new data. All fields must be provided, and missing fields will be overwritten.</p>
-                <Note strongText="Reminder: " note={<span>The PUT request does not actually update the resource on the server. Instead, the API simulates the update, making it appear as if the change was successful.</span>} />
+                <Note strongText="Reminder: " note={<span>The PUT request does not actually update the resource on the server. Instead, the API <span className="docs-strong-note">simulates the update</span>, making it appear as if the change was successful.</span>} />
             </>
     },
     {
@@ -383,7 +383,7 @@ export const sections: Section[] = [
         content:
             <>
                 <p className='pb-3'>The PATCH request will <span className='underline'>only update the specified fields</span>, leaving the other fields of the resource unchanged.</p>
-                <Note strongText="Reminder: " note={<span>The PATCH request won’t actually modify the resource on the server. Instead, the API mimics the update, giving the impression that the change was applied.</span>} />
+                <Note strongText="Reminder: " note={<span>The PATCH request won't actually modify the resource on the server. Instead, <span className="docs-strong-note">the API mimics the update</span>, giving the impression that the change was applied.</span>} />
             </>
     }
 ];
