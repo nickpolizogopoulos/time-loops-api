@@ -34,7 +34,11 @@ export const sections: Section[] = [
         sectionTitle: 'Getting started with Time Loops API',
         path: 'getting-started',
         isCategoryTitle: true,
-        content: `Welcome to Time Loops API, your one-stop destination for real-world data on Music Albums, Quotes, Buildings, and Software Tools. This API offers authentic and detailed information that you can use to power your music apps, quotes apps, architecture projects, and software tools directories.`
+        content: `
+            Welcome to Time Loops API, your one-stop destination for real-world data on Music Albums, Quotes, 
+            Buildings, and Software Tools. This API offers authentic and detailed information that you can use 
+            to power your music apps, quotes apps, architecture projects, and software tools directories.
+        `
     },
     {
         listTitle: 'What You Get',
@@ -54,7 +58,7 @@ export const sections: Section[] = [
                             endpoints.map(endpoint =>
                                 <tr key={endpoint.description}>
                                     <td>
-                                        <Link href={endpoint.path} target='_blank' className='underline'>
+                                        <Link href={endpoint.path} target='_blank' className='link link-primary'>
                                             {endpoint.name}
                                         </Link>
                                     </td>
@@ -82,7 +86,13 @@ export const sections: Section[] = [
                         )
                     }
                 </ul>
-                <Note strongText='Note:' note={<span>The POST, PUT, PATCH and DELETE operations simulate real-world behavior but <span className="docs-strong-note">do not persist or modify data.</span></span>} />
+                <Note strongText='Note:'
+                    note={
+                        <span>The POST, PUT, PATCH and DELETE operations simulate real-world behavior but{' '}
+                            <span className="docs-strong-note">do not persist or modify data.</span>
+                        </span>
+                    }
+                />
             </>
     },
     {
@@ -94,9 +104,9 @@ export const sections: Section[] = [
                 <p className="pb-2">These are the expected data shapes when fetching, using TypeScript as an example.</p>
                 <p className="pb-4">
                     You can find all types{' '}
-                    <a className='link link-primary' href='https://github.com/nickpolizogopoulos/time-loops-api/blob/main/app/(api)/types.ts' target='_blank'>
+                    <Link className='link link-primary' href='https://github.com/nickpolizogopoulos/time-loops-api/blob/main/app/(api)/types.ts' target='_blank'>
                         here
-                    </a>{' '}
+                    </Link>{' '}
                     or copy them directly from the boxes below.
                 </p>
                 <p className="pb-1 text-lg font-medium">General types such as Month, CustomDate and NamedLink: Used in Album and Skyscraper types.</p>
@@ -267,7 +277,13 @@ export const sections: Section[] = [
         content:
             <>
                 <p>Here’s how you can start using Time Loops API in your project:</p>
-                <Note strongText='Note:' note='The examples in the documentation are written in JavaScript and TypeScript using the fetch API, but you can achieve the same results using any programming language or HTTP client, such as Axios, which automatically parses JSON responses.' />
+                <Note strongText='Note:' 
+                    note='
+                        The examples in the documentation are written in JavaScript / TypeScript
+                        using the fetch API, but you can achieve the same results using any programming 
+                        language or HTTP client, such as Axios, which automatically parses JSON responses.
+                    '
+                    />
             </>
     },
     {
@@ -285,7 +301,14 @@ export const sections: Section[] = [
                         <pre data-prefix="4"><code className='pl-7'  >{`.catch(error => console.error('Error:', error));`}</code></pre>
                     </div>
                 </div>
-                <Note strongText="Notice:" note={<span>No need to specify method: "GET", because <span className="docs-strong-note"><span className="font-mono text-sm">fetch()</span> defaults to a GET request</span> if no method is provided.</span>} />
+                <Note strongText="Notice:"
+                    note={
+                        <span>No need to specify method: "GET", because <span className="docs-strong-note">
+                            <span className="font-mono text-sm">fetch()</span> defaults to a GET request</span>{' '}
+                            if no method is provided.
+                        </span>
+                    }
+                />
                 <Note note='This will fetch the list of all albums.' />
             </>
     },
@@ -315,8 +338,11 @@ export const sections: Section[] = [
         content:
             <>
                 <p className='pb-3'>
-                    To add a new music album, send a POST request to the /albums endpoint{' '}
-                    <span className='underline'>(TypeScript)</span>.
+                    To add a new music album, send a POST request to the{' '}
+                    <Link className='link link-primary' href='/albums' target='_blank'>
+                        albums
+                    </Link>{' '}
+                    endpoint.
                 </p>
                 <div className="mockup-code max-w-fit mb-1">
                     <div className='pt-2 pb-2'>
@@ -333,9 +359,25 @@ export const sections: Section[] = [
                         }
                     </div>
                 </div>
-                <Note strongText='Data Structure:' note={`Make sure your request body matches the expected data structure for each type. Refer to the examples above for the format.`} />
-                <Note strongText='Notice:' note={<span>We POST including <span className="docs-strong-note">id: 1 because TypeScript expects the id key.</span> The id will be generated on the server based on the length of the Albums array.</span>} />
-                <Note strongText='Notice:' note={<span>The compiler shouts because month is of <span className="docs-strong-note">type Month</span>. In this example, it must be written 'September'.</span>} />
+                <Note strongText='Data Structure:' 
+                    note={`
+                        Make sure your request body matches the expected data structure for each type. 
+                        Refer to the examples above for the format.
+                    `}
+                />
+                <Note strongText='Notice:'
+                    note={
+                        <span>The POST request includes <span className="docs-strong-note">id: 1, because 
+                        TypeScript expects the id key.</span> The id will be generated on the server based 
+                        on the length of the Albums array.</span>
+                    }
+                />
+                <Note strongText='Notice:'
+                    note={
+                        <span>The compiler shouts because month is of <span className="docs-strong-note">type Month</span>. 
+                        In this example, it must be written 'September'.</span>
+                    }
+                />
             </>
     },
     {
@@ -361,7 +403,12 @@ export const sections: Section[] = [
                         }
                     </div>
                 </div>
-                <Note strongText="This returns:" note={`Software Tool deleted: { "message": "Software Tool with id 7 (JavaScript) has been deleted successfully" }`} />
+                <Note strongText="This returns:"
+                    note={`
+                        Software Tool deleted: { "message": "Software Tool with id 7 
+                        (JavaScript) has been deleted successfully" }
+                    `}
+                />
             </>
     },
     {
@@ -371,8 +418,17 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>The PUT request will <span className='underline'>replace the entire resource</span> with the new data. All fields must be provided, and missing fields will be overwritten.</p>
-                <Note strongText="Reminder: " note={<span>The PUT request does not actually update the resource on the server. Instead, the API <span className="docs-strong-note">simulates the update</span>, making it appear as if the change was successful.</span>} />
+                <p className='pb-3'>
+                    The PUT request will <span className='underline'>replace the entire resource</span> with the new data. 
+                    All fields must be provided, and missing fields will be overwritten.
+                </p>
+                <Note strongText="Reminder: " 
+                    note={
+                        <span>The PUT request does not actually update the resource on the server. Instead, the API{' '}
+                        <span className="docs-strong-note">simulates the update</span>, 
+                        making it appear as if the change was successful.</span>
+                    }
+                />
             </>
     },
     {
@@ -382,8 +438,17 @@ export const sections: Section[] = [
         isCategoryTitle: false,
         content:
             <>
-                <p className='pb-3'>The PATCH request will <span className='underline'>only update the specified fields</span>, leaving the other fields of the resource unchanged.</p>
-                <Note strongText="Reminder: " note={<span>The PATCH request won't actually modify the resource on the server. Instead, <span className="docs-strong-note">the API mimics the update</span>, giving the impression that the change was applied.</span>} />
+                <p className='pb-3'>
+                    The PATCH request will <span className='underline'>only update the specified fields</span>,
+                    leaving the other fields of the resource unchanged.
+                </p>
+                <Note strongText="Reminder: " 
+                    note={
+                        <span>The PATCH request won't actually modify the resource on the server. Instead,{' '}
+                            <span className="docs-strong-note">the API mimics the update</span>, 
+                            giving the impression that the change was applied.</span>
+                    }
+                />
             </>
     }
 ];
