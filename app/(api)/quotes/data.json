@@ -3,81 +3,1500 @@
         "id": 1,
         "quote": "When done well, software is invisible",
         "author": "Bjarne Stroustrup",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 2,
-        "quote": "The strength of JavaScript is that you can do anythingm, the weakness is that you will",
+        "quote": "The strength of JavaScript is that you can do anything, the weakness is that you will",
         "author": "Reg Braithwaite",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 3,
         "quote": "The most dangerous person is the one who listens, thinks and observes",
         "author": "Bruce Lee",
-        "category": "general"
+        "category": "wisdom"
     },
     {
         "id": 4,
         "quote": "Theory and practice sometimes clash. And when that happens, theory loses. Every single time",
         "author": "Linus Torvalds",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 5,
         "quote": "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off",
         "author": "Bjarne Stroustrup",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 6,
         "quote": "People who think they know everything really annoy those of us who know we don't",
         "author": "Bjarne Stroustrup",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 7,
         "quote": "Student is not a container you have to fill but a torch you have to light up",
         "author": "Albert Einstein",
-        "category": "general"
+        "category": "education"
     },
     {
         "id": 8,
         "quote": "If you can't explain it simply, you don't understand it well enough",
         "author": "Albert Einstein",
-        "category": "general"
+        "category": "education"
     },
     {
         "id": 9,
         "quote": "A ship in harbor is safe but that is not what ships are built for",
         "author": "John A. Shedd",
-        "category": "general"
+        "category": "motivation"
     },
     {
         "id": 10,
         "quote": "Skills can always be taught but passion and attitude are irreplaceable",
         "author": "unknown",
-        "category": "general"
+        "category": "success"
     },
     {
         "id": 11,
         "quote": "C is quirky, flawed, and an enormous success",
         "author": "Dennis Ritchie",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 12,
         "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity",
         "author": "Dennis Ritchie",
-        "category": "software-industry"
+        "category": "technology"
     },
     {
         "id": 13,
         "quote": "You have to be burning with an idea, or a problem, or a wrong that you want to right. If you're not passionate enough from the start, you'll never stick it out",
         "author": "Steve Jobs",
         "category": "creativity"
+    },
+    {
+        "id": 14,
+        "quote": "Programming isn't about what you know; it's about what you can figure out",
+        "author": "Chris Pine",
+        "category": "technology"
+    },
+    {
+        "id": 15,
+        "quote": "If things are not failing, you are not innovating enough",
+        "author": "Elon Musk",
+        "category": "creativity"
+    },
+    {
+        "id": 16,
+        "quote": "We tricked a rock into thinking by shooting it with controlled bursts of lightning",
+        "author": "unknown",
+        "category": "technology"
+    },
+    {
+        "id": 17,
+        "quote": "The first rule is to keep an untroubled spirit. The second is to look things in the face and know them for what they are",
+        "author": "Markus Aurelius",
+        "category": "philosophy"
+    },
+    {
+        "id": 18,
+        "quote": "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt",
+        "author": "Sun Tzu",
+        "category": "strategy"
+    },
+    {
+        "id": 19,
+        "quote": "Don't believe in luck, believe in hard work",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 20,
+        "quote": "An intelligent person will never seek their exposure",
+        "author": "np",
+        "category": "wisdom"
+    },
+    {
+        "id": 21,
+        "quote": "You can't make someone love you by giving them more of what they already don't appreciate",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 22,
+        "quote": "Some people die at 25 and aren't burried untill 75",
+        "author": "Benjamin Franklin",
+        "category": "life"
+    },
+    {
+        "id": 23,
+        "quote": "I am not what happened to me, I am what I choose to become",
+        "author": "Carl Gustav Jung",
+        "category": "self-improvement"
+    },
+    {
+        "id": 24,
+        "quote": "Success isn't just a destination - it's a journey",
+        "author": "Aristotle Onassis",
+        "category": "success"
+    },
+    {
+        "id": 25,
+        "quote": "Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while it is in your power, be good",
+        "author": "Markus Aurelius",
+        "category": "philosophy"
+    },
+    {
+        "id": 26,
+        "quote": "The best way to never reach your goals is to tell everyone about them",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 27,
+        "quote": "Like a bone that grows stronger after it breaks, a man who rises from his pain becomes unbreakable",
+        "author": "np",
+        "category": "self-improvement"
+    },
+    {
+        "id": 28,
+        "quote": "The Internet has created more personalities than the human race ever has",
+        "author": "np",
+        "category": "technology"
+    },
+    {
+        "id": 29,
+        "quote": "He will learn - no King rules forever! Only Death is Eternal",
+        "author": "Yogg-Saron (as King Llane Wrynn)",
+        "category": "gaming"
+    },
+    {
+        "id": 30,
+        "quote": "No one can climb onto your back unless you first bend down",
+        "author": "Denise Markora",
+        "category": "tv-series"
+    },
+    {
+        "id": 31,
+        "quote": "You won't find the same person twice, not even in the same person",
+        "author": "Mahmoud Darwish",
+        "category": "wisdom"
+    },
+    {
+        "id": 32,
+        "quote": "You're not as good as I hoped. But you're better than you know",
+        "author": "Alice Quinn",
+        "category": "tv-series"
+    },
+    {
+        "id": 33,
+        "quote": "Becoming me was the greatest creative project of my life",
+        "author": "Eliot Waugh",
+        "category": "motivation"
+    },
+    {
+        "id": 34,
+        "quote": "It's like going from black and white to colour",
+        "author": "Josh Hoberman",
+        "category": "tv-series"
+    },
+    {
+        "id": 35,
+        "quote": "Once you have quantity, the only thing left is strange and boy is this place full of strange",
+        "author": "Bacchus",
+        "category": "tv-series"
+    },
+    {
+        "id": 36,
+        "quote": "Problem is, no one will ever let you change. People always see you for what you've done, never for who you are",
+        "author": "Christofer Plover",
+        "category": "tv-series"
+    },
+    {
+        "id": 37,
+        "quote": "You know the worst part of getting exactly what you want? When it's not good enough",
+        "author": "Quentin Coldwater",
+        "category": "tv-series"
+    },
+    {
+        "id": 38,
+        "quote": "I'm not actually fun or easy when I'm in love",
+        "author": "Margo Hanson",
+        "category": "tv-series"
+    },
+    {
+        "id": 39,
+        "quote": "It's a hell of a thing to have grown up geek",
+        "author": "Chris Metzen",
+        "category": "gaming"
+    },
+    {
+        "id": 40,
+        "quote": "Everyone will show you who they truly are, just give them time",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 41,
+        "quote": "No effort is ever wasted",
+        "author": "J. N. A.",
+        "category": "motivation"
+    },
+    {
+        "id": 42,
+        "quote": "One step at a time towards success",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 43,
+        "quote": "Unfaithful women are never satisfied with anything",
+        "author": "Mirka",
+        "category": "relationships"
+    },
+    {
+        "id": 44,
+        "quote": "Success is never owned, it is rented and the rent is due every day",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 45,
+        "quote": "Invisibility is a superpower",
+        "author": "Grim Hustle",
+        "category": "life"
+    },
+    {
+        "id": 46,
+        "quote": "Courage, above all things, is the first quality of a warrior",
+        "author": "Carl von Clausewitz",
+        "category": "leadership"
+    },
+    {
+        "id": 47,
+        "quote": "Patterns are pretty difficult to forget",
+        "author": "unknown",
+        "category": "psychology"
+    },
+    {
+        "id": 48,
+        "quote": "Laugh with many, don't trust any",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 49,
+        "quote": "Kill the boy and let the man be born",
+        "author": "Maester Aemon",
+        "category": "personal-growth"
+    },
+    {
+        "id": 50,
+        "quote": "For as long as stars do shine",
+        "author": "Derek Proudmoore",
+        "category": "love"
+    },
+    {
+        "id": 51,
+        "quote": "Attraction is not a choice",
+        "author": "David De Angelo",
+        "category": "love"
+    },
+    {
+        "id": 52,
+        "quote": "It's not Survival of the Strongest but Survival of the Fittest",
+        "author": "unknown",
+        "category": "strength"
+    },
+    {
+        "id": 53,
+        "quote": "Once you start seeing your potential, the grind becomes addictive",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 54,
+        "quote": "Man is the only kind of varmint sets his own trap, baits it, then steps in it",
+        "author": "John Steinbeck",
+        "category": "self-awareness"
+    },
+    {
+        "id": 55,
+        "quote": "Social media made y 'all way too comfortable with disrespecting people and not getting punched in the face for it",
+        "author": "Mike Tyson",
+        "category": "life"
+    },
+    {
+        "id": 56,
+        "quote": "Be patient, empires are not built in a day",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 57,
+        "quote": "A part of me is still in that world and will never leave",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 58,
+        "quote": "When a clown moves into a palace, he doesn't become a king. The palace becomes a circus",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 59,
+        "quote": "Love was made for two, the third always brings orgasm.",
+        "author": "Jacob/Jenny",
+        "category": "relationships"
+    },
+    {
+        "id": 60,
+        "quote": "I haven't reached where I want to be yet, but I'm one step closer than I was yesterday",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 61,
+        "quote": "A woman with guilt is worse than a woman with power. I know this well because I have been both",
+        "author": "Denise Markora",
+        "category": "wisdom"
+    },
+    {
+        "id": 62,
+        "quote": "Never say never, because life is a big bitch",
+        "author": "Marina Kountouratou",
+        "category": "life"
+    },
+    {
+        "id": 63,
+        "quote": "The cunning of fools does not surpass pure intelligence",
+        "author": "np",
+        "category": "wisdom"
+    },
+    {
+        "id": 64,
+        "quote": "Talent, just so you know, is being human. That's what I call talent",
+        "author": "Nick Kavadias",
+        "category": "life"
+    },
+    {
+        "id": 65,
+        "quote": "Patience is the best weapon of defense, but also the worst bomb of attack when it explodes",
+        "author": "Nick Kazantzakis",
+        "category": "wisdom"
+    },
+    {
+        "id": 66,
+        "quote": "You can't do epic shit with basic people",
+        "author": "unknown",
+        "category": "ambition"
+    },
+    {
+        "id": 67,
+        "quote": "Dreams don't just die, they get buried alive",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 68,
+        "quote": "If a man conquers lust, believe me, no one -except God- can stand his way",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 69, 
+        "quote": "You get what you give",
+        "author": "unknown",
+        "category": ""
+    },
+    {
+        "id": 70,
+        "quote": "Never lose faith. God created the Heavens and the Universe in six days. He can easily change your life in one",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 71,
+        "quote": "Two things I will never forget: How a person treated me - What a person made me feel",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 72,
+        "quote": "Discipline yourself and the World will be at your feet",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 73,
+        "quote": "Decide what you want, make a fucking plan and work on that plan -EVERY-SINGLE-DAY-",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 74,
+        "quote": "Sometimes people don't want to head the truth because they don't want their illusions destroyed",
+        "author": "Friedrich Nietzsche",
+        "category": "self-awareness"
+    },
+    {
+        "id": 75,
+        "quote": "You will be hated if you can't be manipulated",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 76,
+        "quote": "How many times can the same thing break your heart? As long as you love it",
+        "author": "unknown",
+        "category": "love"
+    },
+    {
+        "id": 77,
+        "quote": "A boy is born. A man is made from Pain, Disrespect, Rejection, Failure and Losses",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 78,
+        "quote": "First, it is an intention - Then a behavior - Then a habit - Then a practice - Then a second nature - Then it is simply who you are",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 79,
+        "quote": "Nothing can be gained without losing - Even Heaven demands death",
+        "author": "unknown",
+        "category": "philosophy"
+    },
+    {
+        "id": 80,
+        "quote": "The greatest disease on the planet is low intelligence",
+        "author": "Socrates",
+        "category": "wisdom"
+    },
+    {
+        "id": 81,
+        "quote": "Success is 1% Luck, 1% Talent and 98% Never giving up",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 82,
+        "quote": "Maybe God made animals unable to talk, to show that love is proven through actions, not words",
+        "author": "unknown",
+        "category": "love"
+    },
+    {
+        "id": 83,
+        "quote": "When you reach the peak, you realise the mountain wasn't the obstacle - You were",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 84,
+        "quote": "You can fool some of the people all of the time and all of the people some of the time but you cannot fool all of the people all of the time",
+        "author": "Abraham Lincoln",
+        "category": "wisdom"
+    },
+    {
+        "id": 85,
+        "quote": "The dead deserve respect but above all, they deserve the truth",
+        "author": "Voltaire",
+        "category": "life"
+    },
+    {
+        "id": 86,
+        "quote": "Never appear perfect, rich and intelligent - it brings unnecessary problems in your life",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 87,
+        "quote": "Hang out with five smart people and you will be the sixth",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 88,
+        "quote": "Making money is a skill, maintaining money is a discipline, multiplying money is art",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 89,
+        "quote": "To be a man is to suffer in private",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 90,
+        "quote": "Only those who do not seek power are qualified to hold it",
+        "author": "Plato",
+        "category": "wisdom"
+    },
+    {
+        "id": 91,
+        "quote": "A man who is a master of patience is a master of everything else",
+        "author": "George Savile",
+        "category": "self-improvement"
+    },
+    {
+        "id": 92,
+        "quote": "Coca-Cola only sold 25 bottles in their first year – Keep Going",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 93,
+        "quote": "You're busy doubting yourself while others are afraid of your true potential",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 94,
+        "quote": "Become the greatest Man your bloodline has ever seen, then pass it down",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 95,
+        "quote": "When you start to improve yourself, loneliness is the price you pay",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 96,
+        "quote": "Nobody works harder than a man who knows no one has his back - only himself and God",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 97,
+        "quote": "Luck is the result of Hard Work",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 98,
+        "quote": "Do not call me lucky - I failed more times than you tried",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 99,
+        "quote": "Go laugh in places you cried, go win in places you lost, rewrite history",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 100,
+        "quote": "The police do not protect the people. They protect the system that oppresses the people.",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 101,
+        "quote": "I will succeed because I'm crazy",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 102,
+        "quote": "Control your ego when you're winning, control your thoughts when you're losing - if you can do that, you can do anything",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 103,
+        "quote": "...and then I remembered who I was and the game changed - forever",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 104,
+        "quote": "The right people will stay to figure it out with you",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 105,
+        "quote": "Tolerance will reach such a level that intelligent people will be forbidden to think, so as not to offend the idiots",
+        "author": "Friedrich Nietzsche",
+        "category": "life"
+    },
+    {
+        "id": 106,
+        "quote": "When emotion is high, logic is low",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 107,
+        "quote": "Don't burn yourself to keep others warm",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 108,
+        "quote": "I left pieces of me in places I can't return to",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 109,
+        "quote": "All man's miseries derive from not being able to sit quietly in a room alone",
+        "author": "Blaise Pascal",
+        "category": "self-awareness"
+    },
+    {
+        "id": 110,
+        "quote": "More Talent, Less Ego",
+        "author": "Thodoris Triantafillou",
+        "category": "self-improvement"
+    },
+    {
+        "id": 111,
+        "quote": "If you want to go far in life, learn to be bored, silent and alone",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 112,
+        "quote": "The most certain way to succeed is always to try just one more time",
+        "author": "Thomas Edison",
+        "category": "motivation"
+    },
+    {
+        "id": 113,
+        "quote": "Opportunity dances with those already on the dancefloor",
+        "author": "H. Jackson Brown Jr.",
+        "category": "success"
+    },
+    {
+        "id": 114,
+        "quote": "No one will do for you what you need to do for yourself",
+        "author": "Dorothy Height",
+        "category": "motivation"
+    },
+    {
+        "id": 115,
+        "quote": "The strongest of all warriors are these two: Time and Patience",
+        "author": "Leo Tolstoy",
+        "category": "self-improvement"
+    },
+    {
+        "id": 116,
+        "quote": "Learning is the only thing the mind never exhausts, never fears and never regrets",
+        "author": "Leonardo Da Vinci",
+        "category": "self-improvement"
+    },
+    {
+        "id": 117,
+        "quote": "You are never destroyed by anyone except yourself",
+        "author": "Friedrich Nietzsche",
+        "category": "self-awareness"
+    },
+    {
+        "id": 118,
+        "quote": "The man who chases two rabbits, catches neither",
+        "author": "Confucius",
+        "category": "self-awareness"
+    },
+    {
+        "id": 119,
+        "quote": "No one rules, if no one obbeys",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 120,
+        "quote": "Practice even what seems improssible",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 121, 
+        "quote": "Every girl is a freak, it just takes the right guy to bring it out",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 122,
+        "quote": "If you kill a cockroach, you are a hero. If you kill a butterfly, you are evil. Morality has aesthetic standards",
+        "author": "Friedrich Nietzsche",
+        "category": "philosophy"
+    },
+    {
+        "id": 123,
+        "quote": "Success hits different when nobody believed in you",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 124,
+        "quote": "Being too friendly invites a lot of disrespect",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 125,
+        "quote": "Some years you win, some years you build character",
+        "author": "Steve Jobs",
+        "category": "self-improvement"
+    },
+    {
+        "id": 126,
+        "quote": "Slow success builds character, fast success builds ego",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 127,
+        "quote": "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential",
+        "author": "David Goggins",
+        "category": "self-improvement"
+    },
+    {
+        "id": 128,
+        "quote": "I don't fit in, never did, never wanted to, I do my own shit",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 129,
+        "quote": "In life, you have three choices: Give up, Give in, Give it your all",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 130,
+        "quote": "You copied that function without understanding why it does what it does and as a result your code IS GARBAGE. AGAIN.",
+        "author": "Linus Torvalds",
+        "category": "technology"
+    },
+    {
+        "id": 131,
+        "quote": "Until it's done, tell none",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 132,
+        "quote": "I hate when people confuse education with intelligence. You can have a bachelor's degree and still be an idiot",
+        "author": "Elon Musk",
+        "category": "life"
+    },
+    {
+        "id": 133,
+        "quote": "You can cheal all you want, at some point you will need to learn to be a professional. Skill doesn't come from knowledge, it comes from experience",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 134,
+        "quote": "Just remember, five years ago you dreamed about where are you now",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 135,
+        "quote": "You can still be depresed and still get things done. It's called being a man",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 136,
+        "quote": "An idiot admires complexity, a genius admires simplicity",
+        "author": "Terry A. Davis",
+        "category": "wisdom"
+    },
+    {
+        "id": 137,
+        "quote": "Discipline can fix 80% of your problems",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 138,
+        "quote": "Always pray to have eyes that see the best in people, a heart that forgives the worst, a mind that forgets the bad and a soul that never loses faith in God",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 139,
+        "quote": "At your lowest, you realise a lot",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 140,
+        "quote": "Focus on yourself. People come and go",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 141,
+        "quote": "Don't fear failure, fear being in the exact same place next year as you are today",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 142,
+        "quote": "Get up, nobody cares about your story until you win",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 143,
+        "quote": "Not all those who wander are lost",
+        "author": "J.R.R. Tolkien",
+        "category": "life"
+    },
+    {
+        "id": 144,
+        "quote": "When something is important enough, you do it even if the odds are not in your favor",
+        "author": "Elon Musk",
+        "category": "motivation"
+    },
+    {
+        "id": 145,
+        "quote": "The price of progress is pain",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 146,
+        "quote": "Those who are incapable of everything are capable of anything",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 147,
+        "quote": "See everything, say nothing",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 148,
+        "quote": "Having a dog will bless you with many of the happiest days of your life and one of the worst",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 149,
+        "quote": "A man's character is his fate",
+        "author": "Heraclitus",
+        "category": "self-awareness"
+    },
+    {
+        "id": 150,
+        "quote": "Anyone who doesn't recognise what you bring to the table, doesn't deserve to eat with you",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 151,
+        "quote": "I killed my own happiness in such a young age by loving someone more than myself",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 152,
+        "quote": "Change. But start slowly, because direction is more important than speed.",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 153,
+        "quote": "If the truth shall kill them, let them die",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 154,
+        "quote": "People who want to see you win will help you win. Remember that",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 155,
+        "quote": "Set a goal. Tell no one",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 156,
+        "quote": "Don't compare your Chapter 1 with someone else's Chapter 2",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 157,
+        "quote": "The gap between the life you want and the life you are living is called mindset, focus and discipline",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 158,
+        "quote": "Sit with warriors. The conversation is different",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 159,
+        "quote": "The most dangerous type of anger is built inside someone with a good heart",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 160,
+        "quote": "Nobody cares. Work harder",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 161,
+        "quote": "One day all those late nights and early mornings will pay off",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 162,
+        "quote": "The purpose of knowledge is action, not knowledge",
+        "author": "Aristotle",
+        "category": "self-improvement"
+    },
+    {
+        "id": 163,
+        "quote": "Don't let the same dog bite you twice.",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 164,
+        "quote": "If someone speaks badly of you, do not defend yourself against the accusations but reply: 'You obviously don't know me well, otherwise you would have said worse'",
+        "author": "Epictetus",
+        "category": "wisdom"
+    },
+    {
+        "id": 165,
+        "quote": "If you're constantly trying to prove your worth, you have already forgotten your value",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 166,
+        "quote": "Being a good person doesn't get you loved, it gets you used",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 167,
+        "quote": "Don't fear losing people. Fear losing yourself trying to keep them",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 168,
+        "quote": "If it's out of your hands, it deserves freedom from your mind too",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 169,
+        "quote": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control",
+        "author": "Epictetus",
+        "category": "self-awareness"
+    },
+    {
+        "id": 170,
+        "quote": "The past is a place to learn from, not live in",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 171,
+        "quote": "You learn a lot about people when they don't get what they want from you",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 172,
+        "quote": "Victory is reserved for those who are willing to pay its price",
+        "author": "unknown",
+        "category": "success"
+    },
+    {
+        "id": 173,
+        "quote": "The law is like a spider's web, only the little insects get caught in it",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 174,
+        "quote": "All progress demands discipline and all discipline demands sacrifice",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 175,
+        "quote": "A Focused fool can accomplish more than a distracted genius",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 176,
+        "quote": "The only time most people think about injustice is when it happens to them",
+        "author": "Charles Bukowski",
+        "category": "wisdom"
+    },
+    {
+        "id": 177,
+        "quote": "I cannot teach anybody anything. I can only make them think",
+        "author": "Socrates",
+        "category": "wisdom"
+    },
+    {
+        "id": 178,
+        "quote": "If you're the smartest person in the room, then you are in the wrong room",
+        "author": "Confucius",
+        "category": "self-awareness"
+    },
+    {
+        "id": 179,
+        "quote": "It won't happen overnight. But if you quit, it won't happen at all",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 180,
+        "quote": "Lying to ourselves is more deeply ingrained than lying to others",
+        "author": "Fyodor Dostoevsky",
+        "category": "self-awareness"
+    },
+    {
+        "id": 181,
+        "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment",
+        "author": "Ralph Waldo Emerson",
+        "category": "self-awareness"
+    },
+    {
+        "id": 182,
+        "quote": "Surround yourself with people who push you to be better",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 183,
+        "quote": "The longer the explanation, the bigger the lie",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 184,
+        "quote": "People don't abandon the people they love, they abandon the people they're using",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 185,
+        "quote": "Being right too soon is socially unacceptable",
+        "author": "Robert A. Heinlein",
+        "category": "wisdom"
+    },
+    {
+        "id": 186,
+        "quote": "Only children, dogs, and women are loved unconditionally. A man is loved only under the condition that he provides something",
+        "author": "Charles Bukowski",
+        "category": "life"
+    },
+    {
+        "id": 187,
+        "quote": "The more outward the show, the greater the inward poverty",
+        "author": "Jiddu Krishnamurti",
+        "category": "wisdom"
+    },
+    {
+        "id": 188,
+        "quote": "The truth is you don't know what is going to happen tomorrow. Life is a crazy ride and nothing is guaranteed",
+        "author": "Marshall Mathers",
+        "category": "life"
+    },
+    {
+        "id": 189,
+        "quote": "And in the end, what do feelings matter? Only our bodies exist. They live a moment of immortality in the hour of love, and then they age and die",
+        "author": "Nick Kazantzakis",
+        "category": "wisdom"
+    },
+    {
+        "id": 190,
+        "quote": "The first gulp from the glass of natural sciences will turn you into an atheist, but at the bottom of the glass God is waiting for you",
+        "author": "Werner Heisenberg",
+        "category": "philosophy"
+    },
+    {
+        "id": 191,
+        "quote": "Silent people have the loudest minds",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 192,
+        "quote": "The difference between humans and animals is that animals would never allow the dumbest of the herd to lead them",
+        "author": "Thomas Sowell",
+        "category": "wisdom"
+    },
+    {
+        "id": 193,
+        "quote": "Everything is temporary. Don't stress",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 194,
+        "quote": "If a man knows more than others, he becomes lonely",
+        "author": "Carl Jung",
+        "category": "wisdom"
+    },
+    {
+        "id": 195,
+        "quote": "Everyone thinks of changing the world, but no one thinks of changing himself",
+        "author": "Leo Tolstoy",
+        "category": "self-awareness"
+    },
+    {
+        "id": 196,
+        "quote": "The people who are crazy enough to think they can change the world are the ones who do",
+        "author": "Steve Jobs",
+        "category": "motivation"
+    },
+    {
+        "id": 197,
+        "quote": "When karma lands, it lands hard",
+        "author": "Tom Fitton",
+        "category": "wisdom"
+    },
+    {
+        "id": 198,
+        "quote": "I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times",
+        "author": "Bruce Lee",
+        "category": "wisdom"
+    },
+    {
+        "id": 199,
+        "quote": "Time always exposes what you truly mean to someone",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 200,
+        "quote": "Have a dream so big that you get uncomfortable telling small-minded people",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 201,
+        "quote": "Only the brave can love because they are the only ones who dare to do it, even knowing that they will lose in the end",
+        "author": "unknown",
+        "category": "love"
+    },
+    {
+        "id": 202,
+        "quote": "A man who stays silent even after being disrespected is far more dangerous than you think",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 203,
+        "quote": "The mouse dies in the mouse trap because it doesn't understand why the cheese is free",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 204,
+        "quote": "When people know they did you wrong, they avoid you",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 205,
+        "quote": "You will know the truth and the truth will set you free",
+        "author": "Jesus Christ - John 8:32",
+        "category": "wisdom"
+    },
+    {
+        "id": 206,
+        "quote": "In the greatest difficulties, I discovered two sides of myself: the weakest and the strongest",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 207,
+        "quote": "Fake it till you make it",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 208,
+        "quote": "The more I learn, the more I realize how much I don't know",
+        "author": "Albert Einstein",
+        "category": "self-awareness"
+    },
+    {
+        "id": 209,
+        "quote": "Ignore me once and I'll teach you what ignorance means",
+        "author": "unknown",
+        "category": "wisdom"
+    },
+    {
+        "id": 210,
+        "quote": "It's hard to find love but easy to lose it. It takes a long time to build a relationship but just one moment to tear everything apart",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 211,
+        "quote": "It's easy to fool people when they are already fooling themselves",
+        "author": "Gerald Loeb",
+        "category": "wisdom"
+    },
+    {
+        "id": 212,
+        "quote": "Stay genuine, tables will turn",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 213,
+        "quote": "One sees clearly only with the heart. What is essential is invisible to the eye",
+        "author": "Antoine de Saint-Exupéry",
+        "category": "wisdom"
+    },
+    {
+        "id": 214,
+        "quote": "Do not chase what's not chasing you, unless it's money",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 215,
+        "quote": "Some roads you need to take alone. No friends, no family, no partner. Just you and God",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 216,
+        "quote": "Nothing can destroy Iron, only its own rust can. Likewise, nothing can destroy you, only your own mindset can",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 217,
+        "quote": "Ego is the most dangerous part of us. Ego is the enemy. The ego. You You have to have a little bit of it to keep moving but you let that get out of control, then you have the power freak",
+        "author": "Anthony Hopkins",
+        "category": "wisdom"
+    },
+    {
+        "id": 218,
+        "quote": "If you pay attention to the people who are real, they're isolated",
+        "author": "unknown",
+        "category": "life"
+    },
+    {
+        "id": 219,
+        "quote": "Asking for help isn't giving up, it's refusing to give up",
+        "author": "unknown",
+        "category": "motivation"
+    },
+    {
+        "id": 220,
+        "quote": "Souls don't meet by accident",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 221,
+        "quote": "Everyone in your life will have a last day with you and you don't even know when it will be",
+        "author": "unknown",
+        "category": "relationships"
+    },
+    {
+        "id": 222,
+        "quote": "Be so private they can't do anything but assume",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 223,
+        "quote": "Wise men speak when they have something to say, fools speak because they have to say something",
+        "author": "Plato",
+        "category": "wisdom"
+    },
+    {
+        "id": 224,
+        "quote": "When the devil can't get any further, he sends a woman",
+        "author": "unknown",
+        "category": "psychology"
+    },
+    {
+        "id": 225,
+        "quote": "Truth is not what you want it to be. It is what it is and you must bend to its power or live a lie",
+        "author": "Miyamoto Musashi",
+        "category": "life"
+    },
+    {
+        "id": 226,
+        "quote": "You cannot suffer the past or future because they do not exist. What you are suffering is your memory and your imagination",
+        "author": "Jagadish Vasudev",
+        "category": "psychology"
+    },
+    {
+        "id": 227,
+        "quote": "Great things never come from comfort zones",
+        "author": "unknown",
+        "category": "self-improvement"
+    },
+    {
+        "id": 228,
+        "quote": "Comfort is a drug. Once you get used to it, it becomes addicting. Give a weak person consistent stimulation, good food, cheap entertainment, and they will throw their ambitions right out the window. The comfort zone is where dreams go and die",
+        "author": "unknown",
+        "category": "psychology"
+    },
+    {
+        "id": 229,
+        "quote": "Sometimes God sends an ex back to your life to see if you are still stupid",
+        "author": "unknown",
+        "category": "self-awareness"
+    },
+    {
+        "id": 230,
+        "quote": "If you think it's expensive to hire a professional to do the job, wait until you hire an amateur",
+        "author": "Red Adair",
+        "category": "self-awareness"
+    },
+    {
+        "id": 231,
+        "quote": "You either die a hero, or you live long enough to see yourself become the villain",
+        "author": "Harvey Dent",
+        "category": "wisdom"
+    },
+    {
+        "id": 232,
+        "quote": "Do not let yourself be guided by the feeling of lust or love",
+        "author": "Miyamoto Musashi",
+        "category": "self-awareness"
+    },
+    {
+        "id": 233,
+        "quote": "It is amazing how complete is the delusion that beauty is goodness",
+        "author": "Leo Tolstoy",
+        "category": "life"
+    },
+    {
+        "id": 234,
+        "quote": "Float like a butterfly, sting like a bee",
+        "author": "Muhammad Ali",
+        "category": "wisdom"
+    },
+    {
+        "id": 235,
+        "quote": "The only true wisdom is in knowing you know nothing",
+        "author": "Socrates",
+        "category": "wisdom"
+    },
+    {
+        "id": 236,
+        "quote": "It always seems impossible until it's done",
+        "author": "Nelson Mandela",
+        "category": "motivation"
+    },
+    {
+        "id": 237,
+        "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts",
+        "author": "Winston Churchill",
+        "category": "self-improvement"
+    },
+    {
+        "id": 238,
+        "quote": "A journey of a thousand miles begins with a single step",
+        "author": "Lao Tzu",
+        "category": "motivation"
+    },
+    {
+        "id": 239,
+        "quote": "Do what you love, and you'll never work a day in your life",
+        "author": "Confucius",
+        "category": "motivation"
+    },
+    {
+        "id": 240,
+        "quote": "He who opens a school door, closes a prison",
+        "author": "Victor Hugo",
+        "category": "wisdom"
+    },
+    {
+        "id": 241,
+        "quote": "It is not length of life, but depth of life",
+        "author": "Ralph Waldo Emerson",
+        "category": "wisdom"
+    },
+    {
+        "id": 242,
+        "quote": "The weak can never forgive. Forgiveness is the attribute of the strong",
+        "author": "Mahatma Gandhi",
+        "category": "strength"
+    },
+    {
+        "id": 243,
+        "quote": "Imperfection is beauty, madness is genius, and it's better to be absolutely ridiculous than absolutely boring",
+        "author": "Marilyn Monroe",
+        "category": "wisdom"
+    },
+    {
+        "id": 244,
+        "quote": "You miss 100% of the shots you don't take",
+        "author": "Wayne Gretzky",
+        "category": "motivation"
+    },
+    {
+        "id": 245,
+        "quote": "Hell is empty, and all the devils are here",
+        "author": "William Shakespeare",
+        "category": "wisdom"
+    },
+    {
+        "id": 246,
+        "quote": "If opportunity doesn't knock, build a door",
+        "author": "Milton Berle",
+        "category": "motivation"
+    },
+    {
+        "id": 247,
+        "quote": "Knowing yourself is the beginning of all wisdom",
+        "author": "Aristotle",
+        "category": "self-awareness"
+    },
+    {
+        "id": 248,
+        "quote": "Well done is better than well said",
+        "author": "Benjamin Franklin",
+        "category": "wisdom"
+    },
+    {
+        "id": 249,
+        "quote": "A fool thinks himself to be wise but a wise man knows himself to be a fool",
+        "author": "William Shakespeare",
+        "category": "wisdom"
+    },
+    {
+        "id": 250,
+        "quote": "Do not pray for an easy life; pray for the strength to endure a difficult one",
+        "author": "Bruce Lee",
+        "category": "strength"
     }
-    
-    
-
 ]
