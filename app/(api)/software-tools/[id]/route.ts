@@ -27,7 +27,7 @@ export const DELETE = async (request: NextRequest) => {
   const toolIndex = softwareTools.findIndex(tool => tool.id === id);
 
   if (toolIndex === -1) 
-    return NextResponse.json({ message: 'Album not found' }, { status: 404, headers });
+    return NextResponse.json({ message: 'Software Tool not found' }, { status: 404, headers });
 
   const [tool] = softwareTools.splice(toolIndex, 1);
 
