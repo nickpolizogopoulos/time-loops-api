@@ -301,15 +301,16 @@ export const sections: Section[] = [
                         <pre data-prefix="4"><code className='pl-7'  >{`.catch(error => console.error('Error:', error));`}</code></pre>
                     </div>
                 </div>
+                <Note note='This will fetch the list of all albums.' />
                 <Note strongText="Notice:"
                     note={
-                        <span>No need to specify method: "GET", because <span className="docs-strong-note">
+                        <span>
+                            No need to specify method: "GET", because <span className="docs-strong-note">
                             <span className="font-mono text-sm">fetch()</span> defaults to a GET request</span>{' '}
                             if no method is provided.
                         </span>
                     }
                 />
-                <Note note='This will fetch the list of all albums.' />
             </>
     },
     {
@@ -367,15 +368,22 @@ export const sections: Section[] = [
                 />
                 <Note strongText='Notice:'
                     note={
-                        <span>The POST request includes <span className="docs-strong-note">id: 1, because 
-                        TypeScript expects the id key.</span> The id will be generated on the server based 
-                        on the length of the Albums array.</span>
+                        <span>
+                            The POST request includes{' '}
+                            <span className="docs-strong-note">
+                                id: 1, because TypeScript expects the id key.
+                            </span>
+                            The id will be generated on the server based on the length of the Albums array.
+                        </span>
                     }
                 />
                 <Note strongText='Notice:'
                     note={
-                        <span>The compiler shouts because month is of <span className="docs-strong-note">type Month</span>. 
-                        In this example, it must be written 'September'.</span>
+                        <span>
+                            The compiler shouts because month is of{' '}
+                            <span className="docs-strong-note">type Month</span>. 
+                            In this example, it must be written 'September'.
+                        </span>
                     }
                 />
             </>
@@ -409,6 +417,15 @@ export const sections: Section[] = [
                         (JavaScript) has been deleted successfully" }
                     `}
                 />
+                <Note strongText='Reminder:'
+                    note={
+                        <span>
+                            The DELETE request does not actually remove the resource from the server. Instead, the API{' '}
+                            <span className="docs-strong-note">simulates the deletion</span>, 
+                            making it appear as if the item was removed.
+                        </span>
+                    }
+                />
             </>
     },
     {
@@ -424,9 +441,11 @@ export const sections: Section[] = [
                 </p>
                 <Note strongText="Reminder: " 
                     note={
-                        <span>The PUT request does not actually update the resource on the server. Instead, the API{' '}
-                        <span className="docs-strong-note">simulates the update</span>, 
-                        making it appear as if the change was successful.</span>
+                        <span>
+                            The PUT request does not actually update the resource on the server. Instead, the API{' '}
+                            <span className="docs-strong-note">simulates the update</span>, 
+                            making it appear as if the change was successful.
+                        </span>
                     }
                 />
             </>
@@ -444,9 +463,11 @@ export const sections: Section[] = [
                 </p>
                 <Note strongText="Reminder: " 
                     note={
-                        <span>The PATCH request won't actually modify the resource on the server. Instead,{' '}
+                        <span>
+                            The PATCH request won't actually modify the resource on the server. Instead,{' '}
                             <span className="docs-strong-note">the API mimics the update</span>, 
-                            giving the impression that the change was applied.</span>
+                            giving the impression that the change was applied.
+                        </span>
                     }
                 />
             </>
