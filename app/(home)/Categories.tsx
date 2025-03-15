@@ -10,26 +10,22 @@ type Card = {
     buttonText: string;
     docksPath: string;
 };
-
-const albumsCount = albums.length;
-const quotesCount = quotes.length;
-const skyscrapersCount = skyscrapers.length;
   
 const cards: Card[] = [
     {
-        title: albumsCount + ' Music Albums',
+        title: '100 Music Albums',
         description: 'Timeless Music Albums from World-Famous Artists and Bands!',
         buttonText: '/albums',
         docksPath: 'albums'
     },
     {
-        title: quotesCount + ' Quotes',
+        title: '250 Quotes',
         description: 'Iconic Quotes from Legendary Figures!',
         buttonText: '/quotes',
         docksPath: 'quotes'
     },
     {
-        title: skyscrapersCount + ' Skyscrapers',
+        title: '8 Skyscrapers',
         description: 'Historic Skyscraper Buildings that shaped the Skyline!',
         buttonText: '/skyscrapers',
         docksPath: 'skyscrapers'
