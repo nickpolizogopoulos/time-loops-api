@@ -1,9 +1,5 @@
 import Link from "next/link";
 
-import * as albums from '../(api)/albums/data.json';
-import * as quotes from '../(api)/quotes/data.json';
-import * as skyscrapers from '../(api)/skyscrapers/data.json';
-
 type Card = {
     title: string;
     description: string;
@@ -25,7 +21,7 @@ const cards: Card[] = [
         docksPath: 'quotes'
     },
     {
-        title: '8 Skyscrapers',
+        title: '10 Skyscrapers',
         description: 'Historic Skyscraper Buildings that shaped the Skyline!',
         buttonText: '/skyscrapers',
         docksPath: 'skyscrapers'

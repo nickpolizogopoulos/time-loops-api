@@ -1,7 +1,11 @@
 'use client';
 
 import { useState } from "react";
-import { album, quote, softwareTool } from './data';
+import {
+    album,
+    quote,
+    softwareTool
+} from './data';
 
 type Endpoint = {
     endpoint: string;
@@ -58,7 +62,7 @@ const Endpoints = () => {
         <section className="flex flex-col lg:flex-row justify-center gap-10 mb-28">
             <div className="flex flex-col items-center gap-3">
                 <h2 className="text-4xl font-semibold mb-5 text-center">
-                    Try any endpoint in your browser
+                    Try an endpoint in your browser
                 </h2>
                 {
                     endpoints.map(endpoint => 

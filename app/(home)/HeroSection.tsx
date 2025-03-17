@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="hero min-h-80 py-10 lg:py-20">
+    <section className="hero mb-20 mt-16 lg:mt-28">
         <div className="hero-content text-center flex-col">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">
                 Reliable{' '}
