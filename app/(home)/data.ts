@@ -15,7 +15,7 @@ export const album = JSON.stringify({
             link: 'https://en.wikipedia.org/wiki/Epic_Records'
         }
     ],
-    wiki: 'https://en.wikipedia.org/wiki/Thriller_(album)',
+    wiki: 'https://en.wikipedia.org/wiki/Thriller_%28album%29',
 }, null, 3);
 
 export const quote = JSON.stringify({
@@ -39,5 +39,5 @@ export const softwareTool = JSON.stringify({
         },
     ],
     yearCreated: 1972,
-    wiki: 'https://en.wikipedia.org/wiki/C_(programming_language)'
+    wiki: 'https://en.wikipedia.org/wiki/C_%28programming_language%29'
 }, null, 3);

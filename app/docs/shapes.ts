@@ -137,11 +137,15 @@ export const galleryItemType: CodeLine[] = [
         position: 0
     },
     {
-        line: 'caption: string;',
+        line: 'id: number;',
         position: 1
     },
     {
         line: 'source: string;',
+        position: 1
+    },
+    {
+        line: 'alt: string;',
         position: 1
     },
     {
@@ -262,15 +266,7 @@ export const skyscraperType: CodeLine[] = [
         position: 1
     },
     {
-        line: 'owners: NamedLink[];',
-        position: 1
-    },
-    {
         line: 'photo: string;',
-        position: 1
-    },
-    {
-        line: 'record: string;',
         position: 1
     },
     {

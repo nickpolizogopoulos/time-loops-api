@@ -64,8 +64,9 @@ export type SoftwareTool = {
 
 //* Skyscraper types.
 type GalleryItem = {
-    caption: string;
+    id: number;
     source: string;
+    alt: string;
 };
 
 type Area = {
@@ -96,9 +97,7 @@ export type Skyscraper = {
     location: Area;
     numberOfElevators: number;
     openedDate: CustomDate;
-    owners: NamedLink[];
     photo: string;
-    record: string;
     slug: string;
     subtitle: string;
     title: string;
