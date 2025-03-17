@@ -838,18 +838,19 @@
     },
     {
         "id": 50,
-        "title": "Microsoft SQL Server",
-        "description": "A relational database management system developed by Microsoft, known for its integration with other Microsoft services and tools, and support for large-scale data operations.",
-        "image": "https://timeloopsapi.com/images/software-tools/mssql.svg",
-        "usage": "Database management, enterprise data storage, data warehousing, web applications",
+        "title": "SQLite",
+        "description": "A lightweight, self-contained, serverless SQL database engine designed for embedded and local storage applications.",
+        "image": "https://timeloopsapi.com/images/software-tools/sqlite.svg",
+        "usage": "Embedded database, local storage, mobile applications, IoT devices",
         "category": "relational-database-management-system",
         "creators": [
             {
-                "name": "Microsoft",
-                "wiki": "https://en.wikipedia.org/wiki/Microsoft"
+                "name": "D. Richard Hipp",
+                "wiki": "https://en.wikipedia.org/wiki/D._Richard_Hipp"
             }
         ],
-        "yearCreated": 1989,
-        "wiki": "https://en.wikipedia.org/wiki/Microsoft_SQL_Server"
+        "yearCreated": 2000,
+        "wiki": "https://en.wikipedia.org/wiki/SQLite"
     }
+    
 ]
