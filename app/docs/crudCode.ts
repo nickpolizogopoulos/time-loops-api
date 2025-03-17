@@ -2,6 +2,11 @@ import { type CodeLine } from "./types/types";
 
 export const space: CodeLine = { line: '', position: 0 };
 
+const errorUnderline: string = 'underline decoration-1 underline-offset-2 decoration-rose-500 decoration-wavy';
+const highlightedLine: string = 'bg-secondary text-secondary-content';
+const highlightedText: string = 'text-warning';
+
+
 export const postRequest: CodeLine[] = [
     {
         line: 'const newAlbum: MusicAlbum = {',
@@ -10,7 +15,7 @@ export const postRequest: CodeLine[] = [
     {
         line: 'id: 1,',
         position: 1,
-        style: 'text-warning'
+        style: highlightedText
     },
     {
         line: `title: 'Experience',`,
@@ -35,7 +40,7 @@ export const postRequest: CodeLine[] = [
     {
         line: `month: 'Sept',`,
         position: 2,
-        style: 'underline decoration-1 underline-offset-2 decoration-rose-500 decoration-wavy'
+        style: errorUnderline
     },
     {
         line: 'year: 1992,',
@@ -69,7 +74,7 @@ export const postRequest: CodeLine[] = [
     {
         line: `method: 'POST',`,
         position: 1,
-        style: 'bg-secondary text-secondary-content'
+        style: highlightedLine
     },
     {
         line: 'body: JSON.stringify(newAlbum)',
@@ -102,7 +107,7 @@ export const deleteRequest: CodeLine[] = [
     {
         line: `method: 'DELETE'`,
         position: 1,
-        style: 'bg-secondary text-secondary-content'
+        style: highlightedLine
     },
     {
         line: '})',
@@ -123,6 +128,103 @@ export const deleteRequest: CodeLine[] = [
     space
 ];
 
+export const putRequest: CodeLine[] = [
+    {
+        line: 'const updatedQuote =  {',
+        position: 0
+    },
+    {
+        line: `quote: "It is not that I'm so smart, it's just that I stay with problems longer",`,
+        position: 1
+    },
+    {
+        line: `author: "Albert Einstein",`,
+        position: 1
+    },
+    {
+        line: `category: "wisdom"`,
+        position: 1
+    },
+    {
+        line: '};',
+        position: 0
+    },
+    space,
+    {
+        line: `fetch('http://localhost:3000/quotes/1', {`,
+        position: 0
+    },
+    {
+        line: `method: 'PUT',`,
+        position: 1,
+        style: highlightedLine
+    },
+    {
+        line: 'body: JSON.stringify(updatedQuote)',
+        position: 1
+    },
+    {
+        line: '})',
+        position: 0
+    },
+    {
+        line: '.then(response => response.json())',
+        position: 1
+    },
+    {
+        line: `.then(data => console.log('Updated Quote:', data))`,
+        position: 1
+    },
+    {
+        line: `.catch(error => console.error('Error:', error));`,
+        position: 1
+    },
+    space
+];
 
-export const putRequest: CodeLine[] = [];
-export const patchRequest: CodeLine[] = [];
+export const patchRequest: CodeLine[] = [
+    {
+        line: 'const patchedSkyscraper =  {',
+        position: 0
+    },
+    {
+        line: `subtitle: "One WTC"`,
+        position: 1,
+        style: highlightedText
+    },
+    {
+        line: '};',
+        position: 0
+    },
+    space,
+    {
+        line: `fetch('http://localhost:3000/skyscrapers/4', {`,
+        position: 0
+    },
+    {
+        line: `method: 'PATCH',`,
+        position: 1,
+        style: highlightedLine
+    },
+    {
+        line: 'body: JSON.stringify(patchedSkyscraper)',
+        position: 1
+    },
+    {
+        line: '})',
+        position: 0
+    },
+    {
+        line: '.then(response => response.json())',
+        position: 1
+    },
+    {
+        line: `.then(data => console.log('Updated Skyscraper:', data))`,
+        position: 1
+    },
+    {
+        line: `.catch(error => console.error('Error:', error));`,
+        position: 1
+    },
+    space
+];

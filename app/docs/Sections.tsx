@@ -3,7 +3,9 @@ import Link from "next/link";
 import Note from './_components/Note';
 import {
     deleteRequest,
-    postRequest
+    patchRequest,
+    postRequest,
+    putRequest
 } from "./crudCode";
 import {
     endpoints,
@@ -36,7 +38,7 @@ export const sections: Section[] = [
         isCategoryTitle: true,
         content: `
             Welcome to Time Loops API, your one-stop destination for real-world data on Music Albums, Quotes, 
-            Buildings, and Software Tools. This API offers authentic and detailed information that you can use 
+            Software Tools and Skyscrapers. This API offers authentic and detailed information that you can use 
             to power your music apps, quotes apps, architecture projects, and software tools directories.
         `
     },
@@ -57,7 +59,7 @@ export const sections: Section[] = [
                         {
                             endpoints.map(endpoint =>
                                 <tr key={endpoint.description}>
-                                    <td>
+                                    <td className="align-top">
                                         <Link href={endpoint.path} target='_blank' className='link link-primary'>
                                             {endpoint.name}
                                         </Link>
@@ -439,6 +441,30 @@ export const sections: Section[] = [
                     The PUT request will <span className='underline'>replace the entire resource</span> with the new data. 
                     All fields must be provided, and missing fields will be overwritten.
                 </p>
+                <div className="mockup-code max-w-fit mb-1">
+                    <div className='pt-2 pb-2'>
+                        {
+                            putRequest.map((line, index) =>
+                                <pre key={index} data-prefix={index + 1} className={line.style ?? undefined}>
+                                    <code className={
+                                        linePosition(line.position)
+                                    }>
+                                        {line.line}
+                                    </code>
+                                </pre>
+                            )
+                        }
+                    </div>
+                </div>
+                <Note note='The code above will completely replace the first quote.' />
+                <Note strongText="Notice: " note={
+                    <span>
+                        The updatedQuote object{' '}
+                        <span className="docs-strong-note">doesn't have the id key</span>{' '}
+                        - it's not mandatory.{' '}
+                        <span className='docs-strong-note'>This can't be of type Quote now.</span>
+                    </span>
+                }/>
                 <Note strongText="Reminder: " 
                     note={
                         <span>
@@ -461,6 +487,30 @@ export const sections: Section[] = [
                     The PATCH request will <span className='underline'>only update the specified fields</span>,
                     leaving the other fields of the resource unchanged.
                 </p>
+                <div className="mockup-code max-w-fit mb-1">
+                    <div className='pt-2 pb-2'>
+                        {
+                            patchRequest.map((line, index) =>
+                                <pre key={index} data-prefix={index + 1} className={line.style ?? undefined}>
+                                    <code className={
+                                        linePosition(line.position)
+                                    }>
+                                        {line.line}
+                                    </code>
+                                </pre>
+                            )
+                        }
+                    </div>
+                </div>
+                <Note note='The code above will partially update the One World TradeCenter Skyscraper.' />
+                <Note strongText="Notice: " note={
+                    <span>
+                        The patchedSkyscraper object{' '}
+                        <span className="docs-strong-note">
+                            includes only the key-value pair we want to update.
+                        </span>
+                    </span>
+                }/>
                 <Note strongText="Reminder: " 
                     note={
                         <span>
