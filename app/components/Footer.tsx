@@ -14,6 +14,10 @@ const navigationLinks: NavLink[] = [
         path: '/'
     },
     {
+        name: 'About',
+        path: '/about'
+    },
+    {
         name: 'Docs',
         path: '/docs'
     },

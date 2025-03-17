@@ -37,7 +37,7 @@ const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
                     <BackToTopButton />
                 <Footer />
             </div>
-            <div className="drawer-side z-50 sm:hidden">
+            <div className="drawer-side z-50 md:hidden">
                 <label htmlFor="drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul tabIndex={0} className='menu bg-base-200 text-base-content min-h-full w-72 px-4 py-2 justify-between'>
                     <section>
@@ -61,8 +61,11 @@ const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
                             <Link onClick={closeDrawer} href='/' className='font-semibold text-base'>Home</Link>
                         </li>
                         <li>
-                            <details open>
-                                <summary>
+                            <Link onClick={closeDrawer} href='/about' className='font-semibold text-base'>About</Link>
+                        </li>
+                        <li>
+                            <details>
+                                <summary className='pr-[1.3rem]'>
                                     <Link onClick={closeDrawer} href='/docs' className='font-semibold text-base'>Docs</Link>
                                 </summary>
                                 <ul>

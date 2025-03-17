@@ -18,6 +18,10 @@ const navLinks: NavLink[] = [
         path: '/'
     },
     {
+        name: 'About',
+        path: '/about'
+    },
+    {
         name: 'Docs',
         path: 'docs'
     },
@@ -30,12 +34,12 @@ const navLinks: NavLink[] = [
 const Navbar = () => {
     return (
         <>
-            <div className="shadow-xl shadow-black/5 sticky top-0 sm:static bg-base-100 z-40">
+            <div className="shadow-xl shadow-black/5 sticky top-0 md:static bg-base-100 z-40">
                 <nav className="navbar h-24 justify-between mx-auto max-w-screen-2xl px-5">
 
                     <section>
                         <div>
-                            <label htmlFor='drawer' className='px-2 btn btn-ghost sm:hidden'>
+                            <label htmlFor='drawer' className='px-2 btn btn-ghost md:hidden'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
@@ -63,7 +67,7 @@ const Navbar = () => {
                         </Link>
                     </section>
 
-                    <ul className="menu menu-horizontal hidden sm:inline-flex px-0">
+                    <ul className="menu menu-horizontal hidden md:inline-flex px-0">
                         {
                             navLinks.map(link => {
                                 const target = link.path === github ? '_blank' : '_self';
