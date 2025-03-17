@@ -1,6 +1,9 @@
 'use client';
 
-import { useState } from "react";
+import {
+    useState,
+    useEffect
+} from "react";
 import {
     album,
     quote,
@@ -35,13 +38,20 @@ const Endpoints = () => {
 
     const [url, setUrl] = useState<Endpoint['category']>('albums');
     const [object, setObject] = useState<Endpoint['objectLoad']>('album');
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
 
     const urlClick = (category: Endpoint['category']): void => {
         setUrl(category);
     };
 
     const clickToCopy = (text: string): void => {
-        navigator.clipboard.writeText(text);
+        if (isClient) {
+            navigator.clipboard.writeText(text);
+        }
     };
 
     const onObjectChange = (object: Endpoint['objectLoad']): void => {
