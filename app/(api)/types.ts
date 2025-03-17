@@ -1,6 +1,17 @@
 //* General types.
-type Month = 'January' | 'February' | 'March' | 'April' | 'May' 
-    | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December';
+type Month =
+    | 'January'
+    | 'February'
+    | 'March'
+    | 'April'
+    | 'May'
+    | 'June'
+    | 'July'
+    | 'August'
+    | 'September'
+    | 'October'
+    | 'November'
+    | 'December';
 
 type CustomDate = {
     day: number;
@@ -25,7 +36,6 @@ export type MusicAlbum = {
     wiki: string;
 };
 
-
 //* Quote type.
 export type Quote = {
     id: number;
@@ -33,7 +43,6 @@ export type Quote = {
     author: string;
     category: string;
 };
-
 
 //* Software Tool type.
 type Creator = {
@@ -60,7 +69,6 @@ export type SoftwareTool = {
     yearCreated: number;
     wiki: string;
 };
-
 
 //* Skyscraper types.
 type GalleryItem = {
