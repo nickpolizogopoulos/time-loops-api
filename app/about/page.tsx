@@ -64,7 +64,9 @@ const About = () => {
         </p>
         <p className="mb-4">
           Below is a list crediting the photographers for the skyscraper images I 
-          downloaded from Unsplash, along with a list for the software tools logos.
+          downloaded from{' '}
+          <Link className='link link-primary' href='https://unsplash.com/' target='_blank'>Unsplash</Link>,
+          along with a list for the software tools logos.
         </p>
       </div>
 
