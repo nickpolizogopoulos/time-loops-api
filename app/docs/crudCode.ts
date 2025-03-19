@@ -151,7 +151,7 @@ export const putRequest: CodeLine[] = [
     },
     space,
     {
-        line: `fetch('http://localhost:3000/quotes/1', {`,
+        line: `fetch('https://timeloopsapi.com/quotes/1', {`,
         position: 0
     },
     {
@@ -198,7 +198,7 @@ export const patchRequest: CodeLine[] = [
     },
     space,
     {
-        line: `fetch('http://localhost:3000/skyscrapers/4', {`,
+        line: `fetch('https://timeloopsapi.com/skyscrapers/4', {`,
         position: 0
     },
     {
