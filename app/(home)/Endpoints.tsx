@@ -1,8 +1,8 @@
 'use client';
 
 import {
-    useState,
-    useEffect
+    useEffect,
+    useState
 } from "react";
 import {
     album,

@@ -4,9 +4,7 @@ import {
 } from 'next/server';
 
 import { getHeaders } from '../headers';
-import {
-  type MusicAlbum
-} from '../types';
+import { type MusicAlbum } from '../types';
 import musicAlbums from './data.json';
 import { musicAlbumSchema } from './validationSchema';
 

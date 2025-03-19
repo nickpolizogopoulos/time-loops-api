@@ -1,8 +1,8 @@
-import HeroSection from "./HeroSection";
-import Endpoints from "./Endpoints";
-import ProjectInformation from "./ProjectInformation";
 import Categories from "./Categories";
 import CTA from "./CTA";
+import Endpoints from "./Endpoints";
+import HeroSection from "./HeroSection";
+import ProjectInformation from "./ProjectInformation";
 
 const Home = () => {
   return (

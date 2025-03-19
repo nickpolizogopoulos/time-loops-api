@@ -1,7 +1,10 @@
 import { z } from 'zod';
 
 import { dateSchema } from '../schemas/dateSchema';
-import { nameLinkObject, URL } from '../schemas/utilitySchemas';
+import {
+  URL,
+  nameLinkObject
+} from '../schemas/utilitySchemas';
 
 export const musicAlbumSchema = z.object({
   title: z.string().min(1, "Album title is required"),

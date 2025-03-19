@@ -1,7 +1,10 @@
 'use client';
 
 import Link from "next/link";
-import { JSX, useState } from "react";
+import {
+    JSX,
+    useState
+} from "react";
 
 type Props = {
     scrollToId: string;

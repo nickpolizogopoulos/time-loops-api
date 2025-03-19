@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
+import { type Metadata } from 'next';
 import SectionTitle from './_components/SectionTitle';
 import { sections } from './Sections';
-import { type Metadata } from 'next';
 
 const Docs = () => {
   return (
