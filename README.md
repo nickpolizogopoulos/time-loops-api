@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Time Loops API
+
+Power your applications with real, accurate and up-to-date data with **Time Loops API**. A free, fast, reliable, and developer-friendly REST API that ensures seamless integration, delivering the information you need to build smarter, more efficient and scalable solutions effortlessly!
+
+[Jump in!](https://timeloopsapi.com/)
+
+## What You Get
+  - [**100 Music Albums**](https://timeloopsapi.com/albums): Timeless albums from renowned artists and bands.
+  - [**250 Quotes**](https://timeloopsapi.com/quotes): Iconic quotes from legendary figures.
+  - [**10 Skyscrapers**](https://timeloopsapi.com/skyscrapers): Historic skyscrapers that have shaped city skylines.
+  - [**50 Software Tools**:](https://timeloopsapi.com/software-tools): Revolutionary software tools that have transformed technology.
 
 ## Getting Started
 
-First, run the development server:
+To begin using the Time Loops API:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. **Explore the Documentation**: Visit the [official documentation](https://timeloopsapi.com/docs) for detailed guides and endpoint information.
+2. **Try Endpoints**: Test the API directly in your browser. For example:
+   
+   - Retrieve details of a specific album:
+     ```
+     https://timeloopsapi.com/albums/6
+     ```
+   - Retrieve a quote:
+     ```
+     https://timeloopsapi.com/quotes/7
+     ```
+   - Retrieve details of a specific software tool:
+     ```
+     https://timeloopsapi.com/software-tools/8
+     ```
+
+## Full CRUD Support
+
+The Time Loops API provides complete **CRUD** (Create, Read, Update, Delete) functionality, allowing seamless data management.  
+
+- **Create** → Add new records to the database.  
+- **Read** → Retrieve existing data via API endpoints.  
+- **Update** → Modify existing records with updated details.  
+- **Delete** → Remove records when no longer needed.  
+
+This ensures flexibility and control over the data, making it easy to integrate into any application.  
+<sub>***-Note***: The POST, PUT, PATCH and DELETE operations simulate real-world behavior but do not persist or modify data.</sub>
+
+## Examples
+
+Try any of the snippers in your IDE.
+
+### GET Request
+```
+fetch('https://timeloopsapi.com/albums')
+  .then(response => response.json())
+  .then(data => console.log('Albums:', data))
+  .catch(error => console.error('Error:', error));
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### POST Request
+```
+const newAlbum = {
+  id: 1,  
+  title: 'Experience',  
+  artist: 'The Prodigy',  
+  description: 'Experience is the debut studio album by the Prodigy.',  
+  releaseDate: {  
+    day: 28,  
+    month: 'September',  
+    year: 1992,  
+  },  
+  genre: 'Electronic',  
+  label: [
+    {
+      name: 'XL Recordings',
+      link: 'https://en.wikipedia.org/wiki/XL_Recordings'
+    }
+  ],  
+  wiki: 'https://en.wikipedia.org/wiki/Experience_(The_Prodigy_album)',  
+};
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+fetch('https://timeloopsapi.com/albums', {  
+  method: 'POST',  
+  body: JSON.stringify(newAlbum)  
+})  
+  .then(response => response.json())  
+  .then(data => console.log('New album added:', data))  
+  .catch(error => console.error('Error:', error));
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### DELETE Request
+```
+fetch('https://timeloopsapi.com/software-tools/7', {
+  method: 'DELETE'
+})
+  .then(response => response.json())
+  .then(data => console.log('Software Tool deleted:', data))
+  .catch(error => console.error('Error:', error));
+```
 
-## Learn More
+### PUT Request
+```
+const updatedQuote =  {
+  quote: "It is not that I'm so smart, it's just that I stay with problems longer",
+  author: "Albert Einstein",
+  category: "wisdom"
+};
+fetch('https://timeloopsapi.com/quotes/1', {
+  method: 'PUT',
+  body: JSON.stringify(updatedQuote)
+})
+  .then(response => response.json())
+  .then(data => console.log('Updated Quote:', data))
+  .catch(error => console.error('Error:', error));
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### PATCH Request
+```
+const patchedSkyscraper =  {
+  subtitle: "One WTC"
+};
+fetch('https://timeloopsapi.com/skyscrapers/4', {
+  method: 'PATCH',
+  body: JSON.stringify(patchedSkyscraper)
+})
+  .then(response => response.json())
+  .then(data => console.log('Updated Skyscraper:', data))
+  .catch(error => console.error('Error:', error));
