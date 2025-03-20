@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from "next/link";
-import { useEffect } from "react";
+import { useCallback, useEffect } from "react";
 
 import { sections } from "../docs/Sections";
 import BackToTopButton from './BackToTop';
@@ -17,10 +17,9 @@ const Drawer = ({children}: Readonly<{children: React.ReactNode;}>) => {
         (document.getElementById('drawer') as HTMLInputElement).checked = false;
     };
 
-    const handleEscPress = (event: KeyboardEvent): void => {
-        if (event.key === 'Escape')
-            closeDrawer();
-    };
+    const handleEscPress = useCallback((event: KeyboardEvent): void => {
+        if (event.key === 'Escape') closeDrawer();
+    }, []);
 
     useEffect(() => {
         window.addEventListener('keydown', handleEscPress);
