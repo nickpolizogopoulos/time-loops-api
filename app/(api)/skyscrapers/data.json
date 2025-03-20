@@ -1,0 +1,747 @@
+[
+    {
+        "id": 1,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Shreve,_Lamb_%26_Harmon",
+                "name": "Shreve, Lamb and Harmon"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Art_Deco",
+            "name": "Art Deco"
+        },
+        "constructionEnded": {
+            "day": 11,
+            "month": "April",
+            "year": 1931
+        },
+        "constructionStarted": {
+            "day": 17,
+            "month": "March",
+            "year": 1930
+        },
+        "floorArea": 208879,
+        "floorCount": 102,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/empire-state-building/empire-state-building-1.jpg",
+                "alt": "Empire State Building #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/empire-state-building/empire-state-building-2.jpg",
+                "alt": "Empire State Building #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/empire-state-building/empire-state-building-3.jpg",
+                "alt": "Empire State Building #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/empire-state-building/empire-state-building-4.jpg",
+                "alt": "Empire State Building #4"
+            }
+        ],
+        "height": 443,
+        "informationParagraphs": [
+            "The Empire State Building is a 102-story Art Deco skyscraper in the Midtown South neighborhood of Manhattan in New York City. The building was designed by Shreve, Lamb & Harmon and built from 1930 to 1931. Its name is derived from \"Empire State\", the nickname of the state of New York. The building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall, including its antenna. The Empire State Building was the world's tallest building until the first tower of the World Trade Center was topped out in 1970; following the September 11 attacks in 2001, the Empire State Building was New York City's tallest building until it was surpassed in 2012 by One World Trade Center. As of 2022, the building is the seventh-tallest building in New York City, the ninth-tallest completed skyscraper in the United States, and the 54th-tallest in the world.",
+            "The site of the Empire State Building, on the west side of Fifth Avenue between West 33rd and 34th Streets, was developed in 1893 as the Waldorf–Astoria Hotel. In 1929, Empire State Inc. acquired the site and devised plans for a skyscraper there. The design for the Empire State Building was changed fifteen times until it was ensured to be the world's tallest building. Construction started on March 17, 1930, and the building opened thirteen and a half months afterward on May 1, 1931. Despite favorable publicity related to the building's construction, because of the Great Depression and World War II, its owners did not make a profit until the early 1950s.",
+            "The building's Art Deco architecture, height, and observation decks have made it a popular attraction. Around four million tourists from around the world annually visit the building's 86th- and 102nd-floor observatories; an additional indoor observatory on the 80th floor opened in 2019. The Empire State Building is an international cultural icon: it has been featured in more than 250 television series and films since the film King Kong was released in 1933. The building's size has become the global standard of reference to describe the height and length of other structures. A symbol of New York City, the building has been named as one of the Seven Wonders of the Modern World by the American Society of Civil Engineers. It was ranked first on the American Institute of Architects' List of America's Favorite Architecture in 2007. Additionally, the Empire State Building and its ground-floor interior were designated city landmarks by the New York City Landmarks Preservation Commission in 1980, and were added to the National Register of Historic Places as a National Historic Landmark in 1986."
+        ],
+        "location": {
+            "city": "New York City",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/Empire+State+Building/@40.7484405,-73.9882393,17z/data=!3m2!4b1!5s0x8b398fecd1aea119:0x76fa1e3ac5a94c70!4m6!3m5!1s0x89c259a9b3117469:0xd134e199a405a163!8m2!3d40.7484405!4d-73.9856644!16zL20vMDJuZF8?authuser=0&entry=ttu",
+            "street": "350 Fifth Avenue, Manhattan"
+        },
+        "numberOfElevators": 73,
+        "openedDate": {
+            "day": 1,
+            "month": "May",
+            "year": 1931
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/empire-state-building/empire-state-building-thumbnail.jpg",
+        "slug": "empire-state-building",
+        "subtitle": "",
+        "title": "Empire State Building",
+        "type": [
+            "Commercial"
+        ],
+        "website": "https://www.esbnyc.com/",
+        "wiki": "https://en.wikipedia.org/wiki/Empire_State_Building"
+    },
+    {
+        "id": 2,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Chu-yuan_Lee",
+                "name": "C.Y. Lee"
+            },
+            {
+                "link": "https://en.wikipedia.org/wiki/C._P._Wang",
+                "name": "C.P. Wang"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Postmodernism",
+            "name": "Postmodernism"
+        },
+        "constructionEnded": {
+            "day": 14,
+            "month": "November",
+            "year": 2003
+        },
+        "constructionStarted": {
+            "day": 31,
+            "month": "July",
+            "year": 1999
+        },
+        "floorArea": 412500,
+        "floorCount": 101,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/taipei-101/taipei-101-1.jpg",
+                "alt": "Taipei 101 #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/taipei-101/taipei-101-2.jpg",
+                "alt": "Taipei 101 #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/taipei-101/taipei-101-3.jpg",
+                "alt": "Taipei 101 #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/taipei-101/taipei-101-4.jpg",
+                "alt": "Taipei 101 #4"
+            }
+        ],
+        "height": 508,
+        "informationParagraphs": [
+            "Taipei 101 (Chinese: 台北101; pinyin: Táiběi 101; stylized in all caps), formerly known as the Taipei World Financial Center, is a skyscraper in Taipei, Taiwan. It is owned by Taipei Financial Center Corporation. The building was officially classified as the world's tallest from its opening on 31 December 2004 (in time to celebrate New Year's Eve). However, the Burj Khalifa surpassed Taipei 101 in 2010. Upon completion, it became the world's first skyscraper to exceed a height of half a kilometer (about 0.3 miles). As of 2023, Taipei 101 is the tallest building in Taiwan and the eleventh tallest building in the world.",
+            "The elevators of Taipei 101 that transport passengers from the 5th to the 89th floor in 37 seconds (attaining 60.6 km/h (37.7 mph)) set speed records. In 2011, Taipei 101 was awarded a Platinum certificate rating under the LEED certification system for energy efficiency and environmental design, becoming the tallest and largest green building in the world. The structure regularly appears as an icon of Taipei in international media, and the Taipei 101 fireworks displays are a regular feature of New Year's Eve broadcasts and celebrations.",
+            "Taipei 101's postmodernist architectural style evokes traditional Asian aesthetics in a modern structure employing industrial materials. Its design incorporates a number of features that enable the structure to withstand the Pacific Ring of Fire's earthquakes and the region's tropical storms. The tower houses offices, restaurants, shops, and indoor and outdoor observatories. The tower is adjoined by a multilevel shopping mall that has the world's largest ruyi symbol as an exterior feature."
+        ],
+        "location": {
+            "city": "Taipei",
+            "country": "Taiwan",
+            "mapsLink": "https://www.google.com/maps/place/Taipei+101,+No.+7,+Section+5,+Xinyi+Rd,+Xinyi+District,+Taipei+City,+Taiwan+110/@25.033976,121.561964,17z/data=!3m1!4b1!4m6!3m5!1s0x3442abb6da9c9e1f:0x1206bcf082fd10a6!8m2!3d25.033976!4d121.5645389!16zL20vMDFjeTZ5?authuser=0&entry=ttu",
+            "street": "No. 7, Section 5, Xinyi Road, Xinyi District"
+        },
+        "numberOfElevators": 61,
+        "openedDate": {
+            "day": 31,
+            "month": "December",
+            "year": 2004
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/taipei-101/taipei-101-thumbnail.jpg",
+        "slug": "taipei-101",
+        "subtitle": "Taipei World Financial Center",
+        "title": "Taipei 101",
+        "type": [
+            "Commercial"
+        ],
+        "website": "http://www.taipei-101.com.tw/en/",
+        "wiki": "https://en.wikipedia.org/wiki/Taipei_101"
+    },
+    {
+        "id": 3,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Minoru_Yamasaki",
+                "name": "Minoru Yamasaki"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/New_Formalism_%28architecture%29",
+            "name": "New Formalism"
+        },
+        "constructionEnded": {
+            "day": 1,
+            "month": "December",
+            "year": 1970
+        },
+        "constructionStarted": {
+            "day": 6,
+            "month": "August",
+            "year": 1968
+        },
+        "floorArea": 442129,
+        "floorCount": 110,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/twin-towers/twin-towers-1.jpg",
+                "alt": "Taipei 101 #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/twin-towers/twin-towers-2.jpg",
+                "alt": "Taipei 101 #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/twin-towers/twin-towers-3.jpg",
+                "alt": "Taipei 101 #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/twin-towers/twin-towers-4.jpg",
+                "alt": "Taipei 101 #4"
+            }
+        ],
+        "height": 417,
+        "informationParagraphs": [
+            "The above information on this page is for the north tower.",
+            "The original World Trade Center (WTC) was a large complex of seven buildings in the Financial District of Lower Manhattan in New York City. It opened on April 4, 1973, and was destroyed during the September 11 attacks in 2001. At the time of their completion, the Twin Towers, including the original 1 World Trade Center (the North Tower) at 1,368 feet (417 m), and 2 World Trade Center (the South Tower) at 1,362 feet (415.1 m), were the tallest buildings in the world. Other buildings in the complex included the Marriott World Trade Center (3 WTC), 4 WTC, 5 WTC, 6 WTC, and 7 WTC. The complex contained 13,400,000 square feet (1,240,000 m2) of office space and, prior to its completion, was projected to accommodate an estimated 130,000 people.",
+            "The core complex was built between 1966 and 1975, at a cost of ~$400 million (equivalent to ~$3.80 billion in 2023). The idea was suggested by David Rockefeller to help stimulate urban renewal in Lower Manhattan, and his brother Nelson, then New York's 49th governor, signed the legislation to build it. The buildings at the complex were designed by Minoru Yamasaki. In 1998, the Port Authority of New York and New Jersey decided to privatize it by leasing the buildings to a private company to manage. It awarded the lease to Silverstein Properties in July 2001. During its existence, the World Trade Center symbolized globalization and the economic prosperity of the U.S. Although its design was initially criticized by New Yorkers and professional critics—\"they put up the boxes instead of the buildings\"—the Twin Towers became an icon of New York City. It had a major role in popular culture, and according to one estimate was depicted in 472 films. The Twin Towers were also used in Philippe Petit's tightrope-walking performance on August 7, 1974. Following the September 11 attacks, mentions of the complex in various media were altered or deleted, and several dozen \"memorial films\" were created.",
+            "The World Trade Center experienced several major crime and terrorist incidents, including a fire on February 13, 1975; a bombing on February 26, 1993; and a bank robbery on January 14, 1998. During the terrorist attacks on September 11, 2001, al-Qaeda-affiliated hijackers flew two Boeing 767 jets, one into each of the Twin Towers, seventeen minutes apart; between 16,400 and 18,000 people were in the Twin Towers when they were struck. The fires from the impacts were intensified by the planes' burning jet fuel, which, along with the initial damage to the buildings' structural columns, ultimately caused both towers to collapse. The attacks killed 2,606 people in and around the towers, as well as all 157 on board the two aircraft. Falling debris from the towers, combined with fires in several surrounding buildings that were initiated by falling debris, led to the partial or complete collapse of all the WTC complex's buildings, including 7 World Trade Center, and caused catastrophic damage to 10 other large structures in the surrounding area."
+        ],
+        "location": {
+            "city": "New York City",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/9%2F11+Memorial+%26+Museum/@40.7115776,-74.0159111,17z/data=!3m2!4b1!5s0x89c25a1a3bf26f61:0xe2320e12b6c6470c!4m6!3m5!1s0x89c25a1a3be8cb45:0xf430ccc5401d1eed!8m2!3d40.7115776!4d-74.0133362!16zL20vMDIxN3Z2?authuser=0&entry=ttu",
+            "street": "West St. - Liberty St. Lower Manhattan"
+        },
+        "numberOfElevators": 99,
+        "openedDate": {
+            "day": 15,
+            "month": "December",
+            "year": 1970
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/twin-towers/twin-towers-thumbnail.jpg",
+        "slug": "twin-towers",
+        "subtitle": "Original World Trade Center Complex, Buildings 1 & 2",
+        "title": "Twin Towers",
+        "type": [
+            "Commercial"
+        ],
+        "website": "https://www.911memorial.org/",
+        "wiki": "https://en.wikipedia.org/wiki/World_Trade_Center_%281973%E2%80%932001%29"
+    },
+    {
+        "id": 4,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/David_Childs",
+                "name": "David Childs"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Contemporary_architecture",
+            "name": "Contemporary modern"
+        },
+        "constructionEnded": {
+            "day": 10,
+            "month": "May",
+            "year": 2013
+        },
+        "constructionStarted": {
+            "day": 27,
+            "month": "April",
+            "year": 2006
+        },
+        "floorArea": 325279,
+        "floorCount": 94,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/one-world-trade-center/one-world-trade-center-1.jpg",
+                "alt": "One World Trade Center #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/one-world-trade-center/one-world-trade-center-2.jpg",
+                "alt": "One World Trade Center #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/one-world-trade-center/one-world-trade-center-3.jpg",
+                "alt": "One World Trade Center #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/one-world-trade-center/one-world-trade-center-4.jpg",
+                "alt": "One World Trade Center #4"
+            }
+        ],
+        "height": 546,
+        "informationParagraphs": [
+            "One World Trade Center, also known as One World Trade, One WTC, and formerly called the Freedom Tower during initial planning stages, is the main building of the rebuilt World Trade Center complex in Lower Manhattan, New York City. Designed by David Childs of Skidmore, Owings & Merrill, One World Trade Center is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 16-acre (6.5 ha) World Trade Center site, on the site of the original 6 World Trade Center. It is bounded by West Street to the west, Vesey Street to the north, Fulton Street to the south, and Washington Street to the east.",
+            "The construction of below-ground utility relocations, footings, and foundations for the new building began on April 27, 2006. One World Trade Center became the tallest structure in New York City on April 30, 2012, when it surpassed the height of the Empire State Building. The tower's steel structure was topped out on August 30, 2012. On May 10, 2013, the final component of the skyscraper's spire was installed, making the building, including its spire, reach a total height of 1,776 feet (541 m). Its height in feet is a deliberate reference to the year when the United States Declaration of Independence was signed. The building opened on November 3, 2014; the One World Observatory opened on May 29, 2015.",
+            "On March 26, 2009, the Port Authority of New York and New Jersey (PANYNJ) confirmed that the building would be officially known by its legal name of \"One World Trade Center\", rather than its colloquial name of \"Freedom Tower\". The building has 94 stories, with the top floor numbered 104."
+        ],
+        "location": {
+            "city": "New York City",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/One+World+Trade+Center/@40.7129947,-74.0157359,17z/data=!3m2!4b1!5s0x1282aaa9d5f7d7e3:0x87b1b3e1408bcf6b!4m6!3m5!1s0x89c25a197c06b7cb:0x40a06c78f79e5de6!8m2!3d40.7127431!4d-74.0133795!16zL20vMGN6YzFo?entry=ttu",
+            "street": "285 Fulton Street, Manhattan"
+        },
+        "numberOfElevators": 73,
+        "openedDate": {
+            "day": 3,
+            "month": "November",
+            "year": 2014
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/one-world-trade-center/one-world-trade-center-thumbnail.jpg",
+        "slug": "one-world-trade-center",
+        "subtitle": "Freedom Tower, World Trade Center 1",
+        "title": "One World Trade Center",
+        "type": [
+            "Commercial"
+        ],
+        "website": "https://www.onewtc.com",
+        "wiki": "https://en.wikipedia.org/wiki/One_World_Trade_Center"
+    },
+    {
+        "id": 5,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/WilkinsonEyre",
+                "name": "WilkinsonEyre"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Modern_architecture",
+            "name": "Modern"
+        },
+        "constructionEnded": {
+            "day": 28,
+            "month": "April",
+            "year": 2010
+        },
+        "constructionStarted": {
+            "day": 26,
+            "month": "December",
+            "year": 2005
+        },
+        "floorArea": 250095,
+        "floorCount": 103,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/guangzhou-international-finance-center/guangzhou-international-finance-center-1.jpg",
+                "alt": "Guangzhou International Finance Center #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/guangzhou-international-finance-center/guangzhou-international-finance-center-2.jpg",
+                "alt": "Guangzhou International Finance Center #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/guangzhou-international-finance-center/guangzhou-international-finance-center-3.jpg",
+                "alt": "Guangzhou International Finance Center #3"
+            }
+        ],
+        "height": 439,
+        "informationParagraphs": [
+            "Guangzhou International Finance Center or Guangzhou West Tower, is a 103-story, (438.6 m (1,439 ft)) skyscraper at Zhujiang Avenue West in the Tianhe District of Guangzhou, Guangdong. One half of the Guangzhou Twin Towers, it is the 24th tallest building in the world, completed in 2010. As of 2023, it is the world's tallest building with a rooftop helipad, at (438 m high).[8] The world's second-tallest building with a rooftop helipad was also completed in 2010: Beijing's China World Trade Center Tower III, whose roof-top helipad is 330 m high. Both buildings are taller than the U.S. Bank Tower, the previous record-holder from 1989 to 2010, whose roof-top helipad is 310.3 m (1,018 ft) high. ",
+            "Construction of the building, designed by WilkinsonEyre, broke ground in December 2005, and was completed in 2010. The building is used as a conference center, hotel and office building. Floors 1 through 66 are used as offices, floors 67 and 68 are for mechanical equipment, floors 69 to 98 have a Four Seasons Hotel with the lobby being on the 70th floor, and floors 99 and 100 are used as an observation deck. ",
+            "The building was previously known as Guangzhou West Tower and had a related project, the proposed Guangzhou East Tower, which, at 475 m (1,558 ft), would have been even taller, though that project has been awarded to a different design by Kohn Pedersen Fox, the 530 m (1,740 ft) Guangzhou CTF Finance Center."
+        ],
+        "location": {
+            "city": "Guangzhou",
+            "country": "China",
+            "mapsLink": "https://www.google.com/maps/place/Guangzhou+International+Finance+Center,+Tian+He+Qu,+Guang+Zhou+Shi,+China,+510600/@23.120347,113.3155001,17z/data=!3m1!4b1!4m6!3m5!1s0x3402ff1145b54501:0x7c17a355c3f57a1e!8m2!3d23.120347!4d113.318075!16s%2Fm%2F026rj60?entry=ttu",
+            "street": "5 Zhujiang Avenue West"
+        },
+        "numberOfElevators": 71,
+        "openedDate": {
+            "day": 28,
+            "month": "February",
+            "year": 2010
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/guangzhou-international-finance-center/guangzhou-international-finance-center-thumbnail.jpg",
+        "slug": "guangzhou-west-tower",
+        "subtitle": "Guangzhou International Finance Center - 广州国际金融中心",
+        "title": "Guangzhou West Tower",
+        "type": [
+            "Commercial",
+            "Hotel"
+        ],
+        "website": "https://wilkinsoneyre.com/projects/guangzhou-international-finance-center",
+        "wiki": "https://en.wikipedia.org/wiki/Guangzhou_International_Finance_Center"
+    },
+    {
+        "id": 6,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Kohn_Pedersen_Fox",
+                "name": "Kohn Pedersen Fox"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Contemporary_architecture",
+            "name": "Contemporary Modern"
+        },
+        "constructionEnded": {
+            "day": 21,
+            "month": "October",
+            "year": 2016
+        },
+        "constructionStarted": {
+            "day": 29,
+            "month": "July",
+            "year": 2010
+        },
+        "floorArea": 507681,
+        "floorCount": 111,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/guangzhou-chow-tai-fook-finance-centre/guangzhou-chow-tai-fook-finance-centre-1.jpg",
+                "alt": "Guangzhou Chow Tai Fook Finance Centre #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/guangzhou-chow-tai-fook-finance-centre/guangzhou-chow-tai-fook-finance-centre-2.jpg",
+                "alt": "Guangzhou Chow Tai Fook Finance Centre #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/guangzhou-chow-tai-fook-finance-centre/guangzhou-chow-tai-fook-finance-centre-3.jpg",
+                "alt": "Guangzhou Chow Tai Fook Finance Centre #3"
+            }
+        ],
+        "height": 530,
+        "informationParagraphs": [
+            "The Guangzhou Chow Tai Fook Finance Centre (simplified Chinese: 广州周大福金融中心; traditional Chinese: 廣州周大福金融中心; pinyin: Guǎngzhōu zhōudàfú jīnróng zhōngxīn), also called East Tower, it is a 530-metre (1,739 ft) tall mixed-use skyscraper in Guangzhou, Guangdong, which was completed in October 2016. It is the tallest completed building in Guangzhou, the third-tallest in China, and the eighth-tallest in the world. The Guangzhou CTF Finance Centre has a total of 111 above ground and five below ground floors and houses a shopping mall, offices, apartments, and a hotel. The skyscraper has a gross floor area of 507,681.0 m2 (5,464,633 sq ft), of which a little over 20% is not part of the skyscraper itself, but of the podium connected to it.",
+            "The Guangzhou CTF Finance Centre is situated on a 27,000 m2 (290,000 sq ft) lot along Zhujiang East Road in Zhujiang New Town, Guangzhou's central business district. In that neighborhood, the skyscraper is located east of the central axis with an underground mall and connections to public transportation underneath it. The Guangzhou CTF Centre is part of the Guangzhou Twin Towers. The other tower of the pair, the 439 m (1,439 ft) tall Guangzhou International Finance Center, is located on the other side of the axis and is also known under the name \"West Tower\". The Guangzhou CTF Centre is therefore known as the \"East Tower\" as well. Both towers have a similar height, size, and function, and are situated close to the 604 m (1,982 ft) tall Canton Tower.",
+            "The Guangzhou CTF Finance Centre is owned by Chow Tai Fook Enterprises, and houses the world's fastest elevators, which can reach speeds up to 21 m/s (69 ft/s)."
+        ],
+        "location": {
+            "city": "Guangzhou",
+            "country": "China",
+            "mapsLink": "https://www.google.com/maps/place/CTF+Finance+Centre/@23.1175997,113.3233518,17z/data=!3m1!4b1!4m6!3m5!1s0x3402ff0581714a59:0xb0506f7fbddb6e71!8m2!3d23.1175997!4d113.3259267!16s%2Fm%2F0b6g0hf?entry=ttu",
+            "street": "Zhujiang East Road"
+        },
+        "numberOfElevators": 95,
+        "openedDate": {
+            "day": 21,
+            "month": "October",
+            "year": 2016
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/guangzhou-chow-tai-fook-finance-centre/guangzhou-chow-tai-fook-finance-centre-thumbnail.jpg",
+        "slug": "guangzhou-chow-tai-fook-finance-centre",
+        "subtitle": "Guangzhou Chow Tai Fook Finance Centre - 广州周大福金融中心",
+        "title": "Guangzhou Chow Tai Fook Finance Centre",
+        "type": [
+            "Commercial",
+            "Residential",
+            "Hotel",
+            "Shopping Mall"
+        ],
+        "website": "https://www.rostek.fi/guangzhou-ctf-finance-center",
+        "wiki": "https://en.wikipedia.org/wiki/Guangzhou_CTF_Finance_Centre"
+    },
+    {
+        "id": 7,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Adrian_Smith_%2B_Gordon_Gill_Architecture",
+                "name": "Adrian Smith + Gordon Gill Architecture"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Modern_architecture",
+            "name": "Modern"
+        },
+        "constructionEnded": {
+            "day": 17,
+            "month": "September",
+            "year": 2019
+        },
+        "constructionStarted": {
+            "day": 17,
+            "month": "September",
+            "year": 2014
+        },
+        "floorArea": 119409,
+        "floorCount": 98,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/central-park-tower/central-park-tower-1.jpg",
+                "alt": "Central Park Tower #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/central-park-tower/central-park-tower-2.jpg",
+                "alt": "Central Park Tower #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/central-park-tower/central-park-tower-3.jpg",
+                "alt": "Central Park Tower #3"
+            }
+        ],
+        "height": 472,
+        "informationParagraphs": [
+            "Central Park Tower is a residential supertall skyscraper at 225 West 57th Street, along Billionaires' Row, in the Midtown Manhattan neighborhood of New York City, New York, U.S. Designed by Adrian Smith + Gordon Gill Architecture, the building rises 1,550 feet (472.4 m) with 98 above-ground stories and three basement stories, although the top story is numbered 136. Central Park Tower is the second-tallest building in New York City, the United States, and the Western Hemisphere; the 15th tallest building in the world; the tallest primarily residential building in the world; and the tallest building outside Asia by roof height.",
+            "Central Park Tower was developed by Extell Development Company and Shanghai Municipal Investment Group. The basement and first five above-ground stories contain a large Nordstrom store, which opened in 2019. The eastern portion of the tower contains a cantilever above the Art Students League of New York's building at 215 West 57th Street, intended to maximize views of nearby Central Park. The residential portion of the tower contains 179 condominiums, spanning on average 5,000 sq ft (460 m2), with interiors designed by Rottet Studio. There are also amenities spaces on floors 14 through 16 as well as a private club on floor 100.",
+            "The site of Central Park Tower was assembled during the first decade of the 21st century; during the acquisition process, the tower was delayed after two buildings at 225 West 57th Street and 1780 Broadway were considered for New York City landmark status. Despite uncertainty about the final design and complications relating to financing, excavations at the site started in May 2014 and above-ground construction started in early 2015. There were several incidents and controversies during the building's construction, including a controversy over the tower's cantilever and the death of a security guard. The building was topped out during September 2019, and completed in 2020. In total, Central Park Tower cost $3 billion to construct."
+        ],
+        "location": {
+            "city": "New York City",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/Central+Park+Tower/@40.7664924,-73.984099,16.65z/data=!3m1!5s0x89c258f7b0ef830f:0x74c099f61c860024!4m15!1m8!3m7!1s0x89c258f7bfa047d3:0x6a0207dccb48eb66!2s225+W+57th+St,+New+York,+NY+10019,+USA!3b1!8m2!3d40.7661866!4d-73.9811614!16s%2Fg%2F11fzf615c8!3m5!1s0x89c2596c2146e67d:0xf254834e0380e341!8m2!3d40.7661235!4d-73.981025!16s%2Fg%2F11fcv7y7xt?entry=ttu",
+            "street": "225 West 57th Street, Manhattan"
+        },
+        "numberOfElevators": 11,
+        "openedDate": {
+            "day": 6,
+            "month": "March",
+            "year": 2020
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/central-park-tower/central-park-tower-thumbnail.jpg",
+        "slug": "central-park-tower",
+        "subtitle": "",
+        "title": "Central Park Tower",
+        "type": [
+            "Residential",
+            "Retail"
+        ],
+        "website": "https://centralparktower.com/",
+        "wiki": "https://en.wikipedia.org/wiki/Central_Park_Tower"
+    },
+    {
+        "id": 8,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/William_Van_Alen",
+                "name": "William Van Alen"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Art_Deco",
+            "name": "Art Deco"
+        },
+        "constructionEnded": {
+            "day": 27,
+            "month": "May",
+            "year": 1930
+        },
+        "constructionStarted": {
+            "day": 21,
+            "month": "January",
+            "year": 1929
+        },
+        "floorArea": 111201,
+        "floorCount": 77,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/chrysler-building/chrysler-building-1.jpg",
+                "alt": "Chrysler Building #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/chrysler-building/chrysler-building-2.jpg",
+                "alt": "Chrysler Building #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/chrysler-building/chrysler-building-3.jpg",
+                "alt": "Chrysler Building #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/chrysler-building/chrysler-building-4.jpg",
+                "alt": "Chrysler Building #4"
+            }
+        ],
+        "height": 319,
+        "informationParagraphs": [
+            "The Chrysler Building is an Art Deco skyscraper on the East Side of Manhattan in New York City, at the intersection of 42nd Street and Lexington Avenue in Midtown Manhattan. At 1,046 ft (319 m), it is the tallest brick building in the world with a steel framework, and it was the world's tallest building for 11 months after its completion in 1930. As of 2019, the Chrysler is the 12th-tallest building in the city, tied with The New York Times Building.",
+            "Originally a project of real estate developer and former New York State Senator William H. Reynolds, the building was commissioned by Walter Chrysler, the head of the Chrysler Corporation. The construction of the Chrysler Building, an early skyscraper, was characterized by a competition with 40 Wall Street and the Empire State Building to become the world's tallest building. The Chrysler Building was designed and funded by Walter Chrysler personally as a real estate investment for his children, but it was not intended as the Chrysler Corporation's headquarters. An annex was completed in 1952, and the building was sold by the Chrysler family the next year, with numerous subsequent owners.",
+            "When the Chrysler Building opened, there were mixed reviews of the building's design, some calling it inane and unoriginal, others hailing it as modernist and iconic. Reviewers in the late 20th and early 21st centuries regarded the building as a paragon of the Art Deco architectural style. In 2007, it was ranked ninth on the American Institute of Architects' list of America's Favorite Architecture. The facade and interior became New York City designated landmarks in 1978, and the structure was added to the National Register of Historic Places as a National Historic Landmark in 1976. "
+        ],
+        "location": {
+            "city": "New York City",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/Chrysler+Building/@40.7516208,-73.9780769,17z/data=!3m2!4b1!5s0x11fd61d807ff8755:0xf201147d1743b538!4m6!3m5!1s0x89c2590247c56379:0x15e13bea38b43e18!8m2!3d40.7516208!4d-73.975502!16zL20vMDF6bWQ?entry=ttu",
+            "street": "405 Lexington Avenue, Manhattan"
+        },
+        "numberOfElevators": 32,
+        "openedDate": {
+            "day": 27,
+            "month": "May",
+            "year": 1930
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/chrysler-building/chrysler-building-thumbnail.jpg",
+        "slug": "chrysler-building",
+        "subtitle": "",
+        "title": "Chrysler Building",
+        "type": [
+            "Commercial"
+        ],
+        "website": "https://en.wikipedia.org/wiki/Chrysler_Building",
+        "wiki": "https://en.wikipedia.org/wiki/Chrysler_Building"
+    },
+    {
+        "id": 9,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Rafael_Vi%C3%B1oly",
+                "name": "Rafael Viñoly"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/Contemporary_architecture",
+            "name": "Contemporary"
+        },
+        "constructionEnded": {
+            "day": 23,
+            "month": "December",
+            "year": 2015
+        },
+        "constructionStarted": {
+            "day": 1,
+            "month": "March",
+            "year": 2012
+        },
+        "floorArea": 38335,
+        "floorCount": 85,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/432-park-avenue/432-park-avenue-1.jpg",
+                "alt": "432 Park Avenue #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/432-park-avenue/432-park-avenue-2.jpg",
+                "alt": "432 Park Avenue #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/432-park-avenue/432-park-avenue-3.jpg",
+                "alt": "432 Park Avenue #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/432-park-avenue/432-park-avenue-4.jpg",
+                "alt": "432 Park Avenue #4"
+            }
+        ],
+        "height": 425.5,
+        "informationParagraphs": [
+            "432 Park Avenue is a residential skyscraper at 57th Street and Park Avenue in Midtown Manhattan in New York City, United States. The 1,396-foot-tall (425.5 m) tower was developed by CIM Group and Harry B. Macklowe and designed by Rafael Viñoly. A part of Billionaires' Row, 432 Park Avenue has some of the most expensive residences in the city, with the median unit selling for tens of millions of dollars. At the time of its completion in 2015, 432 Park Avenue was the third-tallest building in the United States and the tallest residential building in the world. As of 2023, it is the sixth-tallest building in the United States, the fifth-tallest building in New York City, and the third-tallest residential building in the world.",
+            "432 Park Avenue has 84 numbered stories and a mezzanine above ground. The tower's exterior is a lattice of poured-in-place concrete made from white Portland cement. The tower is segmented into 12-story blocks separated by open double-story mechanical spaces that allow wind gusts to pass through the building. It features 125 condominiums and amenities such as a private restaurant for residents. The skyscraper has received mixed reviews from both professionals and the public, with commentary about both its slenderness and its symbolism as a residence for the ultra-wealthy.",
+            "432 Park Avenue is located on the site of the former Drake Hotel, which was sold to Macklowe in 2006. The project faced delays for five years because of lack of financing as well as difficulties in acquiring the properties on the site. Construction plans were approved for 432 Park Avenue in 2011 and excavations began the next year. Sales within 432 Park Avenue were launched in 2013; the building topped out during October 2014 and was officially completed in 2015. After the building's completion, residents complained of mechanical and structural problems, leading to a lawsuit in late 2021."
+        ],
+        "location": {
+            "city": "New York City",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/432+Park+Ave,+New+York,+NY+10022,+USA/@40.761652,-73.9766257,17z/data=!3m1!4b1!4m6!3m5!1s0x89c258face4cb11b:0xa734e5b5aef4c1dc!8m2!3d40.761648!4d-73.9717602!16s%2Fg%2F11b8v6vvb4?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D",
+            "street": "57th Street"
+        },
+        "numberOfElevators": 11,
+        "openedDate": {
+            "day": 23,
+            "month": "December",
+            "year": 2015
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/432-park-avenue/432-park-avenue-thumbnail.jpg",
+        "slug": "432-park-avenue",
+        "subtitle": "The Ultimate in Luxury Living",
+        "title": "432 Park Avenue",
+        "type": [
+            "Residential"
+        ],
+        "website": "https://www.432parkavenue.com",
+        "wiki": "https://en.wikipedia.org/wiki/432_Park_Avenue"
+    },
+    {
+        "id": 10,
+        "architects": [
+            {
+                "link": "https://en.wikipedia.org/wiki/SOM_%28architectural_firm%29",
+                "name": "SOM (architectural firm)"
+            },
+            {
+                "link": "https://en.wikipedia.org/wiki/Fazlur_Rahman_Khan",
+                "name": "Fazlur Rahman Khan"
+            },
+            {
+                "link": "https://en.wikipedia.org/wiki/Bruce_Graham",
+                "name": "Bruce Graham"
+            }
+        ],
+        "architectureStyle": {
+            "link": "https://en.wikipedia.org/wiki/International_Style",
+            "name": "International"
+        },
+        "constructionEnded": {
+            "day": 4,
+            "month": "September",
+            "year": 1973
+        },
+        "constructionStarted": {
+            "day": 1,
+            "month": "August",
+            "year": 1970
+        },
+        "floorArea": 416000,
+        "floorCount": 110,
+        "gallery": [
+            {
+                "id": 1,
+                "source": "https://timeloopsapi.com/images/skyscrapers/willis-tower/willis-tower-1.jpg",
+                "alt": "432 Park Avenue #1"
+            },
+            {
+                "id": 2,
+                "source": "https://timeloopsapi.com/images/skyscrapers/willis-tower/willis-tower-2.jpg",
+                "alt": "432 Park Avenue #2"
+            },
+            {
+                "id": 3,
+                "source": "https://timeloopsapi.com/images/skyscrapers/willis-tower/willis-tower-3.jpg",
+                "alt": "432 Park Avenue #3"
+            },
+            {
+                "id": 4,
+                "source": "https://timeloopsapi.com/images/skyscrapers/willis-tower/willis-tower-4.jpg",
+                "alt": "432 Park Avenue #4"
+            }
+        ],
+        "height": 442,
+        "informationParagraphs": [
+            "The Willis Tower, originally and still commonly referred to as the Sears Tower, is a 110-story, 1,451-foot (442.3 m) skyscraper in the Loop community area of Chicago in Illinois, United States. Designed by architect Bruce Graham and engineer Fazlur Rahman Khan of Skidmore, Owings & Merrill (SOM), it opened in 1973 as the world's tallest building, a title that it held for nearly 25 years. It is the third-tallest building in the Western Hemisphere, as well as the 23rd-tallest in the world. Each year, more than 1.7 million people visit the Skydeck observation deck, the highest in the United States, making it one of Chicago's most popular tourist destinations.",
+            "The building occupies a site bound by Franklin Street, Jackson Boulevard, Wacker Drive, and Adams Street. Graham and Khan designed the building as nine square 'tubes', clustered in a 3x3 matrix; seven of the tubes set back at upper floors. The tower has 108 stories as counted by standard methods, though the building's owners count the main roof as 109 and the mechanical penthouse roof as 110. The facade is made of anodized aluminum and black glass. The base of the building contains a retail complex known as the Catalog. The lower half of the tower was originally occupied by retail company Sears, which had its headquarters there until 1994, while the upper stories were rented out.",
+            "The structure was known as the Sears Tower from its construction until the naming rights were included in a 2009 lease with the Willis Group. Local area residents still refer to the building by its old name. As of April 2018, the building's largest tenant is United Airlines, which occupies around 20 floors. Other major tenants include the building's namesake Willis Towers Watson, and law firms Schiff Hardin and Seyfarth Shaw. Morgan Stanley became the building's fourth-largest tenant in 2017."
+        ],
+        "location": {
+            "city": "Chicago",
+            "country": "USA",
+            "mapsLink": "https://www.google.com/maps/place/Willis+Tower/@41.8788804,-87.6384952,834m/data=!3m3!1e3!4b1!5s0x880e2cb9ef33ea47:0x488801c0e065a0e!4m6!3m5!1s0x880e2cbee269fbbb:0x10f6dce5eb88c7d!8m2!3d41.8788764!4d-87.6359149!16zL20vMDZfN2s?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D",
+            "street": "Willis Tower 233 South Wacker Drive Chicago, IL 60606 USA"
+        },
+        "numberOfElevators": 104,
+        "openedDate": {
+            "day": 4,
+            "month": "September",
+            "year": 1973
+        },
+        "photo": "https://timeloopsapi.com/images/skyscrapers/willis-tower/willis-tower-thumbnail.jpg",
+        "slug": "willis-tower",
+        "subtitle": "The icon of Chicago's Skyline",
+        "title": "Willis Tower",
+        "type": [
+            "Commercial",
+            "Hotel",
+            "Retail"
+        ],
+        "website": "https://www.willistower.com",
+        "wiki": "https://en.wikipedia.org/wiki/Willis_Tower"
+    }
+]
