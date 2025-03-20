@@ -307,7 +307,7 @@ export const sections: Section[] = [
                 <Note strongText="Notice:"
                     note={
                         <span>
-                            No need to specify method: "GET", because <span className="docs-strong-note">
+                            No need to specify method: &quot;GET&quot;, because <span className="docs-strong-note">
                             <span className="font-mono text-sm">fetch()</span> defaults to a GET request</span>{' '}
                             if no method is provided.
                         </span>
@@ -384,7 +384,7 @@ export const sections: Section[] = [
                         <span>
                             The compiler shouts because month is of{' '}
                             <span className="docs-strong-note">type Month</span>. 
-                            In this example, it must be written 'September'.
+                            In this example, it must be written &apos;September&apos;.
                         </span>
                     }
                 />
@@ -460,9 +460,9 @@ export const sections: Section[] = [
                 <Note strongText="Notice: " note={
                     <span>
                         The updatedQuote object{' '}
-                        <span className="docs-strong-note">doesn't have the id key</span>{' '}
-                        - it's not mandatory.{' '}
-                        <span className='docs-strong-note'>This can't be of type Quote now.</span>
+                        <span className="docs-strong-note">doesn&apos;t have the id key</span>{' '}
+                        - it&apos;s not mandatory.{' '}
+                        <span className='docs-strong-note'>This can&apos;t be of type Quote now.</span>
                     </span>
                 }/>
                 <Note strongText="Reminder: " 
@@ -514,7 +514,7 @@ export const sections: Section[] = [
                 <Note strongText="Reminder: " 
                     note={
                         <span>
-                            The PATCH request won't actually modify the resource on the server. Instead,{' '}
+                            The PATCH request won&apos;t actually modify the resource on the server. Instead,{' '}
                             <span className="docs-strong-note">the API mimics the update</span>, 
                             giving the impression that the change was applied.
                         </span>
