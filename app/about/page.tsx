@@ -59,7 +59,7 @@ const About = () => {
 
       <div className='flex flex-col gap-3 mb-6'>
         <h2 className="text-4xl font-semibold mb-5">Credits</h2>
-        <p>I created the "Time Loops" logo and the home page asset is from{' '}
+        <p>I created the &quot;Time Loops&quot; logo and the home page asset is from{' '}
           <Link className='link link-primary' href='https://undraw.co/' target='_blank'>unDraw</Link>.
         </p>
         <p className="mb-4">
@@ -117,7 +117,7 @@ const About = () => {
               - they are served as part of an API response.{' '}
               If you are the owner and want a logo removed, just send me a{' '}
               <Link className='link link-primary' href='mailto:nick.polizogopoulos@gmail.com'>message</Link>{' '}
-              and I'll remove it <span className='underline font-semibold'>immediately</span>, no questions asked (please don't).
+              and I&apos;ll remove it <span className='underline font-semibold'>immediately</span>, no questions asked (please don&apos;t).
             </span>
           </div>
           <table className="table border border-1 border-base-200 w-full">
