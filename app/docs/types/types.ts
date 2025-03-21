@@ -5,7 +5,8 @@ export type CodeLine = {
     position:
         | 0 
         | 1 
-        | 2;
+        | 2
+        | 3;
     style?: string;
 };
 

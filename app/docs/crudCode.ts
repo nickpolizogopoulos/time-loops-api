@@ -55,7 +55,27 @@ export const postRequest: CodeLine[] = [
         position: 1,
     },
     {
-        line: `label: 'XL Recordings',`,
+        line: `label: [`,
+        position: 1,
+    },
+    {
+        line: `{`,
+        position: 2,
+    },
+    {
+        line: `name: 'XL Recordings',`,
+        position: 3,
+    },
+    {
+        line: `link: 'https://en.wikipedia.org/wiki/XL_Recordings'`,
+        position: 3,
+    },
+    {
+        line: `}`,
+        position: 2,
+    },
+    {
+        line: `],`,
         position: 1,
     },
     {
