@@ -1,8 +1,8 @@
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from "next";
+import { ThemeProvider } from 'next-themes';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.scss";
-
-import { ThemeProvider } from 'next-themes';
 
 import Drawer from "./components/Drawer";
 
@@ -33,6 +33,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         >
           <Drawer>
             {children}
+            <Analytics />
           </Drawer>
         </ThemeProvider>
       </body>
