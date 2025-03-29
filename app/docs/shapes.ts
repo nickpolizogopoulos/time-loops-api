@@ -22,7 +22,7 @@ export const monthType: CodeLine[] = [
 
 export const namedLink: CodeLine[] = [
     {
-        line: 'type NamedLink = {',
+        line: 'export type NamedLink = {',
         position: 0
     },
     {
@@ -55,6 +55,10 @@ export const customDate: CodeLine[] = [
     {
         line: 'year: number;',
         position: 1
+    },
+    {
+        line: '};',
+        position: 0
     }
 ];
 
