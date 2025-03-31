@@ -84,7 +84,7 @@
         "title": "Swift",
         "description": "A modern programming language developed by Apple for iOS, macOS, watchOS, and tvOS development.",
         "image": "https://timeloopsapi.com/images/software-tools/swift.svg",
-        "usage": "iOS and macOS application development",
+        "usage": "Apple's ecosystem, including iOS, macOS, watchOS, and tvOS, server-side development, machine learning.",
         "category": "programming-language",
         "creators": [
             {
@@ -781,8 +781,12 @@
         "category": "query-language",
         "creators": [
             {
-                "name": "Donald D. Chamberlin and Raymond F. Boyce",
-                "wiki": "https://en.wikipedia.org/wiki/SQL"
+                "name": "Donald D. Chamberlin",
+                "wiki": "https://en.wikipedia.org/wiki/Donald_D._Chamberlin"
+            },
+            {
+                "name": "Raymond F. Boyce",
+                "wiki": "https://en.wikipedia.org/wiki/Raymond_F._Boyce"
             }
         ],
         "yearCreated": 1974,
