@@ -50,7 +50,7 @@
     {
         "id": 4,
         "title": "HolyC",
-        "description": "A powerful, high-level programming language used in the TempleOS operating system, known for its integration with the OS kernel.",
+        "description": "A powerful, high-level programming language used in the TempleOS operating system, known for its integration with the OS kernel",
         "image": "https://timeloopsapi.com/images/software-tools/holyc.svg",
         "usage": "TempleOS development, scripting within the TempleOS environment",
         "category": "programming-language",
@@ -66,7 +66,7 @@
     {
         "id": 5,
         "title": "Objective-C",
-        "description": "A general-purpose, object-oriented programming language primarily used for macOS and iOS applications before Swift.",
+        "description": "A general-purpose, object-oriented programming language primarily used for macOS and iOS applications before Swift",
         "image": "https://timeloopsapi.com/images/software-tools/objectivec.svg",
         "usage": "macOS and iOS application development",
         "category": "programming-language",
@@ -82,9 +82,9 @@
     {
         "id": 6,
         "title": "Swift",
-        "description": "A modern programming language developed by Apple for iOS, macOS, watchOS, and tvOS development.",
+        "description": "A modern programming language developed by Apple for iOS, macOS, watchOS, and tvOS development",
         "image": "https://timeloopsapi.com/images/software-tools/swift.svg",
-        "usage": "Apple's ecosystem, including iOS, macOS, watchOS, and tvOS, server-side development, machine learning.",
+        "usage": "Apple's ecosystem, including iOS, macOS, watchOS, and tvOS, server-side development, machine learning",
         "category": "programming-language",
         "creators": [
             {
@@ -114,7 +114,7 @@
     {
         "id": 8,
         "title": "TypeScript",
-        "description": "A strongly typed superset of JavaScript that compiles to plain JavaScript.",
+        "description": "A strongly typed superset of JavaScript that compiles to plain JavaScript",
         "image": "https://timeloopsapi.com/images/software-tools/typescript.svg",
         "usage": "Web development, front-end frameworks, and large-scale applications",
         "category": "programming-language",
@@ -130,7 +130,7 @@
     {
         "id": 9,
         "title": "Ruby",
-        "description": "A dynamic, interpreted programming language known for its simplicity and productivity, often used in web development.",
+        "description": "A dynamic, interpreted programming language known for its simplicity and productivity, often used in web development",
         "image": "https://timeloopsapi.com/images/software-tools/ruby.svg",
         "usage": "Web development, scripting, and automation",
         "category": "programming-language",
@@ -146,7 +146,7 @@
     {
         "id": 10,
         "title": "Java",
-        "description": "A widely used, class-based, object-oriented programming language known for its portability and robustness.",
+        "description": "A widely used, class-based, object-oriented programming language known for its portability and robustness",
         "image": "https://timeloopsapi.com/images/software-tools/java.svg",
         "usage": "Enterprise applications and backend systems",
         "category": "programming-language",
@@ -162,7 +162,7 @@
     {
         "id": 11,
         "title": "Go",
-        "description": "A statically typed, compiled language designed by Google for performance and simplicity.",
+        "description": "A statically typed, compiled language designed by Google for performance and simplicity",
         "image": "https://timeloopsapi.com/images/software-tools/go.svg",
         "usage": "Cloud computing, backend development, and networking",
         "category": "programming-language",
@@ -191,7 +191,7 @@
     {
         "id": 12,
         "title": "Rust",
-        "description": "A memory-safe, systems programming language focused on performance and concurrency.",
+        "description": "A memory-safe, systems programming language focused on performance and concurrency",
         "image": "https://timeloopsapi.com/images/software-tools/rust.svg",
         "usage": "Systems programming, embedded systems, and web assembly",
         "category": "programming-language",
@@ -211,7 +211,7 @@
     {
         "id": 13,
         "title": "Kotlin",
-        "description": "A modern, statically typed programming language designed to interoperate with Java.",
+        "description": "A modern, statically typed programming language designed to interoperate with Java",
         "image": "https://timeloopsapi.com/images/software-tools/kotlin.svg",
         "usage": "Android development, backend services, and cross-platform applications",
         "category": "programming-language",
@@ -227,7 +227,7 @@
     {
         "id": 14,
         "title": "Perl",
-        "description": "A high-level, general-purpose programming language known for its text processing capabilities.",
+        "description": "A high-level, general-purpose programming language known for its text processing capabilities",
         "image": "https://timeloopsapi.com/images/software-tools/perl.svg",
         "usage": "Text processing, web development, and system administration",
         "category": "programming-language",
@@ -243,7 +243,7 @@
     {
         "id": 15,
         "title": "Lua",
-        "description": "A lightweight, high-level scripting language commonly used in game development.",
+        "description": "A lightweight, high-level scripting language commonly used in game development",
         "image": "https://timeloopsapi.com/images/software-tools/lua.svg",
         "usage": "Game development, scripting, and embedded systems",
         "category": "programming-language",
@@ -259,7 +259,7 @@
     {
         "id": 16,
         "title": "R",
-        "description": "A programming language primarily used for statistical computing and data analysis.",
+        "description": "A programming language primarily used for statistical computing and data analysis",
         "image": "https://timeloopsapi.com/images/software-tools/r.svg",
         "usage": "Data analysis, statistical computing, and machine learning",
         "category": "programming-language",
@@ -279,7 +279,7 @@
     {
         "id": 17,
         "title": "Dart",
-        "description": "A client-optimized programming language developed by Google for building web and mobile applications.",
+        "description": "A client-optimized programming language developed by Google for building web and mobile applications",
         "image": "https://timeloopsapi.com/images/software-tools/dart.svg",
         "usage": "Mobile and web application development (Flutter)",
         "category": "programming-language",
@@ -299,7 +299,7 @@
     {
         "id": 18,
         "title": "Scala",
-        "description": "A hybrid functional and object-oriented programming language that runs on the Java Virtual Machine (JVM).",
+        "description": "A hybrid functional and object-oriented programming language that runs on the Java Virtual Machine (JVM)",
         "image": "https://timeloopsapi.com/images/software-tools/scala.svg",
         "usage": "Big data, distributed systems, and backend services",
         "category": "programming-language",
@@ -315,7 +315,7 @@
     {
         "id": 19,
         "title": "Pascal",
-        "description": "A procedural programming language designed for structured programming and data structuring.",
+        "description": "A procedural programming language designed for structured programming and data structuring",
         "image": "https://timeloopsapi.com/images/software-tools/pascal.svg",
         "usage": "Education, embedded systems, and early software development",
         "category": "programming-language",
@@ -331,7 +331,7 @@
     {
         "id": 20,
         "title": "F#",
-        "description": "A functional-first programming language for .NET, known for its strong type inference and concise syntax.",
+        "description": "A functional-first programming language for .NET, known for its strong type inference and concise syntax",
         "image": "https://timeloopsapi.com/images/software-tools/fsharp.svg",
         "usage": "Data science, web development, and financial computing",
         "category": "programming-language",
@@ -351,7 +351,7 @@
     {
         "id": 21,
         "title": "Zig",
-        "description": "A programming language designed for robustness, optimality, and clarity, with manual memory management and a focus on performance and safety.",
+        "description": "A programming language designed for robustness, optimality, and clarity, with manual memory management and a focus on performance and safety",
         "image": "https://timeloopsapi.com/images/software-tools/zig.svg",
         "usage": "Systems programming, embedded systems, performance-critical applications",
         "category": "programming-language",
@@ -367,7 +367,7 @@
     {
         "id": 22,
         "title": "PHP",
-        "description": "A popular general-purpose scripting language especially suited for web development. Known for its ease of use and deep integration with databases and servers.",
+        "description": "A popular general-purpose scripting language especially suited for web development. Known for its ease of use and deep integration with databases and servers",
         "image": "https://timeloopsapi.com/images/software-tools/php.svg",
         "usage": "Web development, server-side scripting, content management systems (CMS) like WordPress",
         "category": "programming-language",
@@ -383,9 +383,9 @@
     {
         "id": 23,
         "title": "Julia",
-        "description": "A high-level, high-performance programming language for technical computing, with syntax that is familiar to users of other technical computing environments.",
+        "description": "A high-level, high-performance programming language for technical computing, with syntax that is familiar to users of other technical computing environments",
         "image": "https://timeloopsapi.com/images/software-tools/julia.svg",
-        "usage": "Data science, numerical computing, machine learning, scientific computing, and parallel computing.",
+        "usage": "Data science, numerical computing, machine learning, scientific computing, and parallel computing",
         "category": "programming-language",
         "creators": [
             {
@@ -411,9 +411,9 @@
     {
         "id": 24,
         "title": "Delphi",
-        "description": "A high-level, compiled, strongly typed programming language that is based on Object Pascal, used for developing desktop, mobile, web, and database applications.",
+        "description": "A high-level, compiled, strongly typed programming language that is based on Object Pascal, used for developing desktop, mobile, web, and database applications",
         "image": "https://timeloopsapi.com/images/software-tools/delphi.svg",
-        "usage": "Desktop applications, mobile apps, web development, and database applications.",
+        "usage": "Desktop applications, mobile apps, web development, and database applications",
         "category": "programming-language",
         "creators": [
             {
@@ -431,10 +431,10 @@
     {
         "id": 25,
         "title": "Simula",
-        "description": "A pioneering object-oriented programming language, considered the first object-oriented language, designed for simulation and modeling complex systems.",
+        "description": "A pioneering object-oriented programming language, considered the first object-oriented language, designed for simulation and modeling complex systems",
         "image": "https://timeloopsapi.com/images/software-tools/simula.svg",
         "category": "programming-language",
-        "usage": "Simulation, modeling, and early object-oriented programming.",
+        "usage": "Simulation, modeling, and early object-oriented programming",
         "creators": [
             {
                 "name": "Ole-Johan Dahl",
@@ -451,7 +451,7 @@
     {
         "id": 26,
         "title": "Node.js",
-        "description": "An open-source JavaScript runtime built on Chrome's V8 engine, designed for building scalable network applications.",
+        "description": "An open-source JavaScript runtime built on Chrome's V8 engine, designed for building scalable network applications",
         "image": "https://timeloopsapi.com/images/software-tools/nodejs.svg",
         "usage": "Web development, server-side scripting, real-time applications",
         "category": "runtime",
@@ -467,7 +467,7 @@
     {
         "id": 27,
         "title": "Deno",
-        "description": "A secure runtime for JavaScript and TypeScript, created by the original author of Node.js, designed for modern applications with built-in TypeScript support.",
+        "description": "A secure runtime for JavaScript and TypeScript, created by the original author of Node.js, designed for modern applications with built-in TypeScript support",
         "image": "https://timeloopsapi.com/images/software-tools/deno.svg",
         "usage": "Web development, server-side scripting, modern JavaScript/TypeScript applications",
         "category": "runtime",
@@ -483,7 +483,7 @@
     {
         "id": 28,
         "title": "Bun",
-        "description": "A fast all-in-one JavaScript runtime, bundler, and task runner that aims to be simpler and faster than Node.js and Deno.",
+        "description": "A fast all-in-one JavaScript runtime, bundler, and task runner that aims to be simpler and faster than Node.js and Deno",
         "image": "https://timeloopsapi.com/images/software-tools/bun.svg",
         "usage": "Web development, server-side scripting, full-stack applications, rapid prototyping",
         "category": "runtime",
@@ -499,7 +499,7 @@
     {
         "id": 29,
         "title": ".NET",
-        "description": "A free, open-source, cross-platform framework for building modern applications, from web apps to mobile, desktop, cloud, and more.",
+        "description": "A free, open-source, cross-platform framework for building modern applications, from web apps to mobile, desktop, cloud, and more",
         "image": "https://timeloopsapi.com/images/software-tools/dotnet.svg",
         "usage": "Web development, desktop applications, mobile apps, cloud services, gaming",
         "category": "framework",
@@ -515,9 +515,9 @@
     {
         "id": 30,
         "title": "Express.js",
-        "description": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+        "description": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications",
         "image": "https://timeloopsapi.com/images/software-tools/express.svg",
-        "usage": "Web applications, REST APIs, real-time applications (e.g., chat apps), microservices.",
+        "usage": "Web applications, REST APIs, real-time applications (e.g., chat apps), microservices",
         "category": "framework",
         "creators": [
             {
@@ -531,9 +531,9 @@
     {
         "id": 31,
         "title": "Spring Boot",
-        "description": "A Java-based framework used to create stand-alone, production-grade Spring-based applications. It simplifies the setup and configuration of Spring applications.",
+        "description": "A Java-based framework used to create stand-alone, production-grade Spring-based applications. It simplifies the setup and configuration of Spring applications",
         "image": "https://timeloopsapi.com/images/software-tools/spring.svg",
-        "usage": "Web applications, microservices, REST APIs, enterprise applications.",
+        "usage": "Web applications, microservices, REST APIs, enterprise applications",
         "category": "framework",
         "creators": [
             {
@@ -547,7 +547,7 @@
     {
         "id": 32,
         "title": "Ruby on Rails",
-        "description": "A web application framework written in Ruby, emphasizing convention over configuration and fast development.",
+        "description": "A web application framework written in Ruby, emphasizing convention over configuration and fast development",
         "image": "https://timeloopsapi.com/images/software-tools/rails.svg",
         "usage": "Web development, full-stack applications",
         "category": "framework",
@@ -563,7 +563,7 @@
     {
         "id": 33,
         "title": "Gin",
-        "description": "A high-performance web framework for Go (Golang) known for its speed and efficiency in building APIs and web applications.",
+        "description": "A high-performance web framework for Go (Golang) known for its speed and efficiency in building APIs and web applications",
         "image": "https://timeloopsapi.com/images/software-tools/gin.svg",
         "usage": "Web development, API development, microservices",
         "category": "framework",
@@ -579,7 +579,7 @@
     {
         "id": 34,
         "title": "Angular",
-        "description": "A platform and framework for building client-side applications with HTML, CSS, and TypeScript, focusing on dynamic single-page applications.",
+        "description": "A platform and framework for building client-side applications with HTML, CSS, and TypeScript, focusing on dynamic single-page applications",
         "image": "https://timeloopsapi.com/images/software-tools/angular.svg",
         "usage": "Web development, single-page applications (SPA), front-end development",
         "category": "framework",
@@ -595,7 +595,7 @@
     {
         "id": 35,
         "title": "Next.js",
-        "description": "A React-based framework for building server-side rendered (SSR) and statically generated web applications with support for routing, serverless functions, and more.",
+        "description": "A React-based framework for building server-side rendered (SSR) and statically generated web applications with support for routing, serverless functions, and more",
         "image": "https://timeloopsapi.com/images/software-tools/nextjs.svg",
         "usage": "Web development, server-side rendering (SSR), static site generation, React applications",
         "category": "framework",
@@ -611,9 +611,9 @@
     {
         "id": 36,
         "title": "Vue",
-        "description": "A progressive JavaScript framework for building user interfaces. Vue can function as a web application framework capable of powering sophisticated single-page applications.",
+        "description": "A progressive JavaScript framework for building user interfaces. Vue can function as a web application framework capable of powering sophisticated single-page applications",
         "image": "https://timeloopsapi.com/images/software-tools/vue.svg",
-        "usage": "Single-page applications, interactive UIs, front-end development.",
+        "usage": "Single-page applications, interactive UIs, front-end development",
         "category": "framework",
         "creators": [
             {
@@ -627,7 +627,7 @@
     {
         "id": 37,
         "title": "Flutter",
-        "description": "An open-source UI software development kit by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+        "description": "An open-source UI software development kit by Google for building natively compiled applications for mobile, web, and desktop from a single codebase",
         "image": "https://timeloopsapi.com/images/software-tools/flutter.svg",
         "usage": "Mobile, web, and desktop app development",
         "category": "framework",
@@ -643,7 +643,7 @@
     {
         "id": 38,
         "title": "Electron",
-        "description": "A framework for building cross-platform desktop applications using web technologies like JavaScript, HTML, and CSS.",
+        "description": "A framework for building cross-platform desktop applications using web technologies like JavaScript, HTML, and CSS",
         "image": "https://timeloopsapi.com/images/software-tools/electron.svg",
         "usage": "Desktop application development, cross-platform apps",
         "category": "framework",
@@ -659,7 +659,7 @@
     {
         "id": 39,
         "title": "Laravel",
-        "description": "A popular open-source PHP framework for web application development, known for its elegant syntax, scalability, and ease of use for tasks like routing, authentication, and database management.",
+        "description": "A popular open-source PHP framework for web application development, known for its elegant syntax, scalability, and ease of use for tasks like routing, authentication, and database management",
         "image": "https://timeloopsapi.com/images/software-tools/laravel.svg",
         "usage": "Web application development, MVC architecture, backend API services",
         "category": "framework",
@@ -675,9 +675,9 @@
     {
         "id": 40,
         "title": "Preact",
-        "description": "A fast, lightweight alternative to React, with the same modern API but a smaller footprint, designed for high-performance applications.",
+        "description": "A fast, lightweight alternative to React, with the same modern API but a smaller footprint, designed for high-performance applications",
         "image": "https://timeloopsapi.com/images/software-tools/preact.svg",
-        "usage": "Building fast, lightweight, and efficient user interfaces, often for projects where performance is a priority.",
+        "usage": "Building fast, lightweight, and efficient user interfaces, often for projects where performance is a priority",
         "category": "library",
         "creators": [
           {
@@ -691,7 +691,7 @@
     {
         "id": 41,
         "title": "React",
-        "description": "A JavaScript library for building user interfaces, particularly for single-page applications, focusing on component-based architecture.",
+        "description": "A JavaScript library for building user interfaces, particularly for single-page applications, focusing on component-based architecture",
         "image": "https://timeloopsapi.com/images/software-tools/react.svg",
         "usage": "Web development, single-page applications (SPA), user interfaces",
         "category": "library",
@@ -707,9 +707,9 @@
     {
         "id": 42,
         "title": "React Native",
-        "description": "A popular open-source framework for building mobile applications using JavaScript and React, allowing developers to create cross-platform apps for iOS and Android.",
+        "description": "A popular open-source framework for building mobile applications using JavaScript and React, allowing developers to create cross-platform apps for iOS and Android",
         "image": "https://timeloopsapi.com/images/software-tools/react.svg",
-        "usage": "Mobile app development for iOS and Android, cross-platform development.",
+        "usage": "Mobile app development for iOS and Android, cross-platform development",
         "category": "framework",
         "creators": [
             {
@@ -723,7 +723,7 @@
     {
         "id": 43,
         "title": "Lodash",
-        "description": "A modern utility library delivering performance, consistency, and modularity for common programming tasks like data manipulation, object cloning, and function debouncing.",
+        "description": "A modern utility library delivering performance, consistency, and modularity for common programming tasks like data manipulation, object cloning, and function debouncing",
         "image": "https://timeloopsapi.com/images/software-tools/lodash.svg",
         "usage": "Data manipulation, performance optimization, functional programming",
         "category": "library",
@@ -739,7 +739,7 @@
     {
         "id": 44,
         "title": "Redux",
-        "description": "A predictable state container for JavaScript apps, primarily used with React to manage the global state in a consistent and easy-to-debug way.",
+        "description": "A predictable state container for JavaScript apps, primarily used with React to manage the global state in a consistent and easy-to-debug way",
         "image": "https://timeloopsapi.com/images/software-tools/redux.svg",
         "usage": "State management, global app state, React ecosystem",
         "category": "library",
@@ -759,7 +759,7 @@
     {
         "id": 45,
         "title": "RxJS",
-        "description": "A library for reactive programming using Observables that makes it easier to compose asynchronous or callback-based code in a declarative way.",
+        "description": "A library for reactive programming using Observables that makes it easier to compose asynchronous or callback-based code in a declarative way",
         "image": "https://timeloopsapi.com/images/software-tools/rxjs.svg",
         "usage": "Reactive programming, asynchronous programming, event handling",
         "category": "library",
@@ -775,7 +775,7 @@
     {
         "id": 46,
         "title": "SQL",
-        "description": "A standard language for managing and querying relational databases, used to retrieve, update, and manipulate data.",
+        "description": "A standard language for managing and querying relational databases, used to retrieve, update, and manipulate data",
         "image": "https://timeloopsapi.com/images/software-tools/sql.svg",
         "usage": "Database management, querying, data manipulation",
         "category": "query-language",
@@ -795,7 +795,7 @@
     {
         "id": 47,
         "title": "GraphQL",
-        "description": "A query language for APIs and a runtime for executing those queries with your existing data, offering a more flexible alternative to RESTful APIs.",
+        "description": "A query language for APIs and a runtime for executing those queries with your existing data, offering a more flexible alternative to RESTful APIs",
         "image": "https://timeloopsapi.com/images/software-tools/graphql.svg",
         "usage": "API development, data fetching, flexible query language",
         "category": "query-language",
@@ -811,7 +811,7 @@
     {
         "id": 48,
         "title": "MySQL",
-        "description": "An open-source relational database management system (RDBMS) based on SQL, known for its reliability, scalability, and use in web applications.",
+        "description": "An open-source relational database management system (RDBMS) based on SQL, known for its reliability, scalability, and use in web applications",
         "image": "https://timeloopsapi.com/images/software-tools/mysql.svg",
         "usage": "Database management, relational data storage, web applications",
         "category": "relational-database-management-system",
@@ -827,7 +827,7 @@
     {
         "id": 49,
         "title": "PostgreSQL",
-        "description": "An open-source, object-relational database system known for its extensibility, standards compliance, and advanced features like JSON support and ACID compliance.",
+        "description": "An open-source, object-relational database system known for its extensibility, standards compliance, and advanced features like JSON support and ACID compliance",
         "image": "https://timeloopsapi.com/images/software-tools/postgresql.svg",
         "usage": "Database management, relational and non-relational data storage, web applications",
         "category": "relational-database-management-system",
@@ -843,7 +843,7 @@
     {
         "id": 50,
         "title": "SQLite",
-        "description": "A lightweight, self-contained, serverless SQL database engine designed for embedded and local storage applications.",
+        "description": "A lightweight, self-contained, serverless SQL database engine designed for embedded and local storage applications",
         "image": "https://timeloopsapi.com/images/software-tools/sqlite.svg",
         "usage": "Embedded database, local storage, mobile applications, IoT devices",
         "category": "relational-database-management-system",
