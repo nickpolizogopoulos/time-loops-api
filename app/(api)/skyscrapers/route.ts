@@ -23,6 +23,11 @@ export const POST = async (request: NextRequest) => {
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
 
+  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json({ error: 'A Skyscraper with this title already exists.' }, { status: 409, headers });
+
   const id = skyscrapers.length + 1;
   const newSkyscraper = { ...body, id: id };
   

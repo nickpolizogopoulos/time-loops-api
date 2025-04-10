@@ -23,6 +23,11 @@ export const POST = async (request: NextRequest) => {
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
 
+  const alreadyExists = quotes.some(quote => quote.quote.toLowerCase() === body.quote.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json({ error: 'This Quote already exists.' }, { status: 409, headers });
+
   const id = quotes.length + 1;
   const newQuote = { ...body, id: id };
   
