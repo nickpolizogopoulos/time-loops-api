@@ -27,9 +27,8 @@ export const POST = async (request: NextRequest) => {
   if (alreadyExists)
     return NextResponse.json({ error: 'A Software Tool with this name already exists.' }, { status: 409, headers });
 
-
   const id = softwareTools.length + 1;
-  const newSoftwareTool = { ...validation.data, id: id }; 
+  const newSoftwareTool = { ...body, id: id }; 
 
   return NextResponse.json(newSoftwareTool, { status: 201, headers });
 };
