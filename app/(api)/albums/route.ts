@@ -31,6 +31,8 @@ export const POST = async (request: NextRequest) => {
   const id = musicAlbums.length + 1;
   const newAlbum = { ...body, id: id };
 
+  musicAlbums.push(newAlbum);
+
   return NextResponse.json(newAlbum, { status: 201, headers });
 };
 

@@ -30,6 +30,8 @@ export const POST = async (request: NextRequest) => {
   const id = softwareTools.length + 1;
   const newSoftwareTool = { ...body, id: id }; 
 
+  softwareTools.push(newSoftwareTool);
+
   return NextResponse.json(newSoftwareTool, { status: 201, headers });
 };
 

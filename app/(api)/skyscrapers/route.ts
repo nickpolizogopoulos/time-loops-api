@@ -30,6 +30,8 @@ export const POST = async (request: NextRequest) => {
 
   const id = skyscrapers.length + 1;
   const newSkyscraper = { ...body, id: id };
+
+  skyscrapers.push(newSkyscraper);
   
   return NextResponse.json(newSkyscraper, { status: 201, headers });
 };

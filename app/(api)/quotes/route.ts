@@ -30,6 +30,8 @@ export const POST = async (request: NextRequest) => {
 
   const id = quotes.length + 1;
   const newQuote = { ...body, id: id };
+
+  quotes.push(newQuote);
   
   return NextResponse.json(newQuote, { status: 201, headers });
 };
