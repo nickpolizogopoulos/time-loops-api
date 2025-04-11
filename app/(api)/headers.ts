@@ -27,6 +27,6 @@ export const getHeaders = (requestType: RequestType) => {
     return {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': allowedMethods,
-        'Access-Control-Allow-Headers': 'Content-Type',
+        'Access-Control-Allow-Headers': '*'
     };
 };
