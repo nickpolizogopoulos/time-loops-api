@@ -28,7 +28,7 @@ export const DELETE = async (request: NextRequest) => {
   const albumIndex = musicAlbums.findIndex(album => album.id === id);
 
   if (albumIndex === -1) 
-    return NextResponse.json({ message: 'Quote not found' }, { status: 404, headers });
+    return NextResponse.json({ message: 'Album not found' }, { status: 404, headers });
 
   const [album] = musicAlbums.splice(albumIndex, 1);
 
@@ -59,7 +59,7 @@ export const PUT = async (request: NextRequest) => {
   return NextResponse.json(
     { 
       message: `The Album with id ${id} (${validation.data.title} by ${validation.data.artist}), has been updated successfully.`,
-      updatedQuote: musicAlbums[albumIndex]
+      updatedAlbum: musicAlbums[albumIndex]
     },
     { status: 200, headers }
   );
@@ -86,7 +86,7 @@ export const PATCH = async (request: NextRequest) => {
   return NextResponse.json(
     { 
       message: `The Album with id ${id} has been partially updated.`,
-      updatedQuote: musicAlbums[albumIndex]
+      updatedAlbum: musicAlbums[albumIndex]
     },
     { status: 200, headers }
   );

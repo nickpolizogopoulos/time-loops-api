@@ -15,7 +15,7 @@ export const GET = async (request: NextRequest) => {
   const tool = softwareTools.find(tool => tool.id === id);
 
   if (!tool)
-    return NextResponse.json({ message: 'Tool not found' }, { status: 404, headers });
+    return NextResponse.json({ message: 'Software Tool not found' }, { status: 404, headers });
 
   return NextResponse.json(tool, { headers });
 };
@@ -59,7 +59,7 @@ export const PUT = async (request: NextRequest) => {
   return NextResponse.json(
     { 
       message: `The Software Tool with id ${id} (${validation.data.title}), has been updated successfully.`,
-      updatedQuote: softwareTools[toolIndex]
+      updatedSoftwareTool: softwareTools[toolIndex]
     },
     { status: 200, headers }
   );
@@ -86,7 +86,7 @@ export const PATCH = async (request: NextRequest) => {
   return NextResponse.json(
     { 
       message: `The Software Tool with id ${id} has been partially updated.`,
-      updatedQuote: softwareTools[toolIndex]
+      updatedSoftwareTool: softwareTools[toolIndex]
     },
     { status: 200, headers }
   );
