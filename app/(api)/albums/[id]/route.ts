@@ -33,7 +33,7 @@ export const DELETE = async (request: NextRequest) => {
   const [album] = musicAlbums.splice(albumIndex, 1);
 
   return NextResponse.json(
-    { message: `The Album with id ${id} (${album.title} by ${album.artist}), has been deleted successfully.` },
+    { message: `${album.title} by ${album.artist}, has been deleted successfully.` },
     { status: 200, headers }
   );
 };
@@ -58,7 +58,7 @@ export const PUT = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Album with id ${id} (${validation.data.title} by ${validation.data.artist}), has been updated successfully.`,
+      message: `The Album "${validation.data.title}", has been updated successfully.`,
       updatedAlbum: musicAlbums[albumIndex]
     },
     { status: 200, headers }
@@ -85,7 +85,7 @@ export const PATCH = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Album with id ${id} has been partially updated.`,
+      message: `The Album "${validation.data.title}" has been partially updated.`,
       updatedAlbum: musicAlbums[albumIndex]
     },
     { status: 200, headers }

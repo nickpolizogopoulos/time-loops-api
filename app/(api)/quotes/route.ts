@@ -26,14 +26,23 @@ export const POST = async (request: NextRequest) => {
   const alreadyExists = quotes.some(quote => quote.quote.toLowerCase() === body.quote.toLowerCase());
 
   if (alreadyExists)
-    return NextResponse.json({ error: 'This Quote already exists.' }, { status: 409, headers });
+    return NextResponse.json(
+      { error: 'This Quote already exists.' },
+      { status: 409, headers }
+    );
 
   const id = quotes.length + 1;
   const newQuote = { ...body, id: id };
 
   quotes.push(newQuote);
   
-  return NextResponse.json(newQuote, { status: 201, headers });
+  return NextResponse.json(
+    {
+      message: `A new Quote by ${newQuote.author} has been added to the Quotes list!`,
+      quote: newQuote
+    },
+    { status: 200, headers }
+  );
 };
 
 

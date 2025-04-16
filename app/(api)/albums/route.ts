@@ -26,14 +26,23 @@ export const POST = async (request: NextRequest) => {
   const alreadyExists = musicAlbums.some(album => album.title.toLowerCase() === body.title.toLowerCase());
 
   if (alreadyExists)
-    return NextResponse.json({ error: 'A Music Album with this title already exists.' }, { status: 409, headers });
+    return NextResponse.json(
+      { error: 'A Music Album with this title already exists.' },
+      { status: 409, headers }
+    );
 
   const id = musicAlbums.length + 1;
   const newAlbum = { ...body, id: id };
 
   musicAlbums.push(newAlbum);
 
-  return NextResponse.json(newAlbum, { status: 201, headers });
+  return NextResponse.json(
+    {
+      message: `${newAlbum.title} has been added to the Albums list!`,
+      album: newAlbum
+    },
+    { status: 200, headers }
+  );
 };
 
 

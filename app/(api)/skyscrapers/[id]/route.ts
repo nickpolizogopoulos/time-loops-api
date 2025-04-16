@@ -35,7 +35,7 @@ export const DELETE = async (request: NextRequest) => {
   const [skyscraper] = skyscrapers.splice(skyscraperIndex, 1);
 
   return NextResponse.json(
-    { message: `The Skyscraper with id ${id} (${skyscraper.title}), has been deleted successfully.` },
+    { message: `${skyscraper.title} has been deleted successfully.` },
     { status: 200, headers }
   );
 };
@@ -60,7 +60,7 @@ export const PUT = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Skyscraper with id ${id} (${validation.data.title}), has been updated successfully.`,
+      message: `${validation.data.title} has been updated successfully.`,
       updatedSkyscraper: skyscrapers[skyscraperIndex]
     },
     { status: 200, headers }
@@ -87,7 +87,7 @@ export const PATCH = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Skyscraper with id ${id} has been partially updated.`,
+      message: `${validation.data.title} has been partially updated.`,
       updatedSkyscraper: skyscrapers[skyscraperIndex]
     },
     { status: 200, headers }

@@ -33,7 +33,7 @@ export const DELETE = async (request: NextRequest) => {
   const [tool] = softwareTools.splice(toolIndex, 1);
 
   return NextResponse.json(
-    { message: `The Software Tool with id ${id} (${tool.title}), has been deleted successfully.` },
+    { message: `${tool.title} (${tool.category}) has been deleted successfully.` },
     { status: 200, headers }
   );
 };
@@ -58,7 +58,7 @@ export const PUT = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Software Tool with id ${id} (${validation.data.title}), has been updated successfully.`,
+      message: `${validation.data.title} (${validation.data.category}), has been updated successfully.`,
       updatedSoftwareTool: softwareTools[toolIndex]
     },
     { status: 200, headers }
@@ -85,7 +85,7 @@ export const PATCH = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Software Tool with id ${id} has been partially updated.`,
+      message: `${validation.data.title} (${validation.data.category}), has been partially updated.`,
       updatedSoftwareTool: softwareTools[toolIndex]
     },
     { status: 200, headers }

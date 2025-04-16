@@ -33,7 +33,7 @@ export const DELETE = async (request: NextRequest) => {
   const [quote] = quotes.splice(quoteIndex, 1);
 
   return NextResponse.json(
-    { message: `The Quote with id ${id} (by ${quote.author}) has been deleted successfully.` },
+    { message: `The Quote with id:${id} by ${quote.author}, has been deleted successfully.` },
     { status: 200, headers }
   );
 };
@@ -58,7 +58,7 @@ export const PUT = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Quote with id ${id} (by ${validation.data.author}) has been updated successfully.`,
+      message: `The Quote with id:${id} by ${validation.data.author}, has been updated successfully.`,
       updatedQuote: quotes[quoteIndex]
     },
     { status: 200, headers }
@@ -85,7 +85,7 @@ export const PATCH = async (request: NextRequest) => {
 
   return NextResponse.json(
     { 
-      message: `The Quote with id ${id} has been partially updated successfully.`,
+      message: `The Quote with id:${id} by ${validation.data.author}, has been partially updated successfully.`,
       updatedQuote: quotes[quoteIndex]
     },
     { status: 200, headers }

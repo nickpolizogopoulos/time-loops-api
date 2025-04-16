@@ -25,14 +25,23 @@ export const POST = async (request: NextRequest) => {
   const alreadyExists = softwareTools.some(tool => tool.title.toLowerCase() === body.title.toLowerCase());
 
   if (alreadyExists)
-    return NextResponse.json({ error: 'A Software Tool with this name already exists.' }, { status: 409, headers });
+    return NextResponse.json(
+      { error: 'A Software Tool with this name already exists.' },
+      { status: 409, headers }
+    );
 
   const id = softwareTools.length + 1;
   const newSoftwareTool = { ...body, id: id }; 
 
   softwareTools.push(newSoftwareTool);
 
-  return NextResponse.json(newSoftwareTool, { status: 201, headers });
+  return NextResponse.json(
+    {
+      message: `${newSoftwareTool.title} has been added to the Software Tools list!`,
+      softwareTool: newSoftwareTool
+    },
+    { status: 200, headers }
+  );
 };
 
 
