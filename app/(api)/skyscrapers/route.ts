@@ -3,8 +3,9 @@ import {
   NextResponse
 } from 'next/server';
 
+import { generateNumericId } from '../generate-numeric-id';
 import { getHeaders } from '../headers';
-import { Skyscraper } from '../types';
+import { type Skyscraper } from '../types';
 import skyscrapers from './data.json';
 import { skyscraperSchema } from './validationSchema';
 
@@ -31,7 +32,7 @@ export const POST = async (request: NextRequest) => {
       { status: 409, headers }
     );
 
-  const id = skyscrapers.length + 1;
+  const id = generateNumericId();
   const newSkyscraper = { ...body, id: id };
 
   skyscrapers.push(newSkyscraper);

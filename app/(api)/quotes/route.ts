@@ -3,8 +3,9 @@ import {
   NextResponse
 } from 'next/server';
 
+import { generateNumericId } from '../generate-numeric-id';
 import { getHeaders } from '../headers';
-import { Quote } from '../types';
+import { type Quote } from '../types';
 import quotes from './data.json';
 import { quoteSchema } from './validationSchema';
 
@@ -31,7 +32,7 @@ export const POST = async (request: NextRequest) => {
       { status: 409, headers }
     );
 
-  const id = quotes.length + 1;
+  const id = generateNumericId();
   const newQuote = { ...body, id: id };
 
   quotes.push(newQuote);

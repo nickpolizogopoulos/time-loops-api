@@ -3,8 +3,9 @@ import {
   NextResponse
 } from 'next/server';
 
+import { generateNumericId } from '../generate-numeric-id';
 import { getHeaders } from '../headers';
-import { SoftwareTool } from '../types';
+import { type SoftwareTool } from '../types';
 import softwareTools from './data.json';
 import { softwareToolSchema } from './validationSchema';
 
@@ -30,7 +31,7 @@ export const POST = async (request: NextRequest) => {
       { status: 409, headers }
     );
 
-  const id = softwareTools.length + 1;
+  const id = generateNumericId();
   const newSoftwareTool = { ...body, id: id }; 
 
   softwareTools.push(newSoftwareTool);

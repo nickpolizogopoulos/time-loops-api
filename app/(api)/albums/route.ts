@@ -3,6 +3,7 @@ import {
   NextResponse
 } from 'next/server';
 
+import { generateNumericId } from '../generate-numeric-id';
 import { getHeaders } from '../headers';
 import { type MusicAlbum } from '../types';
 import musicAlbums from './data.json';
@@ -31,7 +32,7 @@ export const POST = async (request: NextRequest) => {
       { status: 409, headers }
     );
 
-  const id = musicAlbums.length + 1;
+  const id = generateNumericId();
   const newAlbum = { ...body, id: id };
 
   musicAlbums.push(newAlbum);
