@@ -374,8 +374,8 @@ export const sections: Section[] = [
                             The POST request includes{' '}
                             <span className="docs-strong-note">
                                 id: 1, because TypeScript expects the id key.
-                            </span>
-                            The id will be generated on the server based on the length of the Albums array.
+                            </span>{' '}
+                            Server will generate a unique id for the new entry.
                         </span>
                     }
                 />
