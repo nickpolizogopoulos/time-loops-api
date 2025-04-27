@@ -53,6 +53,14 @@ export const PUT = async (request: NextRequest) => {
   
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
+
+  const alreadyExists = softwareTools.some(tool => tool.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json(
+      { error: 'A Software Tool with this name already exists.' },
+      { status: 409, headers }
+    );
     
   softwareTools[toolIndex] = { ...softwareTools[toolIndex], ...body };
 
@@ -80,6 +88,14 @@ export const PATCH = async (request: NextRequest) => {
   
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
+
+  const alreadyExists = softwareTools.some(tool => tool.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json(
+      { error: 'A Software Tool with this name already exists.' },
+      { status: 409, headers }
+    );
 
   softwareTools[toolIndex] = { ...softwareTools[toolIndex], ...body };
 

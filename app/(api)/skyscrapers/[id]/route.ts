@@ -55,6 +55,14 @@ export const PUT = async (request: NextRequest) => {
   
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
+
+  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json(
+      { error: 'A Skyscraper with this title already exists.' },
+      { status: 409, headers }
+    );
     
   skyscrapers[skyscraperIndex] = { ...skyscrapers[skyscraperIndex], ...body };
 
@@ -82,6 +90,14 @@ export const PATCH = async (request: NextRequest) => {
   
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
+
+  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json(
+      { error: 'A Skyscraper with this title already exists.' },
+      { status: 409, headers }
+    );
 
   skyscrapers[skyscraperIndex] = { ...skyscrapers[skyscraperIndex], ...body };
 

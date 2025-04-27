@@ -53,6 +53,14 @@ export const PUT = async (request: NextRequest) => {
   
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
+
+  const alreadyExists = musicAlbums.some(album => album.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json(
+      { error: 'A Music Album with this title already exists.' },
+      { status: 409, headers }
+    );
     
   musicAlbums[albumIndex] = { ...musicAlbums[albumIndex], ...body };
 
@@ -80,6 +88,14 @@ export const PATCH = async (request: NextRequest) => {
   
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
+
+  const alreadyExists = musicAlbums.some(album => album.title.toLowerCase() === body.title.toLowerCase());
+
+  if (alreadyExists)
+    return NextResponse.json(
+      { error: 'A Music Album with this title already exists.' },
+      { status: 409, headers }
+    );
 
   musicAlbums[albumIndex] = { ...musicAlbums[albumIndex], ...body };
 
