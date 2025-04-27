@@ -56,7 +56,7 @@ export const PUT = async (request: NextRequest) => {
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
 
-  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase());
+  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase() && skyscraper.id !== id);
 
   if (alreadyExists)
     return NextResponse.json(
@@ -91,7 +91,7 @@ export const PATCH = async (request: NextRequest) => {
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
 
-  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase());
+  const alreadyExists = skyscrapers.some(skyscraper => skyscraper.title.toLowerCase() === body.title.toLowerCase() && skyscraper.id !== id);
 
   if (alreadyExists)
     return NextResponse.json(

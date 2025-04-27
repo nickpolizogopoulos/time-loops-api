@@ -54,7 +54,7 @@ export const PUT = async (request: NextRequest) => {
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
 
-  const alreadyExists = quotes.some(quote => quote.quote.toLowerCase() === body.quote.toLowerCase());
+  const alreadyExists = quotes.some(quote => quote.quote.toLowerCase() === body.quote.toLowerCase() && quote.id !== id);
 
   if (alreadyExists)
     return NextResponse.json(
@@ -89,7 +89,7 @@ export const PATCH = async (request: NextRequest) => {
   if (!validation.success)
     return NextResponse.json(validation.error.format(), { status: 400, headers });
 
-  const alreadyExists = quotes.some(quote => quote.quote.toLowerCase() === body.quote.toLowerCase());
+  const alreadyExists = quotes.some(quote => quote.quote.toLowerCase() === body.quote.toLowerCase() && quote.id !== id);
 
   if (alreadyExists)
     return NextResponse.json(
